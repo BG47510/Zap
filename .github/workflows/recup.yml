@@ -1,29 +1,24 @@
 name: recup
 
 
-
 on:
 # L’événement schedule permet de déclencher un workflow à une heure planifiée.
   schedule:
 # 06 */4 signifie que la commande sera lancée toutes les 4 heures á la 6 ème minute.
-    - cron: '06 */4 * * *'
+    - cron: '01 */4 * * *'
 
    # Vous permet d'exécuter ce workflow manuellement à partir de l'onglet Actions.
-workflow_dispatch:
-
-
+  workflow_dispatch:
 
 jobs:
-test_schedule:
+  build:
+  
+   runs-on: ubuntu-latest
+   strategy:
+     matrix:
+      python-version: ["3.10"]
 
-runs-on: ubuntu-latest
-strategy:
-matrix:
-python-version: '3.x'
-
-
-
-steps:
+   steps:
       # Extrait votre dépôt sous $GITHUB_WORKSPACE, afin que votre travail puisse y accéder.
       - uses: actions/checkout@v3
       - name: Set up Python ${{ matrix.python-version }}
