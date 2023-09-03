@@ -2,7 +2,7 @@
 
 import requests
 import os
-import sys
+#import sys
 
 
 headers = {'User-Agent': 'QwantMobile/2.0 (Android 5.1; Tablet; rv:61.0) Gecko/61.0 Firefox/59.0 QwantBrowser/61.0'}
@@ -12,7 +12,7 @@ headers = {'User-Agent': 'QwantMobile/2.0 (Android 5.1; Tablet; rv:61.0) Gecko/6
 # Il peut aussi être utilisés pour fournir des valeurs par défaut aux requêtes (auth, headers)
 
 s = requests.Session()
-response = s.get(f'https://hdfauth.ftven.fr/esi/TA?url=https://simulcast-p.ftven.fr/simulcast/France_Info/hls_monde_frinfo/index.m3u8', headers=headers)
+response = s.get('https://hdfauth.ftven.fr/esi/TA?url=https://simulcast-p.ftven.fr/simulcast/France_Info/hls_monde_frinfo/index.m3u8', headers=headers)
 #print(response.text)
 
 source = response.text
