@@ -33,15 +33,10 @@ jobs:
       - name: Run Ruff
         run: ruff check --format=github .
 
-      - name: Check out repository
-        uses: actions/checkout@v3
-      - name: Use local my-action
-        uses: ./.github/Zap/sources
-
-   
+        
       - name: actualisation execute
         run: |
-           ./sources/execute.py
+            'sources/execute.py
 
 
 
