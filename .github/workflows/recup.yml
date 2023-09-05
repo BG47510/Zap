@@ -33,6 +33,7 @@ jobs:
       - name: Lint with ruff
         run: |
            # arrêter la construction s'il y a des erreurs de syntaxe Python ou des noms non définis
+           # # Inclure `--format=github` pour activer les annotations automatiques en ligne
            ruff --format=github --select=E9,F63,F7,F82 --target-version=py310 .
            # ensemble de règles de ruff par défaut avec les annotations GitHub
            ruff --format=github --target-version=py310 .
