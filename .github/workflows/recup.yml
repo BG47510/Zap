@@ -35,8 +35,9 @@ jobs:
 
         
       - name: actualisation execute
+        #uses: ./.github/BG47510/Zap/tree/main/sources
         run: |
-            'sources/execute.py
+            BG47510/Zap/tree/main/sources/execute.py
 
 
 
