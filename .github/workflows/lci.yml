@@ -13,9 +13,16 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
 
+      - name: config
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
       
-      
-    
+      - name: Main
+        run: |
+          pwd
+          chmod +x lci.sh
+          ./lci.sh
         
       - name: git add
         run: |
@@ -26,4 +33,5 @@ jobs:
         run: |
           git commit -m "links are updated"
           git push
-          
+      
+  
