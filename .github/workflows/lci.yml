@@ -16,12 +16,8 @@ jobs:
       - name: updating lci
         run: sh sources/lci.sh
 
-      - name: setup git config
-        run: |
-          git config user.name "lci bot"
-          git config user.email "<>"
       - name: commit
         run: |
-          git pull
-          git commit -a "lci updated"
-          git push origin main
+          git add lci.m3u8
+          git commit --amend
+          
