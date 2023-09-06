@@ -18,11 +18,8 @@ jobs:
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
       
-      - name: Main
-        run: |
-          pwd
-          chmod +x ${GITHUB_WORKSPACE}/sources/lci.sh
-          ${GITHUB_WORKSPACE}/sources/lci.sh
+      - name: updating frinfo
+        run: sh ${GITHUB_WORKSPACE}/sources/lci.sh
         
       - name: git add
         run: |
