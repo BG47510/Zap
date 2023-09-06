@@ -35,7 +35,7 @@ jobs:
 
         
       - name: actualisation frinfo
-        run: sh ${GITHUB_WORKSPACE}frinfo.py
+        run: sh ${GITHUB_WORKSPACE}/sources/frinfo.py
 
 
 
