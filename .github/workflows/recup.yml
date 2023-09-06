@@ -34,10 +34,7 @@ jobs:
         run: ruff check --format=github .
 
         
-      - name: actualisation execute
-        #uses: ./.github/BG47510/Zap/tree/main/sources
-        #run: |
-            #BG47510/Zap/sources/execute.py
+      - name: actualisation frinfo
         run: sh ${GITHUB_WORKSPACE}/sources/frinfo.py
 
 
