@@ -45,9 +45,9 @@ m3u8 = (flux + flux2)
 print(m3u8)
 
 
-if 'temp.txt' in os.listdir():
-    os.system('rm temp.txt')
-    os.system('rm watch*')
+#if 'temp.txt' in os.listdir():
+    #os.system('rm temp.txt')
+    #os.system('rm watch*')
 
 fichier = open("frinfo.m3u8", "w")
 fichier.write(m3u8)
