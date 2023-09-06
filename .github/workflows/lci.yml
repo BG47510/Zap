@@ -6,18 +6,35 @@ on:
   workflow_dispatch:
 
 jobs:
-  update-stream:
+  build:
     runs-on: ubuntu-latest
     steps:
     
       - name: checkout
         uses: actions/checkout@v3
 
-      - name: updating lci
-        run: sh sources/lci.sh
-
-      - name: commit
+      - name: config
         run: |
-          git add lci.m3u8
-          git commit --amend
+          git config --global user.email "<>"
+          git config --global user.name "<>"
+      
+      
+      - name: Main
+        run: |
+          pwd
+          chmod +x lci.sh
+          ./lci.sh
+          #cd scripts
+          #python3 lci.py > ../lci.m3u8
+          echo "m3u grabbed"
+        
+      - name: git add
+        run: |
+          git add -A
+          ls -la 
+          
+      - name: commit & push
+        run: |
+          git commit -m "links are updated"
+          git push
           
