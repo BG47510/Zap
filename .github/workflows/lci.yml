@@ -1,7 +1,7 @@
 name: lci refrech
 on:
   schedule:
-    - cron: "08 */3 * * *"
+    - cron: "02 */3 * * *"
     
   workflow_dispatch:
 
