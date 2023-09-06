@@ -21,7 +21,7 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x lci.sh
+          chmod +x ./lci.sh
           ./lci.sh
         
       - name: git add
