@@ -1,15 +1,15 @@
 #! /usr/bin/python3
 
 import requests
-import os
+#import os
 #import sys
 
 
 headers = {'User-Agent': 'QwantMobile/2.0 (Android 5.1; Tablet; rv:61.0) Gec \
 ko/61.0 Firefox/59.0 QwantBrowser/61.0'}
 
-url = ('https://hdfauth.ftven.fr/esi/TA?url=https://simulcast-p.'
-       'ftven.fr/simulcast/France_Info/hls_monde_frinfo/index.m3u8')
+url = ('https://hdfauth.ftven.fr/esi/TA?url=https://simulcast-p.ftv \
+en.fr/simulcast/France_Info/hls_monde_frinfo/index.m3u8')
 
 
 s = requests.Session()
