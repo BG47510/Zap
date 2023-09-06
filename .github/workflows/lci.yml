@@ -23,5 +23,5 @@ jobs:
       - name: commit
         run: |
           git pull
-          git commit -m "lci updated"
+          git commit -a "lci updated"
           git push origin main
