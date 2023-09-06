@@ -5,7 +5,7 @@ on:
 # L’événement schedule permet de déclencher un workflow à une heure planifiée.
   schedule:
 # 30 */4 signifie que la commande sera lancée toutes les 4 heures á la 6 ème minute.
-   # - cron:  '30 */4 * * *'
+   - cron:  '30 */4 * * *'
 
    # Vous permet d'exécuter ce workflow manuellement à partir de l'onglet Actions.
   workflow_dispatch:
