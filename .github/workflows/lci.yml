@@ -13,10 +13,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v3
 
-      - name: config
-        run: |
-          git config --global user.email "<>"
-          git config --global user.name "<>"
+      
       
     
         
