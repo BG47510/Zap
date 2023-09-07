@@ -8,8 +8,8 @@
 
 
 #file_lci = "lci.py"
-#file_frinfo = "sh ${GITHUB_WORKSPACE}sources/frinfo.py"
-file_frinfo = "frinfo.py"
+file_frinfo = "sh ${GITHUB_WORKSPACE}sources/frinfo.py"
+#file_frinfo = "frinfo.py"
 #file_fr02 = "fr02.py"
 #file_fr03 = "fr03.py"
 #file_fr04 = "fr04.py"
