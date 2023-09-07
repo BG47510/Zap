@@ -12,14 +12,9 @@ headers = {'User-Agent': 'QwantMobile/2.0 (Android 5.1; Tablet; rv:61.0) Gecko/6
 
 session = requests.Session()
 
-#response = session.get("https://mediainfo.tf1.fr/mediainfocombo/L_LCI?format=hls", headers=headers)
-
-
 response = session.get('https://mediainfo.tf1.fr/mediainfocombo/L_LCI?format=hls', headers=headers).json()
-#print(response)
 
 source = response["delivery"]["url"]
-# print(source)
 
 lien = source.replace("index", "index_1")
 
