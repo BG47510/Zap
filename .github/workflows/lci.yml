@@ -3,7 +3,7 @@ on:
   schedule:
     #- cron: "02 */3 * * *"
     # Pour effectuer une actualisation du flux 4 fois par jour à 11h15, 14h15, 17h15 et à 20h15.
-    - cron: '15 11,14,17,20 * * *'
+    - cron: "15 11,14,17,20 * * *"
     
   workflow_dispatch:
 
