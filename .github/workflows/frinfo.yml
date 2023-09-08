@@ -5,7 +5,7 @@ on:
     - cron: '0 0 * * 1' # At 00:00 on Monday
 
 
-workflow_dispatch:
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -15,11 +15,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
-strategy:
+    strategy:
      matrix:
       python-version: ["3.10"]
 
-steps:
+    steps:
       
 
       - name: Check out repository
@@ -38,25 +38,21 @@ steps:
       - name: execute py script # run frinfo.py
         run: python frinfo.py
 
-
-
-      
       #- name: updating frinfo
         #run: sh ${GITHUB_WORKSPACE}/sources/frinfo.py
         
           
       - name: config
+      # Pour pouvoir travailler sur un projet,
+      # vous avez besoin d’un nom d’utilisateur et d’une adresse email associée valide.
+      # Informer Git que vous voulez inclure les mises à jour dans un fichier.
         run: |
-        # Pour pouvoir travailler sur un projet,
-        # vous avez besoin d’un nom d’utilisateur et d’une adresse email associée valide.
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
- # Informer Git que vous voulez inclure les mises à jour dans un fichier.
-          git add -A
+         git config --local user.email "action@github.com"
+         git config --local user.name "GitHub Action"
+         git add -A 
           ls -la 
     
-          
-          
+           
       - name: commit & push
         run: |
           git commit -am "Actualisation du flux"
