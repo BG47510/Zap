@@ -1,9 +1,9 @@
 name: lci refrech
 
-# Pour effectuer une actualisation du flux 4 fois par jour à 11h15, 14h15, 17h15 et à 20h15.
+# Actualisation du flux á la 14 ème minute toutes les 3 heures de 11 heures à 20 heures.
 on:
   schedule:
-    - cron: "15 11,14,17,20 * * *"
+    - cron: "15 11-20/3 * * *"
     
   workflow_dispatch:
 
