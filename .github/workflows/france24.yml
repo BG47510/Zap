@@ -10,7 +10,7 @@ permissions:
   contents: write
     
    pull_request:
-    branches:
+      branches:
       - main
   
 
