@@ -5,6 +5,10 @@ import requests
 #import os
 #import sys
 
+#https://www.youtube.com/c/FRANCE24/live
+
+
+
 print('#EXTM3U')
 print('#EXT-X-VERSION:3')
 print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000')
