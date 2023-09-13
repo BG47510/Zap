@@ -2,39 +2,8 @@
 
 
 import requests
-import os
-import sys
-
-windows = False
-if 'win' in sys.platform:
-    windows = True
-
-def grab(url):
-    response = s.get(url, timeout=15).text
-    if '.m3u8' not in response:
-        if windows:
-            print('https://raw.githubusercontent.com/AqFad2811/myiptv/main/testcard/info.m3u8')
-            return
-        os.system(f'wget {url} -O temp.txt')
-        response = ''.join(open('temp.txt').readlines())
-        if '.m3u8' not in response:
-            print('https://raw.githubusercontent.com/AqFad2811/myiptv/main/testcard/info.m3u8')
-            return
-    end = response.find('.m3u8') + 5
-    tuner = 100
-    while True:
-        if 'https://' in response[end-tuner : end]:
-            link = response[end-tuner : end]
-            start = link.find('https://')
-            end = link.find('.m3u8') + 5
-            break
-        else:
-            tuner += 5
-    streams = s.get(link[start:end]).text.split('#EXT')
-    hd = streams[-1].strip()
-    st = hd.find('http')
-    print(hd[st:].strip())
-    #print(f"{link[start : end]}")
+#import os
+#import sys
 
 print('#EXTM3U')
 print('#EXT-X-VERSION:3')
@@ -54,6 +23,6 @@ with open('france24.txt') as f:
         else:
             grab(line)
             
-if 'temp.txt' in os.listdir():
-    os.system('rm temp.txt')
-    os.system('rm watch*')
+#if 'temp.txt' in os.listdir():
+    #os.system('rm temp.txt')
+    #os.system('rm watch*')
