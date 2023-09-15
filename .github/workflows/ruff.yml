@@ -1,0 +1,65 @@
+name: recup
+
+
+
+on:
+# L’événement schedule permet de déclencher un workflow à une heure planifiée.
+  schedule:
+# 06 */4 signifie que la commande sera lancée toutes les 4 heures á la 6 ème minute.
+    - cron: '06 */4 * * *'
+
+   # Vous permet d'exécuter ce workflow manuellement à partir de l'onglet Actions.
+workflow_dispatch:
+
+
+
+jobs:
+test_schedule:
+
+runs-on: ubuntu-latest
+strategy:
+matrix:
+python-version: '3.x'
+
+
+
+ steps:
+      # Extrait votre dépôt sous $GITHUB_WORKSPACE, afin que votre travail puisse y accéder.
+      - uses: actions/checkout@v3
+- name: Set up Python uses: actions/setup-python@v4
+uses: actions/setup-python@v4
+with:
+python-version: ${{ matrix.python-version }}
+- name: Install dependencies
+run: |
+python -m pip install --upgrade pip
+pip install ruff pytest
+if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+- name: Lint with ruff
+run: |
+# stop the build if there are Python syntax errors or undefined names
+ruff --format=github --select=E9,F63,F7,F82 --target-version=py37 .
+# default set of ruff rules with GitHub Annotations
+ruff --format=github --target-version=py37 .
+- name: Test with pytest
+run: |
+pytest
+
+   
+      - name: actualisation execute
+run: |
+./sources/execute.py
+
+# Cette action extrait votre référentiel sous $GITHUB_WORKSPACE afin que votre flux de travail puisse y accéder.
+        #run: py ${GITHUB_WORKSPACE}/parser/execute.py
+#uses: ./.github/actions/recup
+
+# Exécution d’un script Python
+- name: Afficher le chemin
+run: |
+import os
+print(os.environ['PATH'])
+shell: python
+
+
+
