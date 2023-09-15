@@ -9,7 +9,7 @@ import vidgear
 # Add YouTube Video URL as input source (for e.g https://youtu.be/uCy5OuSQnyA)
 # and enable Stream Mode (`stream_mode = True`)
 stream = CamGear(
-    source="https://youtu.be/uCy5OuSQnyA", 
+    source="https://www.youtube.com/watch?v=gxG3pdKvlIs", 
     stream_mode=True,
     logging=True
 ).start()
@@ -19,6 +19,7 @@ while True:
 
     # read frames from stream
     frame = stream.read()
+    print(frame)
 
     # check for frame if Nonetype
     if frame is None:
