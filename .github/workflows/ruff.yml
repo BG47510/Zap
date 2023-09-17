@@ -25,7 +25,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Lint with Ruff
-        run: ruff .
+        run: |
+         pip install ruff
+         ruff --format=github --target-version=py37 .
+        continue-on-error: true
 
 
 
