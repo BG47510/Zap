@@ -1,12 +1,9 @@
 name: Ruff
-
-
-
-on:
+on: [ push, pull_request ]
 # L’événement schedule permet de déclencher un workflow à une heure planifiée.
-  #schedule:
+schedule:
 # 06 */4 signifie que la commande sera lancée toutes les 4 heures á la 6 ème minute.
-    #- cron: '06 */4 * * *'
+    - cron: '06 */4 * * *'
 
    # Vous permet d'exécuter ce workflow manuellement à partir de l'onglet Actions.
 workflow_dispatch:
@@ -14,17 +11,20 @@ workflow_dispatch:
 
 
 jobs:
- test_schedule:
+  ruff:
+    runs-on: ubuntu-latest
 
-  runs-on: ubuntu-latest
   strategy:
-  matrix:
-  python-version: '3.1'
+    matrix:
+    python-version: '3.1'
 
-
- steps:
-      # Extrait votre dépôt sous $GITHUB_WORKSPACE, afin que votre travail puisse y accéder.
+    
+    steps:
+    # Extrait votre dépôt sous $GITHUB_WORKSPACE, afin que votre travail puisse y accéder.
       - uses: actions/checkout@v3
+      - uses: chartboost/ruff-action@v1
+
+
       - name: Set up Python
         uses: actions/setup-python@v4
 uses: actions/setup-python@v4
