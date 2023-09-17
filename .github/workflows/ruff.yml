@@ -1,8 +1,9 @@
 name: Ruff
+
+
 on: [ push, pull_request ]
-   schedule:
-   # Vous permet d'exécuter ce workflow manuellement à partir de l'onglet Actions.
-   workflow_dispatch:
+
+     # workflow_dispatch:
 
 
 
