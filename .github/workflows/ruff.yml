@@ -27,7 +27,7 @@ jobs:
       - name: Lint with Ruff
         run: |
          pip install ruff
-         ruff --format=github --target-version=py37 .
+         ruff --format=github --target-version = "py310".
         continue-on-error: true
 
 
