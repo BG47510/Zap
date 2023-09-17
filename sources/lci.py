@@ -1,5 +1,4 @@
 #! /usr/bin/python3
-
 import requests
 import json
 
@@ -32,9 +31,3 @@ flux2 = (f'\n#EXT-X-MEDIA:TYPE=AUDIO,GROUP-ID="audio_0",CHANNELS="2",NAME="fran√
 m3u8 = (flux + flux2)
 
 print(m3u8)
-
-
-
-
-
-
