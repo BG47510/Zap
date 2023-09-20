@@ -13,7 +13,10 @@ on:
   
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
+  
+permissions:
+  contents: write
+  
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
@@ -39,10 +42,11 @@ jobs:
       
       
       - name: Main
-        run: |
-          pwd
-          chmod +x AlQuranKareem.sh
-          /AlQuranKareem.sh
+        run: sh ${GITHUB_WORKSPACE}/sources/france24.sh
+       # run: |
+         # pwd
+         # chmod +x AlQuranKareem.sh
+          #/AlQuranKareem.sh
         
       - name: git add
         run: |
