@@ -8,7 +8,7 @@ proxies = {}
 if len(sys.argv) == 2:
     proxies = {"http": sys.argv[1], "https": sys.argv[1]}
 
-na = "https://s7.mbahnunungonline.net/live/m3u8/op/7335edf66aba710.m3u8"
+nul = "https://s7.mbahnunungonline.net/live/m3u8/op/7335edf66aba710.m3u8"
 
 
 def grab(line):
@@ -17,11 +17,11 @@ def grab(line):
         response = s.get(
             f"https://www.dailymotion.com/player/metadata/video/{_id}", proxies=proxies
         ).json()["qualities"]["auto"][0]["url"]
-        m3u = s.get(response, proxies=proxies).text
-        m3u = m3u.strip().split("\n")[1:]
+        m3u8 = s.get(response, proxies=proxies).text
+        m3u8 = m3u8.strip().split("\n")[1:]
         d = {}
         cnd = True
-        for item in m3u:
+        for item in m3u8:
             if cnd:
                 resolution = item.strip().split(",")[2].split("=")[1]
                 if resolution not in d:
@@ -29,12 +29,11 @@ def grab(line):
             else:
                 d[resolution] = item
             cnd = not cnd
-        # print(m3u)
-        m3u = d[max(d, key=int)]
-    except Exception as na:
-        m3u = na
+        m3u8 = d[max(d, key=int)]
+    except Exception as e:
+        m3u8 = nul
     finally:
-        print(m3u)
+        print(m3u8)
 
 
 print("#EXTM3U")
