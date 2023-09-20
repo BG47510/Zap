@@ -42,7 +42,7 @@ jobs:
       
       
       - name: Main
-        run: sh ${GITHUB_WORKSPACE}/sources/france24.sh
+        run: sh ${GITHUB_WORKSPACE}/sources/AlQuranKareem.sh
        # run: |
          # pwd
          # chmod +x AlQuranKareem.sh
