@@ -11,9 +11,6 @@ if len(sys.argv) == 2:
 nul = "https://s7.mbahnunungonline.net/live/m3u8/op/7335edf66aba710.m3u8"
 
 
-
-
-
 def grab(line):
     try:
         _id = line.split("/")[4]
@@ -38,12 +35,11 @@ def grab(line):
     finally:
         print(m3u8)
 
+
 print("#EXTM3U")
 print("#EXT-X-VERSION:3")
 print("#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000")
-
 s = requests.Session()
-
 with open("direct/lequipe/lequipe.txt") as f:
     for line in f:
         line = line.strip()
@@ -57,7 +53,6 @@ with open("direct/lequipe/lequipe.txt") as f:
             tvg_id = line[3].strip()
         else:
             grab(line)
-
 
 if "temp.txt" in os.listdir():
     os.system("rm temp.txt")
