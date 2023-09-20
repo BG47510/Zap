@@ -31,7 +31,7 @@ def grab(line):
             cnd = not cnd
         # print(m3u)
         m3u = d[max(d, key=int)]
-    except Exception as e:
+    except Exception as na:
         m3u = na
     finally:
         print(m3u)
