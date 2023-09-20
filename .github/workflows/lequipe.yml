@@ -2,8 +2,8 @@ name: lequipe
 
 # Actualisation du flux á la 14 ème minute toutes les 5 heures à 18 min.
 on:
-  schedule:
-    - cron: '18 */5 * * *'
+  #schedule:
+   # - cron: '18 */5 * * *'
   
 # Permet d'exécuter ce flux de travail manuellement à partir de l'onglet Actions
   workflow_dispatch:
