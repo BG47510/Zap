@@ -30,7 +30,7 @@ def grab(line):
                 d[resolution] = item
             cnd = not cnd
         m3u8 = d[max(d, key=int)]
-    except Exception as e:
+    except Exception as m3u8:
         m3u8 = nul
     finally:
         print(m3u8)
