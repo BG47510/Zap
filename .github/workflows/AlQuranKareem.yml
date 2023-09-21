@@ -4,8 +4,8 @@ name: AlQuranKareem
 
 # Controls when the action will run. 
 on:
-  schedule:
-    - cron: '0 0/1 * * *'
+  #schedule:
+    #- cron: '0 0/1 * * *'
     
   pull_request:
     branches:
