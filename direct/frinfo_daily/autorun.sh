@@ -1,5 +1,5 @@
 #!/bin/bash
-echo $(dirname $0)
-cd $(dirname $0)/scripts/
-python3 dailymotion_m3ugrabber.py > ../dailymotion.m3u
-echo m3u grabbed
+
+python3 direct/frinfo_daily/dailymotion_m3ugrabber.py > direct/frinfo_daily/dailymotion.m3u8
+
+exit 0
