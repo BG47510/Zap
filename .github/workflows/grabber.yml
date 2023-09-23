@@ -20,23 +20,26 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       # 
       - name: config
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+
+      - name: updating frinfo
+        run: sh ${GITHUB_WORKSPACE}/direct/frinfo_daily/autorun_github.sh
       
       
-      - name: Main
-        run: |
-          pwd
-          chmod +x autorun_github.sh
-          ./autorun_github.sh
-          #cd scripts
+    #  - name: Main
+       # run: |
+       #   pwd
+         # chmod +x autorun_github.sh
+         # ./autorun_github.sh
+          #cd direct/frinfo_daily
           #python3 dailymotion_m3ugrabber.py > ../dailymotion.m3u
-          echo "m3u grabbed"
+         # echo "m3u grabbed"
         
       - name: git add
         run: |
