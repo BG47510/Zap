@@ -1,14 +1,5 @@
 #! /usr/bin/python3
 
-banner = r'''
-#     .___      .__.__                        __  .__                        ________                          ___.  ___.                 
-#   __| _/____  |__|  | ___.__. _____   _____/  |_|__| ____   ____     _____ \_____  \ __ __  ________________ \_ |__\_ |__   ___________ 
-#  / __ |\__  \ |  |  |<   |  |/     \ /  _ \   __\  |/  _ \ /    \   /     \  _(__  <|  |  \/ ___\_  __ \__  \ | __ \| __ \_/ __ \_  __ \
-# / /_/ | / __ \|  |  |_\___  |  Y Y  (  <_> )  | |  (  <_> )   |  \ |  Y Y  \/       \  |  / /_/  >  | \// __ \| \_\ \ \_\ \  ___/|  | \/
-# \____ |(____  /__|____/ ____|__|_|  /\____/|__| |__|\____/|___|  / |__|_|  /______  /____/\___  /|__|  (____  /___  /___  /\___  >__|   
-#      \/     \/        \/          \/                           \/        \/       \/     /_____/            \/    \/    \/     \/       
-'''
-
 import requests
 import os
 import sys
@@ -45,9 +36,8 @@ def grab(line):
         print(m3u)
 
 print('#EXTM3U')
-print(banner)
 s = requests.Session()
-with open('../dailymotion_channel_info.txt') as f:
+with open('direct/frinfo_daily/dailymotion_channel_info.txt') as f:
     for line in f:
         line = line.strip()
         if not line or line.startswith('~~'):
