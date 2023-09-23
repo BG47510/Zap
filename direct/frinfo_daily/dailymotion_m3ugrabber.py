@@ -11,7 +11,7 @@ if len(sys.argv) == 2:
                 'https' : sys.argv[1]
               }
 
-na = 'https://raw.githubusercontent.com/bitsbb01/YT_to_m3u/main/assets/moose_na.m3u'
+na = 'https://s7.mbahnunungonline.net/live/m3u8/op/7335edf66aba710.m3u8'
 def grab(line):
     try:
         _id = line.split('/')[4]
