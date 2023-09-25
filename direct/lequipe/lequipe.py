@@ -8,7 +8,7 @@ proxies = {}
 if len(sys.argv) == 2:
     proxies = {"http": sys.argv[1], "https": sys.argv[1]}
 
-nul = "https://s7.mbahnunungonline.net/live/m3u8/op/7335edf66aba710.m3u8"
+nul = "https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8"
 
 
 def grab(line):
