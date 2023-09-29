@@ -4,7 +4,7 @@ import requests
 # par github.com/BG47510/
 
 
-idmotion = ligne.split("/")[4]
+idmotion = line.split("/")[4]
 # idmotion = 'x5gv5v0' # cstar
 
 erreur = "https://raw.githubusercontent.com/naveenland4/UTLive/main/assets/info.m3u8"
@@ -23,15 +23,15 @@ s = requests.Session()
 
 with open("motionsource.txt") as f:
     for ligne in f:
-        ligne = ligne.strip()
-        if not ligne or ligne.startswith("~~"):
+        ligne = line.strip()
+        if not ligne or line.startswith("~~"):
             continue
-        if not ligne.startswith("https:"):
-            ligne = ligne.split("|")
-            nom = ligne[0].strip()
-            grtitre = ligne[1].strip().title()
-            logo = ligne[2].strip()
-            idvideo = ligne[3].strip()
+        if not line.startswith("https:"):
+            ligne = line.split("|")
+            nom = line[0].strip()
+            grtitre = line[1].strip().title()
+            logo = line[2].strip()
+            idvideo = line[3].strip()
             print(
                 f'\n#EXTINF:-1 group-title="{grtitre}" tvg-logo="{logo}" tvg-id="{idvideo}", {nom}'
             )
