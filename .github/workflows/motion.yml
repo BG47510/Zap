@@ -2,8 +2,8 @@ name: motion
 
 # Actualisation du flux á la 3 ème minute à 4 heures et 16 heures.
 on:
-  schedule:
-    - cron: '3 4,16 * * *'
+  #schedule:
+   # - cron: '3 4,16 * * *'
     
   workflow_dispatch:
 
