@@ -4,7 +4,7 @@ import requests
 # par github.com/BG47510/
 
 
-idmotion = line.split("/")[4]
+
 # idmotion = 'x5gv5v0' # cstar
 
 erreur = "https://raw.githubusercontent.com/naveenland4/UTLive/main/assets/info.m3u8"
@@ -27,6 +27,7 @@ with open("motionsource.txt") as f:
         if not ligne or line.startswith("~~"):
             continue
         if not line.startswith("https:"):
+            idmotion = line.split("/")[4]
             ligne = line.split("|")
             nom = line[0].strip()
             grtitre = line[1].strip().title()
