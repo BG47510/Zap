@@ -14,7 +14,7 @@ def snif(line):
         response = requests.get(url).json()
         flux = response["qualities"]["auto"][0]["url"]
         liens = requests.get(flux).text
-        m3u8 = liens.split()[-1]
+        m3u8 = liens.split()[-2]
         #print(m3u8)
     except Exception as erreur:
         print(erreur)
