@@ -2,7 +2,7 @@
 
 import requests
 # import os
-#import sys
+import sys
 
 #proxies = {}
 #if len(sys.argv) == 2:
