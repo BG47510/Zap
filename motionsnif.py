@@ -18,7 +18,7 @@ def grab(line):
         url = s.get(f'https://www.dailymotion.com/player/metadata/video/{_id}') # .json()['qualities']['auto'][0]['url']
         response = requests.get(url).json()
         flux = response["qualities"]["auto"][0]["url"]
-        m3u = s.get(flux).text
+        m3u = requests.get(flux).text
         m3u = m3u.strip().split('\n')[1:]
         #d = {}
         #cnd = True
