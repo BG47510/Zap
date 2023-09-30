@@ -21,6 +21,7 @@ def grab(line):
         m3u = requests.get(flux).text
        # m3u = liens.split()[-1]
         m3u = m3u.strip().split('\n')[1:]
+        m3u = m3u.strip().split(',')[2].split('=')[1]
         #d = {}
         #cnd = True
         #for item in m3u:
