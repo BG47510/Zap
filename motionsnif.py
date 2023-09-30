@@ -19,6 +19,7 @@ def grab(line):
         response = requests.get(url).json()
         flux = response["qualities"]["auto"][0]["url"]
         m3u = requests.get(flux).text
+        m3u = liens.split()[-1]
        # m3u = m3u.strip().split('\n')[1:]
         #d = {}
         #cnd = True
@@ -38,7 +39,7 @@ def grab(line):
         print(m3u)
 
 print('#EXTM3U')
-s = requests.Session()
+#s = requests.Session()
 with open('motionsource.txt') as f:
     for line in f:
         line = line.strip()
