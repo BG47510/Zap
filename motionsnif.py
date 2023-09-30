@@ -2,7 +2,7 @@
 
 import requests
 # import os
-import sys
+#import sys
 
 #proxies = {}
 #if len(sys.argv) == 2:
@@ -20,7 +20,7 @@ def grab(line):
         flux = response["qualities"]["auto"][0]["url"]
         m3u = requests.get(flux).text
        # m3u = liens.split()[-1]
-       # m3u = m3u.strip().split('\n')[1:]
+        m3u = m3u.strip().split('\n')[1:]
         #d = {}
         #cnd = True
         #for item in m3u:
