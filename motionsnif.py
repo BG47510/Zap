@@ -15,8 +15,10 @@ na = 'https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8'
 def grab(line):
     try:
         _id = line.split('/')[4]
-        response = s.get(f'https://www.dailymotion.com/player/metadata/video/{_id}').json()['qualities']['auto'][0]['url']
-        m3u = s.get(response).text
+        url = s.get(f'https://www.dailymotion.com/player/metadata/video/{_id}') # .json()['qualities']['auto'][0]['url']
+        response = requests.get(url).json()
+        flux = response["qualities"]["auto"][0]["url"]
+        m3u = s.get(flux).text
         m3u = m3u.strip().split('\n')[1:]
         #d = {}
         #cnd = True
