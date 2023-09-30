@@ -18,18 +18,18 @@ def grab(line):
         response = s.get(f'https://www.dailymotion.com/player/metadata/video/{_id}').json()['qualities']['auto'][0]['url']
         m3u = s.get(response, proxies=proxies).text
         m3u = m3u.strip().split('\n')[1:]
-        d = {}
-        cnd = True
-        for item in m3u:
-            if cnd:
-                resolution = item.strip().split(',')[2].split('=')[1]
-                if resolution not in d:
-                    d[resolution] = []
-            else:
-                d[resolution]= item
-            cnd = not cnd
+        #d = {}
+        #cnd = True
+        #for item in m3u:
+            #if cnd:
+               # resolution = item.strip().split(',')[2].split('=')[1]
+               # if resolution not in d:
+                   # d[resolution] = []
+           # else:
+               # d[resolution]= item
+          #  cnd = not cnd
         #print(m3u)
-        m3u = d[max(d, key=int)]    
+        #m3u = d[max(d, key=int)]    
     except Exception as e:
         m3u = na
     finally:
