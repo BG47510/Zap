@@ -16,7 +16,7 @@ def snif(line):
         liens = requests.get(flux).text
         m3u8 = liens.split()[-1]
         #print(m3u8)
-    except Exception as e:
+    except Exception as erreur:
         print(erreur)
     finally:
         print(m3u8)
