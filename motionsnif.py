@@ -19,7 +19,7 @@ def grab(line):
         response = requests.get(url).json()
         flux = response["qualities"]["auto"][0]["url"]
         m3u = requests.get(flux).text
-        m3u = m3u.strip().split('\n')[1:]
+       # m3u = m3u.strip().split('\n')[1:]
         #d = {}
         #cnd = True
         #for item in m3u:
