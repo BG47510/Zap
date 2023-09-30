@@ -15,10 +15,11 @@ def snif(line):
         flux = response["qualities"]["auto"][0]["url"]
         liens = requests.get(flux).text
         m3u8 = liens.split()[-1]
-        print(m3u8)
-    except:
+        #print(m3u8)
+    except Exception as e:
         print(erreur)
-
+    finally:
+        print(m3u8)
 
 
 print("#EXTM3U")
