@@ -4,12 +4,12 @@ import requests
 import os
 import sys
 
-proxies = {}
-if len(sys.argv) == 2:
-    proxies = {
-                'http' : sys.argv[1],
-                'https' : sys.argv[1]
-              }
+#proxies = {}
+#if len(sys.argv) == 2:
+  #  proxies = {
+              #  'http' : sys.argv[1],
+               # 'https' : sys.argv[1]
+            #  }
 
 na = 'https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8'
 def grab(line):
