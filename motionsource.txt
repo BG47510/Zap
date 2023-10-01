@@ -1,5 +1,5 @@
 ~~ Ne pas modifier les 2 premières lignes
-~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
+~~ FORMAT: <channel name> | <group title> | <logo> | <tvg-id>
 
 CSTAR | Musique | |
 https://www.dailymotion.com/video/x5gv5v0
