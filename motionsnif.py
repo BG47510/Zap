@@ -18,7 +18,7 @@ def grab(line):
         url = f'https://www.dailymotion.com/player/metadata/video/{_id}' # .json()['qualities']['auto'][0]['url']
         response = requests.get(url).json()
         m3u = response["qualities"]["auto"][0]["url"]
-        print(m3u)
+       # print(m3u)
       #  m3u = requests.get(flux).text
        # m3u = liens.split()[-1]
        # m3u = m3u.strip().split('\n')[1:]
