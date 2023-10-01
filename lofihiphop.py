@@ -7,6 +7,11 @@ import requests
 import re
 import sys
 
+
+print('#EXTM3U')
+print('#EXT-X-VERSION:3')
+print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000')
+
 s = requests.Session()
 
 erreur = "https://raw.githubusercontent.com/naveenland4/UTLive/main/assets/info.m3u8"
