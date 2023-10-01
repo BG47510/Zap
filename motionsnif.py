@@ -4,7 +4,7 @@ import requests
 import sys
 
 erreur = 'https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8'
-def grab(line):
+def snif(line):
     try:
         idvideo = line.split('/')[4]
         url = f'https://www.dailymotion.com/player/metadata/video/{idvideo}'
@@ -23,11 +23,11 @@ with open('motionsource.txt') as f:
             continue
         if not line.startswith('https:'):
             line = line.split('|')
-            ch_name = line[0].strip()
-            grp_title = line[1].strip().title()
-            tvg_logo = line[2].strip()
-            tvg_id = line[3].strip()
-            print(f'\n#EXTINF:-1 group-title="{grp_title}" tvg-logo="{tvg_logo}" tvg-id="{tvg_id}", {ch_name}')
+            nom = line[0].strip()
+            grp = line[1].strip().title()
+            logo = line[2].strip()
+            idepg = line[3].strip()
+            print(f'\n#EXTINF:-1 group-title="{grp}" tvg-logo="{logo}" tvg-id="{idepg}", {nom}')
         else:
-            grab(line)
+            snif(line)
         
