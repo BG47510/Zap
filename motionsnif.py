@@ -17,11 +17,12 @@ def grab(line):
         _id = line.split('/')[4]
         url = f'https://www.dailymotion.com/player/metadata/video/{_id}' # .json()['qualities']['auto'][0]['url']
         response = requests.get(url).json()
-        flux = response["qualities"]["auto"][0]["url"]
-        m3u = requests.get(flux).text
+        m3u = response["qualities"]["auto"][0]["url"]
+        print(m3u)
+      #  m3u = requests.get(flux).text
        # m3u = liens.split()[-1]
-        m3u = m3u.strip().split('\n')[1:]
-        m3u = m3u.strip().split(',')[2].split('=')[1]
+       # m3u = m3u.strip().split('\n')[1:]
+      #  m3u = m3u.strip().split(',')[2].split('=')[1]
         #d = {}
         #cnd = True
         #for item in m3u:
