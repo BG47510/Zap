@@ -2,9 +2,9 @@
 ## FORMAT: <channel name> | <group title> | <tvg-name> | <tvg-id>
 
 France Info | Actualités | Franceinfo |
-_https://simulcast-p.ftven.fr/simulcast/France_Info/hls_monde_frinfo/index.m3u8
+hhttps://simulcast-p.ftven.fr/simulcast/France_Info/hls_monde_frinfo/index.m3u8
 Sud Radio | Radio | |
-_https://simulcast-p.ftven.fr/simulcast/France_2/hls_fr2/index.m3u8
+hhttps://simulcast-p.ftven.fr/simulcast/France_2/hls_fr2/index.m3u8
 Fun Radio | Musique | |
 _https://simulcast-p.ftven.fr/simulcast/France_3/hls_fr3/index.m3u8
 La Chaine L'Equipe | Sport | |
