@@ -1,4 +1,4 @@
-name: motion
+name: frtv
 
 # Actualisation du flux á la 34ème minute toutes les 4 heures.
 on:
