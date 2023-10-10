@@ -17,8 +17,8 @@ headers = {
 erreur = 'https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8'
 
 def snif(line):
-    domaine = "https://hdfauth.ftven.fr/esi/TA?url="
-    source = line.split('h')[-1]
+    domaine = "https://hdfauth.ftven.fr/esi/TA?url=https://"
+    source = line.split('https://')[-1]
     lien = s.get(domaine + source, headers=headers, timeout=25).text
     if '.m3u8' not in lien:
         print(erreur)
