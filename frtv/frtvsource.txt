@@ -2,13 +2,13 @@
 ## FORMAT: <channel name> | <group title> | <tvg-name> | <tvg-id>
 
 France Info | Actualités | Franceinfo |
-https://simulcast-p.ftven.fr/simulcast/France_Info/hls_monde_frinfo/index.m3u8
+/https://simulcast-p.ftven.fr/simulcast/France_Info/hls_monde_frinfo/index.m3u8
 Sud Radio | Radio | |
-https://simulcast-p.ftven.fr/simulcast/France_2/hls_fr2/index.m3u8
+/https://simulcast-p.ftven.fr/simulcast/France_2/hls_fr2/index.m3u8
 Fun Radio | Musique | |
-https://simulcast-p.ftven.fr/simulcast/France_3/hls_fr3/index.m3u8
+/https://simulcast-p.ftven.fr/simulcast/France_3/hls_fr3/index.m3u8
 La Chaine L'Equipe | Sport | |
-https://simulcast-p.ftven.fr/simulcast/France_4/hls_fr4/index.m3u8
+/https://simulcast-p.ftven.fr/simulcast/France_4/hls_fr4/index.m3u8
 Euronews | Info | |
 https://simulcast-p.ftven.fr/simulcast/France_5/hls_fr5/index.m3u8
 France Info | Info | |
@@ -16,7 +16,7 @@ https://simulcast-p.ftven.fr/simulcast/Regions_noa/hls_noa/index.m3u8
 N31 | Récréatif | |
 https://live-regions-p.ftven.fr/hls/live/2037716/F3_Paris_IDF/index.m3u8
 BFM TV | Info | |
-https://live-regions-p.ftven.fr/hls/live/2037713/F3_Lorraine/index.m3u8
+/https://live-regions-p.ftven.fr/hls/live/2037713/F3_Lorraine/index.m3u8
 RMC Story | | |
 https://live-regions-p.ftven.fr/hls/live/2037707/F3_Champagne/index.m3u8
 8 Mont Blanc live 1 | Local | |
