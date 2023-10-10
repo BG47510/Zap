@@ -7,7 +7,8 @@ import sys
 
 
 
-# l’User-Agent et le Referer dans l’en-tête de la requête pour imiter une session de navigation d’un utilisateur humain.
+# l’User-Agent et le Referer dans l’en-tête de la requête.
+# Pour imiter une session de navigation d’un utilisateur humain.
 headers = {
     "User-Agent": "QwantMobile/2.0 (Android 5.1; Tablet; rv:61.0) Gecko/61.0 Firefox/59.0 QwantBrowser/61.0",
     "Referer": "https://www.qwant.com/",
@@ -32,13 +33,11 @@ def snif(line):
 #print(f"{link[start : end]}")
 
 
-# L’objet Session vous permet de conserver des paramètres entre plusieurs requêtes.
-# Il permet également de conserver les cookies entre toutes les requêtes de la même instance Session.
+# L’objet Session conserve les paramètres entre plusieurs requêtes.
+# Il conserve également les cookies entre toutes les requêtes de la même instance Session.
 # Il peut aussi être utilisés pour fournir des valeurs par défaut aux requêtes (auth, headers)
 
 s = requests.Session()
-
- <channel name> | <group title> | <tvg-name> | <tvg-id>
 
 print('#EXTM3U')
 with open('frtv/frtvsource.txt', encoding='utf-8') as f:
