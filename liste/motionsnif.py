@@ -2,8 +2,6 @@
 # par github.com/BG47510/
 
 import requests
-import re
-import sys
 from random import randint
 from time import sleep
 
@@ -21,7 +19,7 @@ def snif(line):
     source = line.split('/')[4]
     retour = requests.get(cible + source, headers=headers, timeout=15).json()
     m3u8 = retour["qualities"]["auto"][0]["url"]
-    if '.m3u8' not in lien:
+    if '.m3u8' not in m3u8:
         print(erreur)
     else:
         print(m3u8)
