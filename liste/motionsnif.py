@@ -15,17 +15,15 @@ headers = {
 erreur = 'https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8'
 
 def snif(line):
-   # cible = "https://www.dailymotion.com/player/metadata/video/"
-    source = line.split('/')[4]
-    url = f'https://www.dailymotion.com/player/metadata/video/{source}'
-    retour = requests.get(url).json()
-   # retour = requests.get(cible + source, headers=headers, timeout=15).json()
-    m3u8 = retour["qualities"]["auto"][0]["url"]
-    if '.m3u8' not in m3u8:
-        print(erreur)
-    else:
+    try:
+        idvideo = line.split('/')[4]
+        url = f'https://www.dailymotion.com/player/metadata/video/{idvideo}'
+        response = requests.get(url).json()
+        m3u8 = response["qualities"]["auto"][0]["url"]
+    except Exception as e:
+        m3u8 = erreur
+    finally:
         print(m3u8)
-    # time.sleep(15) # 15 secondes
     sleep(randint(15,25))
 
 print('#EXTM3U')
