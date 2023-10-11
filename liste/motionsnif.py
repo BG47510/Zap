@@ -15,9 +15,11 @@ headers = {
 erreur = 'https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8'
 
 def snif(line):
-    cible = "https://www.dailymotion.com/player/metadata/video/"
+   # cible = "https://www.dailymotion.com/player/metadata/video/"
     source = line.split('/')[4]
-    retour = requests.get(cible + source, headers=headers, timeout=15).json()
+    url = f'https://www.dailymotion.com/player/metadata/video/{source}'
+    retour = requests.get(url).json()
+   # retour = requests.get(cible + source, headers=headers, timeout=15).json()
     m3u8 = retour["qualities"]["auto"][0]["url"]
     if '.m3u8' not in m3u8:
         print(erreur)
