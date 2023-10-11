@@ -1,2 +1,45 @@
 #EXTM3U
 #EXTINF:-1 tvg-id="" tvg-name="" group-title="Musique", CSTAR
+https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Radio", Sud Radio
+https://www.dailymotion.com/cdn/live/video/x8jqxru.m3u8?sec=P9VzYtp2gRSqS6ajSX5Xoi4-oFvmhaYY5Tw2Tv9DAIIwCF2Fl4RD3dAZRAbPpD0N&dmTs=301059&dmV1st=b8896734-33d9-43f2-9e0c-baf697741c9a
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Musique", Fun Radio
+https://www.dailymotion.com/cdn/live/video/xxtuy6.m3u8?sec=IndUQx7XvV8TPNuB37lyxn9HdOtSBHslU3SEp40egmOvh5uFPBc1u7if1UOMHUmx&dmTs=475780&dmV1st=e569c012-dc33-4990-b7c3-dedb8f16c43b
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Sport", La Chaine L'Equipe
+https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Actualités", Euronews
+https://www.dailymotion.com/cdn/live/video/x2j4lj9.m3u8?sec=SHFkmXL6quHEGA0KlyyIO5Z6fdOwjqU7W_TC0h3UD1KrTcxkHdJ61_f0jC_Ilo2o&dmTs=410182&dmV1st=9e627b90-74eb-414a-a083-c5c27a33e152
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Actualités", France Info
+https://www.dailymotion.com/cdn/live/video/x4rdeu6.m3u8?sec=aXqUocxutUlOsxk543E1OhrFXXc4768yIrn3wQziImNwkplCHjV6J5AkYJlVUBmZ&dmTs=488366&dmV1st=26e1b0fe-af55-4681-a8f7-c947cc52a53d
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Récréative", N31
+https://www.dailymotion.com/cdn/live/video/x6nkjg1.m3u8?sec=OrrDJCPkKFB5htM09b9AFJ8_LsPGYw8q1eZXwdHFX1k_pn6wfACzR9rvZWGA6tvh&dmTs=309910&dmV1st=578f002a-5029-49c7-85d9-53854697bdb7
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Actualités", BFM TV
+https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Généraliste", RMC Story
+https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Locale", 8 Mont Blanc live 1
+https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Locale", 8 Mont Blanc live 2
+https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Sport", Journal du Golf
+https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Locale", Télénantes
+https://www.dailymotion.com/cdn/live/video/x5so98l.m3u8?sec=J9bH2xvoUy71gCOPci526BOCgCyZGkxC7kk12hTs6E-N3Q99hc9E-zPxa7YAl22b&dmTs=518528&dmV1st=600049f3-fcc8-44d8-b39b-da85c5e024de
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="", ISHUSHO TV
+https://www.dailymotion.com/cdn/live/video/x8hhx88.m3u8?sec=fLBLyv4QdXRaQN7GVmxHj_tBOWeSn829g4JSnXtwrAyrmWZQlhm3lxZgXBwarjvI&dmTs=953820&dmV1st=69a9d0d7-dc54-422d-9141-158e0a1b4f20
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Sport", La Chaine L'Equipe
+https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Actualités", CNEWS
+https://www.dailymotion.com/cdn/live/video/x3b68jn.m3u8?sec=_rkvy1Te6L0mmmY2IYESuGhCpUvW37iPwgLolflh57tNBpJFagvbr0DgQXl4ryBh&dmTs=350350&dmV1st=b0faf097-4692-4f90-9166-f213c6a905db
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Généraliste", C8
+https://www.dailymotion.com/cdn/live/video/x5gv5rr.m3u8?sec=5H_jdTRxFtGipo1hXmR4jbTvu3Xs5mu5Atz_Fu_VEu6qnn_bwiuQZYUhhs0Cz6Pl&dmTs=762844&dmV1st=559849f3-e80a-4329-a9a8-7cea873ee2a9
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Généraliste", Canal +
+https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Radio", RTL
+https://www.dailymotion.com/cdn/live/video/xl1km0.m3u8?sec=Ymd-IZExMeYOpBqc8X7W4PfiSvaEa4X9U-AX5K4bmpjGWAtG6mpG47YovRN1yy6V&dmTs=554102&dmV1st=438cce3d-ce5b-4d6e-a0fb-0195fcf46896
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Actualités", LCP Canal 100%
+https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Actualités", LCP Assemblée nationale
+https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="" group-title="Actualités", PUBLIC SENAT
+https://www.dailymotion.com/cdn/live/video/xkxbzc.m3u8?sec=tMc672eRqnVgw31RKbGBWYM7XTOWNr4Xg1kv_Qr-xnYU4C92mEgfDfyz5blyfIuh&dmTs=554910&dmV1st=2815872b-3db0-4ad1-b176-d9a41c1618f5
