@@ -1017,7 +1017,7 @@ f'https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/{idflux
 #EXTINF:-1 group-title="Daytime TV",The Judge Judy Channel
 f'https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/{idflux}/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel'
 
-#EXTINF:-1 group-title="News + Opinion",WeatherNation Raleigh-Durham
+#EXTINF:-1 group-title="News + Opinion",WeatherNation Phoenix
 f'https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/{idflux}/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel'
 
 #EXTINF:-1 group-title="Entertainment",Hallmark Movies & More
@@ -1029,7 +1029,7 @@ f'https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/{idflux
 #EXTINF:-1 group-title="News + Opinion",CBS News Chicago
 f'https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/{idflux}/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel'
 
-#EXTINF:-1 group-title="News + Opinion",CBS News Philadelphia
+#EXTINF:-1 group-title="News + Opinion",CBS News Colorado
 f'https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/{idflux}/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel'
 
 #EXTINF:-1 group-title="Drama",CSI: Miami
@@ -1050,13 +1050,7 @@ f'https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/{idflux
 #EXTINF:-1 group-title="En Español",CSI: NY en español
 f'https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/{idflux}/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel'
 
-#EXTINF:-1 group-title="Local News",WFTV Orlando
-f'https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/{idflux}/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel'
-
-#EXTINF:-1 group-title="Local News",WSB Atlanta
-f'https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/{idflux}/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel'
-
-#EXTINF:-1 group-title="Local News",WSOC Charlotte
+#EXTINF:-1 group-title="Local News",KIRO Seattle
 f'https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/{idflux}/master.m3u8?deviceId=channel&deviceModel=web&deviceVersion=1.0&appVersion=1.0&deviceType=rokuChannel&deviceMake=rokuChannel&deviceDNT=1&advertisingId=channel&embedPartner=rokuChannel&appName=rokuchannel&is_lat=1&bmodel=bm1&content=channel&platform=web&tags=ROKU_CONTENT_TAGS&coppa=false&content_type=livefeed&rdid=channel&genre=ROKU_ADS_CONTENT_GENRE&content_rating=ROKU_ADS_CONTENT_RATING&studio_id=viacom&channel_id=channel'
 
 #EXTINF:-1 group-title="Comedy",Sitcom Legends
