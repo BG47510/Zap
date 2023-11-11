@@ -49,7 +49,7 @@ site = 'https://hdfauth.ftven.fr/esi/TA?url=https://simulcast-p.ftven.fr/simulca
 #site = 'https://www.scrapoxy.io/'
 #site = 'http://api.pluto.tv/v2/channels'
 response = requests.get(site, headers=headers, proxies={"http": proxy}, timeout=15).text
-print(response)
+#print(response)
 
 
 
