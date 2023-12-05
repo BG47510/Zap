@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
 
-import os
 import sys
 from typing import List
-import requests
 import rakuten
 
 
