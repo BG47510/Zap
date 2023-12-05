@@ -27,9 +27,9 @@ jobs:
       - name: Actualisation de la liste
         run: python raku/main.py > raku/rakutenfr.m3u8
 
-        env:
-          HTTP_PROXY: http://${{ secrets.PROXY_USERNAME }}:${{ secrets.PROXY_PASSWORD }}@${{ secrets.PROXY_IP }}:5009
-          HTTPS_PROXY: http://${{ secrets.PROXY_USERNAME }}:${{ secrets.PROXY_PASSWORD }}@${{ secrets.PROXY_IP }}:5009
+       # env:
+         # HTTP_PROXY: http://${{ secrets.PROXY_USERNAME }}:${{ secrets.PROXY_PASSWORD }}@${{ secrets.PROXY_IP }}:5009
+       #   HTTPS_PROXY: http://${{ secrets.PROXY_USERNAME }}:${{ secrets.PROXY_PASSWORD }}@${{ secrets.PROXY_IP }}:5009
         
       - name: git add
       # Informer Git que vous voulez inclure les mises à jour dans un fichier.
