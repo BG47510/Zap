@@ -41,5 +41,5 @@ jobs:
         with:
           default_author: github_actions
           message: Add/update list
-          add: '*.m3u --force'
+          add: '*.m3u8 --force'
           cwd: './output/'
