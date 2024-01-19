@@ -12,7 +12,7 @@ error = "https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8"
 erreur = requests.get(error).text
 
 
-video = "https://www.dailymotion.com/player/metadata/video/x2lefik"
+video = f"https://www.dailymotion.com/player/metadata/video/x2lefik"
 code = requests.get(video, headers=headers).json()
 cle = "qualities"
 
