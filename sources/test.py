@@ -8,8 +8,7 @@ headers = {
     "Referer": "https://www.lequipe.fr/tv/"
 }
 
-error = "https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8"
-erreur = requests.get(error).text
+erreur = requests.get("https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8").text
 
 
 video = "https://www.dailymotion.com/video/x2j4lj9"
