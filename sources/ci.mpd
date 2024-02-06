@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:mpeg:dash:schema:mpd:2011" xsi:schemaLocation="urn:mpeg:dash:schema:mpd:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd" id="201" type="dynamic" publishTime="2024-02-06T19:00:34+00:00" minimumUpdatePeriod="PT7S" availabilityStartTime="2023-02-21T07:26:48.703000+00:00" minBufferTime="PT18S" suggestedPresentationDelay="PT18.000S" timeShiftBufferDepth="PT3597.500S" profiles="urn:mpeg:dash:profile:isoff-live:2011">
+  <Period start="PT0.000S" id="1">
+    <AdaptationSet id="1485523442" mimeType="video/mp4" segmentAlignment="true" startWithSAP="1" subsegmentAlignment="true" subsegmentStartsWithSAP="1" bitstreamSwitching="true">
+      <Representation id="1" width="1280" height="720" frameRate="25/1" bandwidth="2499968" codecs="avc1.4D401F">
+        <SegmentTemplate timescale="25000" media="index_video_1_0_$Number$.mp4?m=1707203501" initialization="index_video_1_0_init.mp4?m=1707203501" startNumber="3797164">
+          <SegmentTimeline>
+            <S t="756950785033" d="192000" r="468"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation id="2" width="1024" height="576" frameRate="25/1" bandwidth="1699968" codecs="avc1.4D401F">
+        <SegmentTemplate timescale="25000" media="index_video_2_0_$Number$.mp4?m=1707203501" initialization="index_video_2_0_init.mp4?m=1707203501" startNumber="3797164">
+          <SegmentTimeline>
+            <S t="756950785033" d="192000" r="468"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation id="3" width="1024" height="576" frameRate="25/1" bandwidth="1200000" codecs="avc1.4D401F">
+        <SegmentTemplate timescale="25000" media="index_video_3_0_$Number$.mp4?m=1707203501" initialization="index_video_3_0_init.mp4?m=1707203501" startNumber="3797164">
+          <SegmentTimeline>
+            <S t="756950785033" d="192000" r="468"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation id="4" width="640" height="360" frameRate="25/1" bandwidth="800000" codecs="avc1.42C01E">
+        <SegmentTemplate timescale="25000" media="index_video_4_0_$Number$.mp4?m=1707203501" initialization="index_video_4_0_init.mp4?m=1707203501" startNumber="3797164">
+          <SegmentTimeline>
+            <S t="756950785033" d="192000" r="468"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+      <Representation id="5" width="416" height="234" frameRate="25/1" bandwidth="400000" codecs="avc1.42C00D">
+        <SegmentTemplate timescale="25000" media="index_video_5_0_$Number$.mp4?m=1707203501" initialization="index_video_5_0_init.mp4?m=1707203501" startNumber="3797164">
+          <SegmentTimeline>
+            <S t="756950785033" d="192000" r="468"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1299661462" mimeType="audio/mp4" segmentAlignment="0" lang="mul">
+      <Label>VO</Label>
+      <Representation id="6" bandwidth="96000" audioSamplingRate="48000" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="48000" media="index_audio_7_0_$Number$.mp4?m=1707203501" initialization="index_audio_7_0_init.mp4?m=1707203501" startNumber="3797164">
+          <SegmentTimeline>
+            <S t="1453345507712" d="368640" r="468"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="278844692" mimeType="audio/mp4" segmentAlignment="0" lang="sme">
+      <Label>audio description</Label>
+      <Representation id="7" bandwidth="96000" audioSamplingRate="48000" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="48000" media="index_audio_8_0_$Number$.mp4?m=1707203501" initialization="index_audio_8_0_init.mp4?m=1707203501" startNumber="3797164">
+          <SegmentTimeline>
+            <S t="1453345507712" d="368640" r="468"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1258454721" mimeType="audio/mp4" segmentAlignment="0" lang="fra">
+      <Label>français</Label>
+      <Representation id="8" bandwidth="128041" audioSamplingRate="48000" codecs="mp4a.40.2">
+        <AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2"/>
+        <SegmentTemplate timescale="48000" media="index_audio_12_0_$Number$.mp4?m=1707203501" initialization="index_audio_12_0_init.mp4?m=1707203501" startNumber="3797164">
+          <SegmentTimeline>
+            <S t="1453345507712" d="368640" r="468"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="279471494" mimeType="application/mp4" codecs="stpp" segmentAlignment="true" startWithSAP="1" bitstreamSwitching="true" lang="mul" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Label>no subtitles</Label>
+      <Representation id="9" bandwidth="2000">
+        <SegmentTemplate timescale="90000" media="index_subtitles_9_0_$Number$.mp4?m=1707203501" initialization="index_subtitles_9_0_init.mp4?m=1707203501" startNumber="3797164">
+          <SegmentTimeline>
+            <S t="2725022826120" d="691200" r="468"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="1463501478" mimeType="application/mp4" codecs="stpp" segmentAlignment="true" startWithSAP="1" bitstreamSwitching="true" lang="sme" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Label>Sourds et malentendant</Label>
+      <Representation id="10" bandwidth="2000">
+        <SegmentTemplate timescale="90000" media="index_subtitles_10_0_$Number$.mp4?m=1707203501" initialization="index_subtitles_10_0_init.mp4?m=1707203501" startNumber="3797164">
+          <SegmentTimeline>
+            <S t="2725022826120" d="691200" r="468"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <AdaptationSet id="153006254" mimeType="application/mp4" codecs="stpp" segmentAlignment="true" startWithSAP="1" bitstreamSwitching="true" lang="fra" subsegmentAlignment="true" subsegmentStartsWithSAP="1">
+      <Label>français</Label>
+      <Representation id="11" bandwidth="2000">
+        <SegmentTemplate timescale="90000" media="index_subtitles_11_0_$Number$.mp4?m=1707203501" initialization="index_subtitles_11_0_init.mp4?m=1707203501" startNumber="3797164">
+          <SegmentTimeline>
+            <S t="2725022826120" d="691200" r="468"/>
+          </SegmentTimeline>
+        </SegmentTemplate>
+      </Representation>
+    </AdaptationSet>
+    <SupplementalProperty schemeIdUri="urn:scte:dash:utc-time" value="2023-02-21T04:34:14.759Z"/>
+  </Period>
+</MPD>
+
+
+[Program finished]
