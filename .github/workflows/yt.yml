@@ -1,0 +1,72 @@
+name: yt
+on:
+  schedule:
+    - cron: '0 */3 * * *' #Configuré pour l’obtenir automatiquement toutes les 3 heures
+
+  pull_request:
+    branches:
+      - main
+
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+    - name: Install yt-dlp
+      run: |
+        sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+        sudo chmod a+rx /usr/local/bin/yt-dlp
+
+
+#Chaîne d’information
+
+
+
+
+    - name: Get essai1.m3u8
+      run: |
+        touch ./essai1.m3u8
+        sudo cat >./essai1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/channel/UCUaHJ0fTA-1theR8A8Polmw/live)
+        EOL
+        
+    - name: Get essai2.m3u8
+      run: |
+        touch ./essai2.m3u8
+        sudo cat >./essai2.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/c/CtsTw/live)
+        EOL
+
+    - name: Get CNN_News18.m3u8
+      run: |
+        touch ./CNN_News18.m3u8
+        sudo cat >./CNN_News18.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/@cnnnews18/live)
+        EOL     
+
+
+
+    - name: git add
+      run: |
+        git add -A
+        ls -la
+
+    - name: commit & push
+      run: |
+        git commit -m "Les liens sont mis à jour"
+        git push
