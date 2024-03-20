@@ -3,10 +3,6 @@ on:
  # schedule:
   #  - cron: '0 */3 * * *' #Configuré pour l’obtenir automatiquement toutes les 3 heures
 
-  pull_request:
-    branches:
-      - main
-
   workflow_dispatch:
 
 jobs:
