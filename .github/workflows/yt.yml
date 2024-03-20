@@ -1,7 +1,7 @@
 name: yt
 on:
-  schedule:
-    - cron: '0 */3 * * *' #Configuré pour l’obtenir automatiquement toutes les 3 heures
+ # schedule:
+  #  - cron: '0 */3 * * *' #Configuré pour l’obtenir automatiquement toutes les 3 heures
 
   pull_request:
     branches:
