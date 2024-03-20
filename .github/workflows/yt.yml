@@ -29,25 +29,25 @@ jobs:
 
 
 
-    - name: Get essai1.m3u8
-      run: |
-        touch ./essai1.m3u8
-        sudo cat >./essai1.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/channel/UCUaHJ0fTA-1theR8A8Polmw/live)
-        EOL
+ #   - name: Get essai1.m3u8
+   #   run: |
+ #       touch ./essai1.m3u8
+  #      sudo cat >./essai1.m3u8 <<EOL
+   #     #EXTM3U
+ #       #EXT-X-VERSION:3
+ #       #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+ #       $(yt-dlp --print urls https://www.youtube.com/channel/UCUaHJ0fTA-1theR8A8Polmw/live)
+   #     EOL
         
-    - name: Get essai2.m3u8
-      run: |
-        touch ./essai2.m3u8
-        sudo cat >./essai2.m3u8 <<EOL
-        #EXTM3U
-        #EXT-X-VERSION:3
-        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/c/CtsTw/live)
-        EOL
+ #   - name: Get essai2.m3u8
+   #   run: |
+   #     touch ./essai2.m3u8
+   #     sudo cat >./essai2.m3u8 <<EOL
+  #      #EXTM3U
+   #     #EXT-X-VERSION:3
+    #    #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+    #    $(yt-dlp --print urls https://www.youtube.com/c/CtsTw/live)
+    #    EOL
 
     - name: Get CNN_News18.m3u8
       run: |
@@ -56,7 +56,7 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/@cnnnews18/live)
+        $(yt-dlp --print urls https://www.youtube.com/@Coldplay/live)
         EOL     
 
 
