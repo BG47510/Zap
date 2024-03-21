@@ -41,16 +41,6 @@ jobs:
  #       $(yt-dlp --print urls https://www.youtube.com/channel/UCUaHJ0fTA-1theR8A8Polmw/live)
    #     EOL
         
- #   - name: Get essai2.m3u8
-   #   run: |
-   #     touch ./essai2.m3u8
-   #     sudo cat >./essai2.m3u8 <<EOL
-  #      #EXTM3U
-   #     #EXT-X-VERSION:3
-    #    #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-    #    $(yt-dlp --print urls https://www.youtube.com/c/CtsTw/live)
-    #    EOL
-
     - name: CNN_News18
       run: |
         touch ./CNN_News18.m3u8
@@ -58,8 +48,18 @@ jobs:
         #EXTM3U
         #EXT-X-VERSION:3
         #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-        $(yt-dlp --print urls https://www.youtube.com/c/CtsTw/live)
-        EOL     
+        $(youtube-dl -g https://www.youtube.com/channel/UCqDUJp6Z4wyFkDJGqd0EP4Q/live)
+        EOL
+
+ #   - name: CNN_News18
+    #  run: |
+     #   touch ./CNN_News18.m3u8
+   #     sudo cat >./CNN_News18.m3u8 <<EOL
+        #EXTM3U
+    #    #EXT-X-VERSION:3
+    #    #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+    #    $(yt-dlp --print urls https://www.youtube.com/c/CtsTw/live)
+    #    EOL     
 
 
 
