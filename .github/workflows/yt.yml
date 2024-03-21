@@ -14,10 +14,10 @@ jobs:
       run: |
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
-   # - name: Install yt-dlp
-   #   run: |
-    #    sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
-   #     sudo chmod a+rx /usr/local/bin/yt-dlp
+    - name: Install yt-dlp
+      run: |
+        sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+        sudo chmod a+rx /usr/local/bin/yt-dlp
 
 
 #Chaîne d’information
@@ -45,7 +45,7 @@ jobs:
     #    $(yt-dlp --print urls https://www.youtube.com/c/CtsTw/live)
     #    EOL
 
-    - name: Get CNN_News18.m3u8
+    - name: CNN_News18
       run: |
         touch ./CNN_News18.m3u8
         sudo cat >./CNN_News18.m3u8 <<EOL
