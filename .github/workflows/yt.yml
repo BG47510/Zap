@@ -51,15 +51,15 @@ jobs:
     #    $(youtube-dl -g https://www.youtube.com/c/CtsTw/live)
     #    EOL
 
- #   - name: CNN_News18
-    #  run: |
-     #   touch ./CNN_News18.m3u8
-   #     sudo cat >./CNN_News18.m3u8 <<EOL
+    - name: Marche de Tokyo 24/7
+      run: |
+        touch ./tokyo.m3u8
+        sudo cat >./tokyo.m3u8 <<EOL
         #EXTM3U
-    #    #EXT-X-VERSION:3
-    #    #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
-    #    $(yt-dlp --print urls https://www.dailymotion.com/video/x2j4lj9)
-    #    EOL     
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.youtube.com/watch?v=cH7VBI4QQzA&pp=ygUETGl2ZQ%3D%3D)
+        EOL     
 
 
 
