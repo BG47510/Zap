@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<channels>
+
+<channel site="mon-programme-tv.be" lang="fr" xmltv_id="LN24.be" site_id="1873/programme-television-ln24">LN24</channel>
+<channel site="mon-programme-tv.be" lang="fr" xmltv_id="Be1.be" site_id="298/programme-television-be-1">BE 1</channel>
+<channel site="mon-programme-tv.be" lang="fr" xmltv_id="" site_id="281/programme-television-rtl-plug">RTL plug</channel>
+<channel site="mon-programme-tv.be" lang="fr" xmltv_id="" site_id="67/programme-television-rtl-club">RTL club</channel>
+
+<channel site="i24news.tv" lang="fr" xmltv_id="i24NEWSFrench.il" site_id="fr#world">I24NEWS Français</channel>
+
+<channel site="dsmart.com.tr" lang="tr" xmltv_id="SportsTV.tr" site_id="81#58d29bb0eefad3db9c606296">Sports Tv</channel>
+</channels>
