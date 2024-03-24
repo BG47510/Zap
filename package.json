@@ -1,0 +1,10 @@
+{
+  "name": "epg",
+  "version": "1.0.0",
+  "description": "Générateur d’epg",
+  "author": "https://github.com/BG47510",
+  "license": "Apache-2.0",
+  "scripts": {
+    "start": "index.js"
+  }
+}
