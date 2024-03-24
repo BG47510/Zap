@@ -4,8 +4,9 @@
   "description": "Générateur d’epg",
   "author": "https://github.com/BG47510",
   "license": "Apache-2.0",
+  "type": "module",
   "main": "src/main.js",
   "scripts": {
-    "start": "src/main.js"
+    "start": "node src/main.js"
   }
 }
