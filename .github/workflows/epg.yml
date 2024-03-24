@@ -1,4 +1,4 @@
-name: EPG
+name: epg
 on:
   schedule:
     - cron: "0 * * * *"
@@ -13,8 +13,9 @@ jobs:
 
     steps:
       -  uses: actions/checkout@v4
-# Installer Node.js => https://github.com/actions/setup-node
-      -  uses: actions/setup-node@v4
+      # Installer Node.js => https://github.com/actions/setup-node
+      - name: Setup node
+        uses: actions/setup-node@v4
         with:
           node-version: "latest"
 
