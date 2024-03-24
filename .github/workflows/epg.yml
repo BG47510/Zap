@@ -24,14 +24,14 @@ jobs:
         run: |
           npm install
           npm run start
-# Vous devrez également installer "git" avec la commande suivante :
+          # Vous devrez également installer "git" avec la commande suivante :
           git clone --depth 1 -b master https://github.com/iptv-org/epg.git
-# Accédez ensuite au dossier epg téléchargé :
+          # Accédez ensuite au dossier epg téléchargé :
           cd epg
-# Et installez toutes les dépendances :
+          # Et installez toutes les dépendances :
           npm install
-# Pour lancer le téléchargement du guide, sélectionnez l’un des sites pris en charge et collez son nom dans la commande ci-dessous
-# Et une fois le téléchargement terminé, le guide sera enregistré dans le fichier guide.xml.
+          # Pour lancer le téléchargement du guide, sélectionnez l’un des sites pris en charge et collez son nom dans la commande ci-dessous
+          # Et une fois le téléchargement terminé, le guide sera enregistré dans le fichier guide.xml.
           npm run grab -- --channels=../bin/channels.xml --output=../bin/guide.xml
           cd ..
           rm -rf epg
