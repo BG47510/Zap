@@ -16,12 +16,18 @@ jobs:
 
 
     steps:
-      -  uses: actions/checkout@v4
+      - uses: actions/checkout@v4
       # Installer Node.js => https://github.com/actions/setup-node
-      - name: Setup node
-        uses: actions/setup-node@v4
-        with:
-          node-version: "latest"
+      runs:
+         using: 'node20'
+         pre: 'setup.js'
+         main: 'index.js'
+         post: 'cleanup.js'
+      
+  #    - name: Setup node
+   #     uses: actions/setup-node@v4
+   #     with:
+    #      node-version: "latest"
 
 # https://github.com/iptv-org/epg
       - name: Générer les fichiers
