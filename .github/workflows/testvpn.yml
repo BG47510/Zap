@@ -27,7 +27,7 @@ jobs:
 
     - name: Configurer le fichier ovpn
       run: |
-        FILE_OVPN: 'client.ovpn'
+        sudo openvpn --config client.ovpn
       env:
         SECRET_USERNAME_PASSWORD: "userpass.txt"
        
