@@ -27,7 +27,7 @@ jobs:
 
     - name: Configurer le fichier ovpn
       run: |
-        sudo openvpn ${GITHUB_WORKSPACE}/workflows/client.ovpn
+        sudo openvpn ${GITHUB_WORKSPACE}/.github/workflows/client.ovpn
       env:
         SECRET_USERNAME_PASSWORD: "userpass.txt"
        
@@ -74,7 +74,7 @@ jobs:
       if: always()
       with:
         name: VPN logs
-        path: vpn.log
+        path: ${GITHUB_WORKSPACE}/.github/workflows/vpn.log
 
                           
 
