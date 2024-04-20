@@ -27,7 +27,7 @@ jobs:
 
     - name: Configurer le fichier ovpn
       run: |
-        sudo openvpn client.ovpn
+        sudo openvpn ${GITHUB_WORKSPACE}client.ovpn
       env:
         SECRET_USERNAME_PASSWORD: "userpass.txt"
        
