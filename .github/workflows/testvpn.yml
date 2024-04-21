@@ -1,0 +1,103 @@
+name: test vpn
+on:
+ # schedule:
+  #  - cron: '0 */3 * * *' #Configuré pour l’obtenir automatiquement toutes les 3 heures
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: config
+      run: |
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        
+    - name: Install yt-dlp
+      run: |
+        sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+        sudo chmod a+rx /usr/local/bin/yt-dlp
+
+    - name: Installer OpenVPN
+      run: |
+        sudo apt-get update
+        sudo apt-get --assume-yes --no-install-recommends install openvpn
+
+    - name: Configurer le fichier ovpn
+      run: |
+        sudo openvpn ${GITHUB_WORKSPACE}/tunnel/client.ovpn
+     # env:
+      #  SECRET_USERNAME_PASSWORD: ${GITHUB_WORKSPACE}/tunnel/userpass.txt
+       
+
+    - name: Connecter le VPN
+      run: sudo openvpn --config ".github/vpn/config.ovpn" --log "vpn.log" --daemon
+
+    - name: Attendre une connexion VPN
+      timeout-minutes: 1
+      run: until ping -c1 open.fdn.fr 53; do sleep 2; done
+      # Ou
+      #run: until dig @your-dns-resolver open.fdn.fr A +time=1; do sleep 2; done
+
+    - name: essai1
+      run: |
+        touch ./essai1.m3u8
+        sudo cat >./essai1.m3u8 <<EOL
+        #EXTM3U
+        #EXT-X-VERSION:3
+        #EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2560000
+        $(yt-dlp --print urls https://www.dailymotion.com/video/x2j4lj9)
+        https://raw.githubusercontent.com/BG47510/Zap/main/assets/error.m3u8
+        EOL
+
+
+    - name: git add
+      run: |
+        git add -A
+        ls -la
+
+    - name: commit & push
+      run: |
+        git commit -m "Les liens sont mis à jour"
+        git push
+
+    - name: Couper la connexion VPN
+      if: always()
+      run: |
+        sudo chmod 777 ${GITHUB_WORKSPACE}/tunnel/vpn.log
+        sudo killall openvpn
+
+    - name: Télécharger les logs VPN
+      uses: actions/upload-artifact@v2
+      if: always()
+      with:
+        name: VPN logs
+        path: ${GITHUB_WORKSPACE}/tunnel/vpn.log
+
+                          
+
+
+
+
+
+
+
+
+
+        
+#    - name: Install youtube-dl
+  #    run: |
+   #     sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+#        sudo chmod a+rx /usr/local/bin/youtube-dl
+
+
+     
+
+
+
+
