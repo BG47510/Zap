@@ -31,8 +31,9 @@ jobs:
     - name: Configurer le fichier ovpn
       run: |
         sudo openvpn ${GITHUB_WORKSPACE}/tunnel/client.ovpn
-      env:
-        SECRET_USERNAME_PASSWORD: ${GITHUB_WORKSPACE}/tunnel/userpass.txt
+        openvpn ... --auth-user-pass <(echo -e "opvn_user\novpn_pass")
+     # env:
+        #SECRET_USERNAME_PASSWORD: ${GITHUB_WORKSPACE}/tunnel/userpass.txt
        
 
     - name: Connecter le VPN
