@@ -38,7 +38,7 @@ jobs:
        
 
     - name: Connecter le VPN
-      run: sudo openvpn --config ".github/tunnel/config.ovpn" --log "vpn.log" --daemon
+      run: sudo openvpn --config ${GITHUB_WORKSPACE}/tunnel/config.ovpn --log "vpn.log" --daemon
 
     - name: Attendre une connexion VPN
       timeout-minutes: 1
