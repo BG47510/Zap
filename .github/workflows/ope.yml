@@ -1,12 +1,17 @@
 name: 'VPNConnect'
-        workflow_dispatch:
-  schedule:
-    - cron: '0 0/2 * * *'
+on:
+ # schedule:
+  #  - cron: '0 */3 * * *' #Configuré pour l’obtenir automatiquement toutes les 3 heures
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
   
 jobs:
   build:
     runs-on: ubuntu-latest
-
 inputs:
   VPN_USER:
     description: 'username'
