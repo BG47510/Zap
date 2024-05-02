@@ -1,6 +1,12 @@
 name: 'VPNConnect'
-description: 'Se connecter à un VPN avec openvpn'
-author: 'Prayatna Koirala'
+        workflow_dispatch:
+  schedule:
+    - cron: '0 0/2 * * *'
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
 inputs:
   VPN_USER:
     description: 'username'
