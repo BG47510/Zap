@@ -32,12 +32,14 @@ jobs:
 runs:
   using: 'composite'
   steps:
-    - run: |
+   - name: Installer OpenVPN
+     run: |
         sudo apt-get install openvpn -y
-      shell: bash
-    - run: |
+        shell: bash
+   - name: Configurer le fichier ovpn
+     run: |
         echo -e "${{ inputs.VPN_USER }}\n${{ inputs.VPN_PASS }}" > ~/.vpncreds
         sudo openvpn --config "${{inputs.VPN_CONFIG_FILE_PATH}}" --auth-user-pass ~/.vpncreds --daemon
         # Il y a un temps de veille supplémentaire de 10 secondes à la fin de cette action.
         sleep 10s
-      shell: bash
+        shell: bash
