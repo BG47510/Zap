@@ -6,18 +6,18 @@ on:
   workflow_dispatch:
   workflow_call:
    inputs:
-    VPN_USER:
-     description: 'username'
-     required: true
-     default: ''
-    VPN_PASS:
-     description: 'password'
-     required: true
-     default: ''
-    VPN_CONFIG_FILE_PATH:
-     description: '${GITHUB_WORKSPACE}/tunnel/client.ovpn'
-     required: true
-     default: '${GITHUB_WORKSPACE}/tunnel/client.ovpn'
+      VPN_USER:
+      description: 'username'
+      required: true
+      default: ''
+      VPN_PASS:
+       description: 'password'
+       required: true
+       default: ''
+      VPN_CONFIG_FILE_PATH:
+       description: '${GITHUB_WORKSPACE}/tunnel/client.ovpn'
+       required: true
+       default: '${GITHUB_WORKSPACE}/tunnel/client.ovpn'
 
 
 
