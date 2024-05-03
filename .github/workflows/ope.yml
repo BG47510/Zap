@@ -1,5 +1,8 @@
 name: 'VPNConnect'
 on:
+  push:
+    branches:
+    - main
  # schedule:
   #  - cron: '0 */3 * * *' #Configuré pour l’obtenir automatiquement toutes les 3 heures
 
