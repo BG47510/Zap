@@ -1,0 +1,43 @@
+name: 'VPNConnect'
+on:
+ # schedule:
+  #  - cron: '0 */3 * * *' #Configuré pour l’obtenir automatiquement toutes les 3 heures
+
+  workflow_dispatch:
+  workflow_call:
+   inputs:
+    VPN_USER:
+     description: 'username'
+     required: true
+     default: ''
+    VPN_PASS:
+     description: 'password'
+     required: true
+     default: ''
+    VPN_CONFIG_FILE_PATH:
+     description: '${GITHUB_WORKSPACE}/tunnel/client.ovpn'
+     required: true
+     default: '${GITHUB_WORKSPACE}/tunnel/client.ovpn'
+
+
+
+permissions:
+  contents: write
+
+  
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+runs:
+  using: 'composite'
+  steps:
+    - run: |
+        sudo apt-get install openvpn -y
+      shell: bash
+    - run: |
+        echo -e "${{ inputs.VPN_USER }}\n${{ inputs.VPN_PASS }}" > ~/.vpncreds
+        sudo openvpn --config "${{inputs.VPN_CONFIG_FILE_PATH}}" --auth-user-pass ~/.vpncreds --daemon
+        # Il y a un temps de veille supplémentaire de 10 secondes à la fin de cette action.
+        sleep 10s
+      shell: bash
