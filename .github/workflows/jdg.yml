@@ -29,7 +29,7 @@ jobs:
           git config --global user.name "GitHub Action"
       
       - name: actualisation lequipe
-        run: sh ${GITHUB_WORKSPACE}/lequipe.sh
+        run: sh ${GITHUB_WORKSPACE}/jdg.sh
         
       - name: git add
       # Informer Git que vous voulez inclure les mises à jour dans un fichier.
