@@ -1,8 +1,6 @@
 #! /usr/bin/python3
 
 import requests
-import os
-import sys
 import random
 
 ua = [
@@ -23,45 +21,23 @@ headers = {
 
 https ='https://api.proxyscrape.com/?request=displayproxies&proxytype=https'
 yui = requests.get(https).text.strip().split('\n')
-#proxy = random.choice(yui)
+
 
 http ='https://api.proxyscrape.com/?request=displayproxies&proxytype=http'
 aze = requests.get(http).text.strip().split('\n')
-#proxy = random.choice(aze)
-
-#print(proxy)
 
 
-# List of proxies   
-#proxies = [yui, aze]
-#print(proxies)
-# Randomly select a proxy   
-#proxy = random.choice(aze)
+
 proxy = '117.146.231.40:9002'
-#print(proxy)
 
-#response = requests.get('http://api.pluto.tv/v2/channels', proxies={"http": proxy}, timeout=15)
-#print(response)
 
 
 
 site = 'https://hdfauth.ftven.fr/esi/TA?url=https://simulcast-p.ftven.fr/simulcast/France_Info/hls_monde_frinfo/index.m3u8'
-#site = 'https://www.scrapoxy.io/'
-#site = 'http://api.pluto.tv/v2/channels'
+
 response = requests.get(site, headers=headers, proxies={"http": proxy}, timeout=15).text
-#print(response)
 
 
-
-# L’objet Session vous permet de conserver des paramètres entre plusieurs requêtes.
-# Il permet également de conserver les cookies entre toutes les requêtes de la même instance Session.
-# Il peut aussi être utilisés pour fournir des valeurs par défaut aux requêtes (auth, headers)
-
-#s = requests.Session()
-#response = s.get(f'https://hdfauth.ftven.fr/esi/TA?url=https://simulcast-p.ftven.fr/simulcast/France_Info/hls_monde_frinfo/index.m3u8', headers=headers)
-#print(response.text)
-
-#source = response.text
 
 lien = response.replace("index", "France_Info-avc1_2500000=10001")
 
