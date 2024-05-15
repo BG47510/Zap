@@ -17,10 +17,6 @@ headers = {
     "User-Agent": random.choice(ua),
 }
 
-https = 'https://api.proxyscrape.com/?request=displayproxies&proxytype=https'
-yui = requests.get(https).text.strip().split('\n')
-http = 'https://api.proxyscrape.com/?request=displayproxies&proxytype=http'
-aze = requests.get(http).text.strip().split('\n')
 # proxy > Country:China
 proxy = '117.146.231.40:9002'
 site = 'https://hdfauth.ftven.fr/esi/TA?url=https://simulcast-p.ftven.fr/simulcast/France_Info/hls_monde_frinfo/index.m3u8'
