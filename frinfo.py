@@ -26,7 +26,7 @@ yui = requests.get(https).text.strip().split('\n')
 http ='https://api.proxyscrape.com/?request=displayproxies&proxytype=http'
 aze = requests.get(http).text.strip().split('\n')
 
-
+# proxy > Country:China
 
 proxy = '117.146.231.40:9002'
 
