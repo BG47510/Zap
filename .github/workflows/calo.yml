@@ -47,7 +47,7 @@ jobs:
 
       - name: Run Python Script videoM6
         run: |
-         python_output=$(curl -s -H "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1" https://www.livehdtv.net/token.php?stream=m6 | grep -oP "file:\s*"([^"]+\.m3u8[^"]*)")
+         python_output=$(curl -s -H "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1" https://www.livehdtv.net/token.php?stream=m6 | grep -oP "file:\s*"([^"]+\.m3u8[^"]*))
          curl_output2=$(curl -s -e "https://www.livehdtv.net" -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" "$python_output")
          curl_output3=$(echo "$curl_output2" | sed 's|tracks-|https://livetvde.net/m6/tracks-|g')
          echo "$curl_output3" > fr/videom6.m3u8  # Use single > to overwrite existing content
