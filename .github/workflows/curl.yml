@@ -27,7 +27,7 @@ jobs:
           echo "$flux" > fr/videof2.m3u8  # Utiliser un > unique pour écraser le contenu existant   
           sed 's/http:\/\/s2.callofliberty.fr\/HLS-AES\/https/https/g' fr/videof2.m3u8
 
-     - name: générer M3U8 pour fr2
+      - name: générer M3U8 pour fr2
         run: |
           sed 's/http:\/\/s2.callofliberty.fr\/HLS-AES\/https/https/g' fr/videof2.m3u8
 
