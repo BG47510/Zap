@@ -34,7 +34,7 @@ jobs:
           base=$(curl -s -H "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1" http://www.callofliberty.fr/tv/2-france.2/2-france.2.php | grep -oP "source:\s*'\K[^']+(?=',)")
           flux=$(curl -e "http://www.callofliberty.fr/" -A "Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1" $base)
           m3u8=$(echo "$flux" tr "http://s2.callofliberty.fr/HLS-AES/" "")
-          echo "$meu8" > fr/videof2.m3u8  # Utiliser un > unique pour écraser le contenu existant   
+          echo "$m3u8" > fr/videof2.m3u8  # Utiliser un > unique pour écraser le contenu existant   
 
 
 
