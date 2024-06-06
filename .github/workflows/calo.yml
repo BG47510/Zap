@@ -38,7 +38,7 @@ jobs:
 # | getJsonVal "['delivery']['url'][0]"
       - name: Run Script and Generate M3U8 for lci
         run: |
-          base=$(curl -s -H "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1" https://mediainfo.tf1.fr/mediainfocombo/L_LCI?format=hls.json | jq --raw-output '.url')
+          base=$(curl -s -H "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1" https://mediainfo.tf1.fr/mediainfocombo/L_LCI?format=hls | jq --raw-output '.url')
           # jq -r signifie jq --raw-output sans guillemets de chaîne.
           #flux=$(curl -e "http://www.callofliberty.fr/" -A "Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1" $base)
           echo "$base" > fr/lci.m3u8
