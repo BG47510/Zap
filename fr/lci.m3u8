@@ -1,1 +1,77 @@
-null
+{
+  "media": {
+    "id": "L_LCI",
+    "type": "live",
+    "title": "24 h Pujadas, l'info en questions",
+    "useND": "//delivery.tf1.fr/syndication-wrd/L_LCI",
+    "preview": "https://photos.tf1.fr/1280/720/vignette-16-9-24h-pujadas-3d15a6-eb221f-0@1x.jpg",
+    "sqPreview": "https://photos.tf1.fr/400/400/vignette-square-24h-pujadas-cc7b64-b54cfb-0@1x.jpg",
+    "channel": "lci",
+    "channel2": "LCI",
+    "liveTS": 1717689600,
+    "startDate": "2024-06-06T16:00:00Z",
+    "endDate": "2024-06-06T18:00:00Z",
+    "syndicable": false,
+    "shortTitle": "24H PUJADAS, L'info en questions",
+    "programName": "24 h Pujadas, l'info en questions",
+    "channelLogo": "https://photos.tf1.fr/450/0/logo-lci-2020-min-a0978b-4a05fe-0@1x.jpg",
+    "programSlug": "24h-pujadas-l-info-en-questions",
+    "attach": "LCI"
+  },
+  "content": {
+    "title": "24h-pujadas-l-info-en-questions",
+    "emId": "0"
+  },
+  "mediametrie": {
+    "chapters": [
+      {
+        "title": "24h-pujadas-l-info-en-questions",
+        "estatTitle": "24h-pujadas-l-info-en-questions",
+        "estatS1": "syndication",
+        "estatS2": "24-h-pujadas-l-info-en-questions_LCI",
+        "estatS3": "live",
+        "estatS4": "2024-06-06_18:00:00",
+        "estatS5": "null_null",
+        "estatGenre": "desktop_browsing_windows_html5"
+      }
+    ],
+    "id": "261061214968",
+    "mediaId": "L_LCI",
+    "estatMsDm": "LIVE",
+    "estatMsCh": "27",
+    "estatMsCid": "-"
+  },
+  "richmedia": {
+    "site": 577763,
+    "mediaType": "video",
+    "mediaLevel2": 0,
+    "mediaLabel": {
+      "label": "ext::[CONTENTTYPE]::24-h-pujadas-l-info-en-questions_LCI::null_null_24h-pujadas-l-info-en-questions",
+      "contentType": "live"
+    },
+    "refreshDuration": 30,
+    "duration": -1,
+    "isEmbedded": true,
+    "broadcastMode": "live",
+    "webdomain": ""
+  },
+  "fw": {
+    "adManagerSwf": "https://mssl.fwmrm.net/p/tf1_flash_live/AdManager.swf",
+    "id": 506334,
+    "asset": "L_LCI",
+    "profile": "506334:tf1_html5_live",
+    "jingleOutPath": "https://delivery.tf1.fr/pub-dlhigh/b96758db-1206-44a0-8787-a4cc59c589cd",
+    "url": "https://7b9de.v.fwmrm.net",
+    "channel": "lci",
+    "page": "syndication",
+    "section": "lci_page_type_syndication_platform_iphone_mobile_web_media_mobile",
+    "duration": -1
+  },
+  "delivery": {
+    "code": 200,
+    "url": "https://live-lci-hls.cdn-0.diff.tf1.fr/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjaXAiOiI0MC43Ni4yMzguMjExIiwiY21jZCI6IiIsImV4cCI6MTcxNzcxMDExNiwiZ2lkIjoiMzhkNWY1MWYtNzRkMS00NWVmLTk1ZjgtZTY3NTkzYmIzNTBmIiwiaWF0IjoxNzE3Njk1NzE2LCJpc3MiOiJkZWxpdmVyeSIsIm1heGIiOjAsInN0ZW0iOiIvb3V0L3YxLzkxN2FhZDRmYTcyZjQyZjdiYTdmNDg2MjI2ZjU0YmM0L2xjaS1jbWFmIiwic3ViIjoiMzhkNWY1MWYtNzRkMS00NWVmLTk1ZjgtZTY3NTkzYmIzNTBmIn0.nR4BdmY13I7e-uxYqrVrzsiDkp9Z6v1xSItAANsy-J8/out/v1/917aad4fa72f42f7ba7f486226f54bc4/lci-cmaf/index.m3u8",
+    "country": "US",
+    "format": "hls",
+    "stream-id": "L_LCI_hls_nodrm_nomax"
+  }
+}
