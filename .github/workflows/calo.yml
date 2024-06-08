@@ -44,7 +44,7 @@ jobs:
           # jq -r signifie jq --raw-output retire les guillemets de chaîne.
           #flux=$(curl -i $base)
           echo "$base" > fr/lci.m3u8
-          cat  $base
+          
 
 
       - name: Extraire les modifications de la télécommande
