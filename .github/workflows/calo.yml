@@ -16,27 +16,6 @@ jobs:
       - name: Créer un dossier fr
         run: mkdir -p fr
 
-      # https://fr.linux-console.net/?p=3665  https://linux.die.net/man/1/curl   
-      # https://www.ionos.fr/digitalguide/serveur/configuration/commande-sed-de-linux/
-      # tr > https://fr.linux-console.net/?p=30376
-
-      # curl est un outil de transfert de données en ligne de commandes et terminal.
-      # Il prend en charge les protocoles pris en charge (DICT, FILE, FTP, FTPS, GOPHER, HTTP, HTTPS, IMAP,
-      # IMAPS, LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMB, SMBS, SMTP, SMTPS, TELNET et TFTP).
-
-      # user-agent ou -A indique un agent utilisateur.
-      # -s silencieux, pas de sortie.
-      # -H Transmettre un en-tête personnalisé au serveur.
-      # -o dans grep ne correspond qu’à - seule la chaîne correspondante sera affichée.
-      # -P regex
-      # -e URL de référence.
-# echo tr -d 'http://s2.callofliberty.fr/HLS-AES/' > fr/videof5.m3u8
-
-
-# | yq e '.url' # yq JSON est un sous-ensemble de YAML
-# | fx .delivery.url
-# | jshon -e url
-# | getJsonVal "['delivery']['url'][0]"
 
       - name: Exécuter le script et générer M3U8 pour fr2
         run: |
