@@ -17,10 +17,9 @@ jobs:
         run: mkdir -p fr
 
 
-      - name: Exécuter le script et générer M3U8 pour fr2
+      - name: test de code
         run: |
-          github_ip=$(curl https://api.ipify.org)
-          echo "L'adresse IP de github est: $github_ip" > githubip.data
+          curl -s https://readmanganato.com/manga-ng952689 | pup .row-content-chapter a attr{href}
 
 
 
