@@ -40,7 +40,7 @@ jobs:
 
       - name: Run Script and Generate M3U8 for lci
         run: |
-          curl_chrome104 --url https://www.cointracker.io/
+          curl --proxy 198.199.86.11:8080 -k https://httpbin.org/anything\
           
 
 
