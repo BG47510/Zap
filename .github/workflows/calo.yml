@@ -47,9 +47,9 @@ jobs:
           #mu=$(echo $base | sed "s/.m3u8//g")
           mu=$(echo $base | sed "s/.m3u8/ /g")
           #mu=$(echo $base | tr -d '.m3u8')
-          echo "$mu" > fr/lci.m3u8
+          #echo "$mu" > fr/lci.m3u8
           #sed -i "s/index/$mu/g" fr/lci.m3u8
-          #sed -i "s|index|$mu|g" fr/lci.m3u8
+          sed -i "s|index|$mu|g" fr/lci.m3u8
           
 
 
