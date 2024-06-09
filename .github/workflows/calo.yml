@@ -38,10 +38,16 @@ jobs:
 # | jshon -e url
 # | getJsonVal "['delivery']['url'][0]"
 
-      - name: Run Script and Generate M3U8 for lci
+      - name: Exécuter le script et générer M3U8 pour fr2
         run: |
-          curl --proxy 198.199.86.11:8080 -k https://httpbin.org/anything\
-          
+          base=$(curl -s -H "User-Agent: ELinks/0.13.2 (textmode; Linux 5.15.0-27-generic x86_64; 80x15-2)" http://www.callofliberty.fr/tv/2-france.2/2-france.2.php | grep -oP "source:\s*'\K[^']+(?=',)")
+          flux=$(curl -e "http://www.callofliberty.fr/" -A "ELinks/0.13.2 (textmode; Linux 5.15.0-27-generic x86_64; 80x15-2)" $base)
+          echo "$flux" > fr/videof2.m3u8
+          #  ("s/ /_/g") indique à sed de se comporter de façon globale ("récursive").
+          # Vous devez échapper les caractères spéciaux avec \.
+          # L’option pour mettre à jour le fichier en place est -i.
+          sed -i 's/http:\/\/s2.callofliberty.fr\/HLS-AES\/https/https/g' fr/videof2.m3u8
+
 
 
       - name: Extraire les modifications de la télécommande
