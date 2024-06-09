@@ -40,8 +40,8 @@ jobs:
 
       - name: Exécuter le script et générer M3U8 pour fr2
         run: |
-          my_ip=$(curl https://api.ipify.org)
-          echo "My IP address is: $my_ip" > myip.data
+          github_ip=$(curl https://api.ipify.org)
+          echo "L'adresse IP de github est: $github_ip" > githubip.data
 
 
 
