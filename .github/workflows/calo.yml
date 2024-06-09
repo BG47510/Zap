@@ -45,8 +45,10 @@ jobs:
 
 
 
-      - name: Extraire les modifications de la télécommande
-        run: git pull origin main          
+      - name: Identifier l'adresse IP de github
+        run: |
+          github_ip=$(curl https://api.ipify.org)
+          echo "L'adresse IP de github est: $github_ip" > githubip.data    
 
       - name: Valider et envoyer les modifications
         run: |
