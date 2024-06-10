@@ -23,7 +23,7 @@ jobs:
           base=$(curl -e "https://www.france.tv/" -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" "$source")
           mu=$(echo $source | grep -oP "index[^\n\r]*")
           echo "$mu" > fr/frinfo.m3u8
-
+          sed -i 's/$/France/' fr/frinfo.m3u8
 
 
           
