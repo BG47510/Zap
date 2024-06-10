@@ -19,7 +19,7 @@ jobs:
 
       - name: test de code
         run: |
-          curl -x "http://51.159.194.214" "https://httpbin.org/ip"
+          curl "https://proxyium.com/fr/https://httpbin.org/ip"
           
       - name: Identifier l'adresse IP de github
         run: |
