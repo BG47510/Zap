@@ -24,6 +24,7 @@ jobs:
           echo "$base" > fr/frinfo.m3u8
           mu=$(echo $source | grep -oP "[^\n\r]*index")
           sed -i "s|France|$mu|g" fr/frinfo.m3u8
+          sed -i "s|index|France|g" fr/frinfo.m3u8
 
 
           
