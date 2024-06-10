@@ -19,7 +19,7 @@ jobs:
 
       - name: test de code
         run: |
-          curl -x 54.36.122.54:8000 https://api.ipify.org?format=json && echo
+          curl -x http://54.36.122.54:8080/ -fsSL https://download.docker.com/linux/ubuntu/gpg
           
       - name: Identifier l'adresse IP de github
         run: |
