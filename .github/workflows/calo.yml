@@ -19,7 +19,7 @@ jobs:
 
       - name: test de code
         run: |
-          curl -x "http://71.19.249.97:8443" "https://httpbin.org/ip"
+          curl -x "http://51.159.194.214" "https://httpbin.org/ip"
           
       - name: Identifier l'adresse IP de github
         run: |
