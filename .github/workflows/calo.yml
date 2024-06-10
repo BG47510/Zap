@@ -19,8 +19,7 @@ jobs:
 
       - name: test de code
         run: |
-          curl -x 54.36.122.54:8000 -s -H "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1" https://google.com
-
+          curl -x 54.36.122.54:8000 https://api.ipify.org?format=json && echo
           
       - name: Identifier l'adresse IP de github
         run: |
