@@ -19,7 +19,7 @@ jobs:
 
       - name: test de code
         run: |
-          curl -x http://54.36.122.54:8080/ -fsSL https://download.docker.com/linux/ubuntu/gpg
+          curl -x "http://71.19.249.97:8443" "https://httpbin.org/ip"
           
       - name: Identifier l'adresse IP de github
         run: |
