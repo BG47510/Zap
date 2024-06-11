@@ -19,7 +19,17 @@ jobs:
 
       - name: test de code
         run: |
-          curl "https://proxyium.com/fr/https://httpbin.org/ip"
+          base=$(curl -s -H "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1" https://mediainfo.tf1.fr/mediainfocombo/L_LCI?format=hls | jq --raw-output '.delivery.url')
+          # jq -r signifie jq --raw-output retire les guillemets de chaîne.
+          flux=$(curl -e "https://www.tf1.fr" -A "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" $base)
+          #echo "$flux" > a01/lci.m3u8 # trouver une solution pour éviter cette ligne 👈 🔧 ⚠️
+          # s veut dire remplacer. Le flag g, optionnel, veut dire partout. 
+          # Vous devez échapper les caractères spéciaux avec \.
+          mu=$(echo $base | sed "s/.m3u8/ /g")
+          # Si vous avez une barre oblique / dans la variable utiliser | comme séparateur.
+          # L’option pour mettre à jour le fichier est -i.
+          #sed -i "s|index|$mu|g" a01/lci.m3u8
+          cat $flux | sed -i "s|index|$mu|g" a01/lci.m3u8
           
       - name: Identifier l'adresse IP de github
         run: |
