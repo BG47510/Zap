@@ -25,7 +25,7 @@ jobs:
           #echo "$flux" > fr/lci.m3u8 # trouver une solution pour éviter cette ligne 👈 🔧 ⚠️
           # s veut dire remplacer. Le flag g, optionnel, veut dire partout. 
           # Vous devez échapper les caractères spéciaux avec \.
-          mu=$(echo $base | sed "s/.m3u8/ /g")
+          mu=$(echo $base | sed "s/.m3u8//g")
           # Si vous avez une barre oblique / dans la variable utiliser | comme séparateur.
           # L’option pour mettre à jour le fichier est -i.
           #sed -i "s|index|$mu|g" a01/lci.m3u8
