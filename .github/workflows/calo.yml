@@ -29,7 +29,7 @@ jobs:
           # Si vous avez une barre oblique / dans la variable utiliser | comme séparateur.
           # L’option pour mettre à jour le fichier est -i.
           #sed -i "s|index|$mu|g" a01/lci.m3u8
-          echo $flux | sed -i "s|index|$mu|g" fr/lci.m3u8
+          echo $flux | sed -i "s|index|$mu\n|g" fr/lci.m3u8
           #li=$(echo $flux | sed "s|index|$mu|g")
           #echo "$li" > fr/lci.m3u8
           
