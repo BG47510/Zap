@@ -26,7 +26,7 @@ jobs:
 
       - name: Récupère le flux de fr2
         run: 
-          sed "s/France_Info\/hls_monde_frinfo\/France_Info/France_2\/hls_fr2\/France_2/g" | sed -i '4d' fr/frinfo.m3u8 > fr/fr2.m3u8
+          sed -i "s/France_Info\/hls_monde_frinfo\/France_Info/France_2\/hls_fr2\/France_2/g" | sed '4d' fr/frinfo.m3u8 > fr/fr2.m3u8
           
           
       - name: Identifier l'adresse IP de github
