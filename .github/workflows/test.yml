@@ -26,8 +26,6 @@ jobs:
 
       - name: Récupère le flux de fr2
         run: |
-          #sed -e '4d' -i -e "s/France_Info\/hls_monde_frinfo\/France_Info/France_2\/hls_fr2\/France_2/g" fr/frinfo.m3u8 > fr/fr2.m3u8
-          #sed -i '4d' fr/fr2.m3u8
           echo fr/frinfo.m3u8 | sed -e '4d' -i -e "s/France_Info\/hls_monde_frinfo\/France_Info/France_2\/hls_fr2\/France_2/g" fr/fr2.m3u8
 
           
