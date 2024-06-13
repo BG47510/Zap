@@ -22,8 +22,8 @@ jobs:
           source=$(curl -s -H "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1" https://hdfauth.ftven.fr/esi/TA?url=https://live-regions-p.ftven.fr/hls/live/2037716/F3_Paris_IDF/index.m3u8)
           base="fr/frreg.txt"
           mu=$(echo $source | grep -oP "[^\n\r]*live")
-          sed -i -e "s|live|$mu|g" -e "s/2037599\/F3_Aquitaine/2037714\/F3_MidiPyrenees/g" fr/frreg.txt > fr/frocci.m3u8
-
+          # sed -i -e "s|live|$mu|g" -e "s/2037599\/F3_Aquitaine/2037714\/F3_MidiPyrenees/g" fr/frreg.txt > fr/frocci.m3u8
+          echo fr/frreg.txt | sed -i -e "s|live|$mu|g" -e "s/2037599\/F3_Aquitaine/2037714\/F3_MidiPyrenees/g" fr/frocci.m3u8
 
           
       - name: Identifier l'adresse IP de github
