@@ -23,7 +23,7 @@ jobs:
           base="fr/frreg.txt"
           mu=$(echo $source | grep -oP "[^\n\r]*live")
           # sed -i -e "s|live|$mu|g" -e "s/2037599\/F3_Aquitaine/2037714\/F3_MidiPyrenees/g" fr/frreg.txt > fr/frocci.m3u8
-          echo fr/frreg.txt | sed -i -e "s|live|$mu|g" -e "s/2037599\/F3_Aquitaine/2037714\/F3_MidiPyrenees/g" fr/frocci.m3u8
+          echo "$base" | sed -i -e "s|live|$mu|g" -e "s/2037599\/F3_Aquitaine/2037714\/F3_MidiPyrenees/g" fr/frocci.m3u8
 
           
       - name: Identifier l'adresse IP de github
