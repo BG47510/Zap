@@ -19,7 +19,7 @@ jobs:
 
       - name: Récupère le flux
         run: |
-          base=$(curl -s -H "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1" http://api.pluto.tv/v2/channels | jq -r '.[] | -r [._id, .name, .category]')
+          base=$(curl -s -H "User-Agent: Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0.2 Mobile/15E148 Safari/604.1" http://api.pluto.tv/v2/channels | jq -r '.[] | [._id, .name, .category] | .[]')
           echo "$base" > fr/pluto.json
           
           
