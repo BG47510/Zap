@@ -1,12 +1,1 @@
-#EXTM3U
-#EXT-X-VERSION:3
-#EXTINF:9.520000,
-http://pro.one-iptv.com:25443/live/7772544854/9GTNL11788/9372.ts
-#EXTINF:10.480000,
-http://pro.one-iptv.com:25443/live/7772544854/9GTNL11788/9372.ts
-#EXTINF:9.880000,
-http://pro.one-iptv.com:25443/live/7772544854/9GTNL11788/9372.ts
-#EXTINF:10.120000,
-http://pro.one-iptv.com:25443/live/7772544854/9GTNL11788/9372.ts
-#EXTINF:9.640000,
-http://pro.one-iptv.com:25443/live/7772544854/9GTNL11788/9372.ts
+{"code":404,"message":"Not Found"}
