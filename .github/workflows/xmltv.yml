@@ -33,7 +33,7 @@ jobs:
         env:
           TZ: Europe/Paris
       - name: Upload XMLTV file
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: xmltv
           path: xmltv_teleloisirs.xml
@@ -45,7 +45,7 @@ jobs:
       - name: Clone repository
         uses: actions/checkout@v4
       - name: Download XMLTV file
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v4
         with:
           name: xmltv
           path: .
