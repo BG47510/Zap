@@ -1,0 +1,60 @@
+---
+name: XMLTV
+
+on:
+  workflow_dispatch:
+  #schedule:
+    #- cron: '0 6,18 * * *'
+
+jobs:
+  generate_xmltv:
+    runs-on: ubuntu-latest
+    steps:
+      - name: tv_grab_fr_teleloisirs
+        uses: actions/checkout@v4
+        with:
+          repository: BG47510/Zap
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.8'
+      - name: Install Python packages
+        run: pip install -r requirements.txt
+      - name: Configure grabber
+        run: |-
+          rm -f tv_grab_fr_teleloisirs.conf
+          for id in $XMLTV_IDS; do
+              echo "channel=$id.api-tel.programme-tv.net" >>tv_grab_fr_teleloisirs.conf
+          done
+        env:
+          XMLTV_IDS: 4 30
+      - name: Run grabber
+        run: python tv_grab_fr_teleloisirs.py --config-file tv_grab_fr_teleloisirs.conf --days 7 --output xmltv_teleloisirs.xml
+        env:
+          TZ: Europe/Paris
+      - name: Upload XMLTV file
+        uses: actions/upload-artifact@v2
+        with:
+          name: xmltv
+          path: xmltv_teleloisirs.xml
+  export_xmltv:
+    needs:
+      - generate_xmltv
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+      - name: Download XMLTV file
+        uses: actions/download-artifact@v2
+        with:
+          name: xmltv
+          path: .
+      - name: Add XMLTV file to repository
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add xmltv_teleloisirs.xml
+          if ! git diff-index --cached --quiet HEAD --; then
+              git commit -m "$(date)"
+              git push
+          fi
