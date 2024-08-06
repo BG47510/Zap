@@ -20,7 +20,6 @@ jobs:
           python-version: '3.8'
       - name: Install Python packages
         run: pip install -r requirements.txt
-          pip install lxml
       - name: Configure grabber
         run: |-
           rm -f tv_grab_fr_teleloisirs.conf
