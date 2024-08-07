@@ -39,7 +39,7 @@ from typing import Optional
 from typing import Union
 import urllib.parse
 import xml.etree.ElementTree as ET
-#from lxml.etree import Element  # type: ignore # nosec
+from lxml.etree import Element  # type: ignore # nosec
 #from lxml.etree import ElementTree  # nosec
 from pytz.reference import LocalTimezone  # type: ignore
 from requests import Response
