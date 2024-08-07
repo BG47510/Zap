@@ -29,7 +29,7 @@ jobs:
         env:
           XMLTV_IDS: 4 33
       - name: Run grabber
-        run: python tv_grab_fr_teleloisirs.py --config-file tv_grab_fr_teleloisirs.conf --days 2 --output xmltv_teleloisirs.xml
+        run: python tv_grab_fr_teleloisirs.py --config-file tv_grab_fr_teleloisirs.conf --days 1 --output xmltv_teleloisirs.xml
         env:
           TZ: Europe/Paris
       - name: Upload XMLTV file
