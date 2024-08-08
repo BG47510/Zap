@@ -27,7 +27,7 @@ jobs:
               echo "channel=$id.api-tel.programme-tv.net" >>tv_grab_fr_teleloisirs.conf
           done
         env:
-          XMLTV_IDS: 4 33
+          XMLTV_IDS: 30 35
       - name: Run grabber
         run: python tv_grab_fr_teleloisirs.py --config-file tv_grab_fr_teleloisirs.conf --days 1 --output xmltv_teleloisirs.xml
         env:
@@ -37,18 +37,18 @@ jobs:
         with:
           name: xmltv
           path: xmltv_teleloisirs.xml
-  export_xmltv:
-    needs:
-      - generate_xmltv
-    runs-on: ubuntu-latest
-    steps:
-      - name: Clone repository
-        uses: actions/checkout@v4
-      - name: Download XMLTV file
-        uses: actions/download-artifact@v4
-        with:
-          name: xmltv
-          path: .
+  #export_xmltv:
+    #needs:
+      #- generate_xmltv
+    #runs-on: ubuntu-latest
+    #steps:
+      #- name: Clone repository
+        #uses: actions/checkout@v4
+      #- name: Download XMLTV file
+        #uses: actions/download-artifact@v4
+        #with:
+          #name: xmltv
+          #path: .
       - name: Add XMLTV file to repository
         run: |
           git config --global user.email "action@github.com"
