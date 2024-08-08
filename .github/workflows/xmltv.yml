@@ -48,3 +48,7 @@ jobs:
           git config --global user.name "GitHub Action"
           git add xmltv_teleloisirs.xml
           git commit -m "$(date)"
+          
+      - name: Supprime tous les fichiers laissés dans l’espace de travail
+        uses: TooMuch4U/runner-post-cleanup@v2.1
+
