@@ -13,7 +13,7 @@ jobs:
       - name: tv_grab_fr_teleloisirs
         uses: actions/checkout@v4
         with:
-          repository: BG47510/Zap
+          repository: ${{ github.repository }}
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -27,7 +27,7 @@ jobs:
               echo "channel=$id.api-tel.programme-tv.net" >>tv_grab_fr_teleloisirs.conf
           done
         env:
-          XMLTV_IDS: 30 35
+          XMLTV_IDS: 3 34
       - name: Run grabber
         run: python tv_grab_fr_teleloisirs.py --config-file tv_grab_fr_teleloisirs.conf --days 1 --output xmltv_teleloisirs.xml
         env:
