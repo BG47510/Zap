@@ -45,7 +45,7 @@ jobs:
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           git add xmltv_teleloisirs.xml
-          git commit -m "$(date)"
+          git commit -m "Dernière actualisation $(date)"
           
       #- name: Supprime tous les fichiers laissés dans l’espace de travail
         
