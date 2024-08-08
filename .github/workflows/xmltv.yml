@@ -39,8 +39,7 @@ jobs:
         with:
           name: xmltv
           path: xmltv_teleloisirs.xml
-           echo Zap/xmltv_teleloisirs.xml | gzip > Zap/xmltv_teleloisirs.xml.gz
-           gzip -c xmltv_teleloisirs.xml > xmltv_teleloisirs.xml.gz
+           echo gzip -c xmltv_teleloisirs.xml > xmltv_teleloisirs.xml.gz
           
 
       - name: Add XMLTV file to repository
@@ -48,7 +47,4 @@ jobs:
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
           git add xmltv_teleloisirs.xml
-          #if ! git diff-index --cached --quiet HEAD --; then
           git commit -m "$(date)"
-              #git push
-          #fi
