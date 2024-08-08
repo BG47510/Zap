@@ -1,82 +1,542 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <tv source-info-name="Télé Loisirs" source-info-url="https://www.programme-tv.net/" source-data-url="https://api-tel.programme-tv.net" generator-info-name="tv_grab_fr_teleloisirs" generator-info-url="https://github.com/melmorabity/tv_grab_fr_teleloisirs">
-  <channel id="35.api-tel.programme-tv.net">
-    <display-name>Canal+ Sport</display-name>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~channel~2b97b0fb1264c28d.png/500x500/_/image.png" width="500" height="500"/>
-    <url>https://www.programme-tv.net/programme/chaine/programme-canalplus-sport-37.html</url>
+  <channel id="34.api-tel.programme-tv.net">
+    <display-name>Canal+</display-name>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~channel~897223a57e2e8ae5.png/500x500/_/image.png" width="500" height="500"/>
+    <url>https://www.programme-tv.net/programme/chaine/programme-canalplus-2.html</url>
   </channel>
-  <programme start="20240808190000 +0000" stop="20240808220000 +0000" channel="35.api-tel.programme-tv.net">
-    <title>Golf : Open de Greensboro</title>
-    <sub-title>Open de Greensboro</sub-title>
-    <desc>L'an dernier, l'Américain Lucas Glover a remporté le Wyndham Championship à Greensboro. Il décrochait ainsi sa cinquième victoire sur le circuit PGA. Il a devancé au classement son compatriote Russell Henley qui hissé trois fois dans le top 10 en 2020, 2021 et 2022 en Caroline du Nord.</desc>
-    <category lang="fr">Emission sportive</category>
-    <category lang="fr">Golf</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~568ecafdcb056b31.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r309314-golf-circuit-americain/27789297-open-de-greensboro/</url>
-    <episode-num system="xmltv_ns">2023/2024..0/1</episode-num>
+  <channel id="47.api-tel.programme-tv.net">
+    <display-name>France 5</display-name>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~channel~5f611b705ca3f017.png/500x500/_/image.png" width="500" height="500"/>
+    <url>https://www.programme-tv.net/programme/chaine/programme-france-5-9.html</url>
+  </channel>
+  <programme start="20240808213700 +0000" stop="20240808222200 +0000" channel="34.api-tel.programme-tv.net">
+    <title lang="fr">Pourquoi pas Evans ?</title>
+    <title>Why Didn't They Ask Evans?</title>
+    <desc>Victime d'une tentative d'empoisonnement, Bobby voit, à présent, cette affaire avec un autre œil. Des détails lui reviennent peu à peu, comme le visage de la femme sur la photo trouvée sur la victime, ou encore un certain Roger Bassington-Ffrench.</desc>
+    <credits>
+      <director>Hugh Laurie</director>
+      <actor role="Bobby Jones">Will Poulter</actor>
+      <actor role="Frances &quot;Frankie&quot; Derwent">Lucy Boynton</actor>
+      <actor role="le docteur James Nicholson">Hugh Laurie</actor>
+      <actor role="Moira Nicholson">Maeve Dermody</actor>
+      <actor role="le docteur Alwyn Thomas">Conleth Hill</actor>
+      <actor role="Roger Bassington-ffrench">Daniel Ings</actor>
+      <actor role="Ralph 'Knocker' Beadon">Jonathan Jules</actor>
+      <actor role="Henry Bassington">Miles Jupp</actor>
+      <actor role="Sylvia Bassington">Amy Nuttall</actor>
+      <actor role="Richard Jones">Alistair Petrie</actor>
+      <actor role="Bessie">Sophie-Jo Beman</actor>
+      <actor role="Leo Cayman">Richard Dixon</actor>
+      <writer>Hugh Laurie</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série de suspense</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3600</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~255058f1751f9268.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549976265-pourquoi-pas-evans/22062913-pourquoi-pas-evans/</url>
+    <country lang="fr">Royaume-Uni</country>
+    <country lang="fr">États-Unis</country>
+    <episode-num system="xmltv_ns">0/1.1/3.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Will Poulter et Lucy Boynton composent un duo pétillant qui apporte une belle énergie au scénario passionnant animé par de nombreux rebondissements.</review>
+  </programme>
+  <programme start="20240808213500 +0000" stop="20240808230300 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Echappées belles</title>
+    <sub-title>Le charme des jardins anglais</sub-title>
+    <desc>De Londres à l'île de Wight en passant par le Kent, Sophie Jovillard propose une balade verte, fleurie et parfumée à la découverte des jardins britanniques. A la fois romantiques et généreux, sauvages et originaux, naturels mais maîtrisés, ils sont souvent conçus comme de véritables tableaux, loin des formes géométriques des jardins “à la française”. Cet art du jardinage est pratiqué par plus de la moitié de la population de l'Angleterre. 
+Au sommaire : Le jardin à l'anglaise / Une journée à Hyde Park / Les Anglais et la passion du jardin / Le jardinage pour créer du lien / Les cultures du Kent / L'île de Wight et son microclimat.</desc>
+    <credits>
+      <presenter>Sophie Jovillard</presenter>
+    </credits>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine de découvertes</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~12a071f467dcef85.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r4976-echappees-belles/23461678-le-charme-des-jardins-anglais/</url>
+    <episode-num system="xmltv_ns">16..0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Un voyage en ville et bien sûr à la campagne, notamment dans le Kent, jardin de l'Angleterre, qui permet de mieux comprendre la passion des habitants pour le jardinage. Ce documentaire d'Erwan Loussot propose de belles rencontres et des images splendides de paysages champêtres qui donnent envie d'y flâner.</review>
+  </programme>
+  <programme start="20240808213200 +0000" stop="20240808213500 +0000" channel="47.api-tel.programme-tv.net">
+    <title>La p'tite librairie</title>
+    <desc>François Busnel propose chaque jour de découvrir ou redécouvrir une oeuvre française ou étrangère : roman, essai, grand classique ou encore bande dessinée.</desc>
+    <credits>
+      <presenter>François Busnel</presenter>
+    </credits>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine littéraire</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~612e4ee006751fdc.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1549470209-la-ptite-librairie/24354694-la-ptite-librairie/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808205200 +0000" stop="20240808213700 +0000" channel="34.api-tel.programme-tv.net">
+    <title lang="fr">Pourquoi pas Evans ?</title>
+    <title>Why Didn't They Ask Evans?</title>
+    <desc>Sur un parcours de golf surplombant les falaises, le Dr Thomas et Bobby Jones entendent un cri. Le corps d'un homme gît en contrebas. Bobby s'y précipite. Dans un dernier soupir, l'inconnu lui murmure : "Pourquoi n'ont-ils pas demandé à Evans ?".</desc>
+    <credits>
+      <director>Hugh Laurie</director>
+      <actor role="Bobby Jones">Will Poulter</actor>
+      <actor role="Frankie Derwent">Lucy Boynton</actor>
+      <actor role="le docteur James Nicholson">Hugh Laurie</actor>
+      <actor role="Moira Nicholson">Maeve Dermody</actor>
+      <actor role="le docteur Alwyn Thomas">Conleth Hill</actor>
+      <actor role="Roger Bassington-ffrench">Daniel Ings</actor>
+      <actor role="Leo Cayman">Richard Dixon</actor>
+      <actor role="Albert Golf Pro">Martyn Ellis</actor>
+      <actor role="Ralph 'Knocker' Beadon">Jonathan Jules</actor>
+      <actor role="Gladys Roberts">Nia Trussler Jones</actor>
+      <actor role="Sylvia Bassington">Amy Nuttall</actor>
+      <actor role="Ivy Marshall">Carlie Enoch</actor>
+      <writer>Hugh Laurie</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série de suspense</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3600</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~2bbfdb27c7a0b7f8.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549976265-pourquoi-pas-evans/22062912-pourquoi-pas-evans/</url>
+    <country lang="fr">Royaume-Uni</country>
+    <country lang="fr">États-Unis</country>
+    <episode-num system="xmltv_ns">0/1.0/3.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">A la fois réalisateur et acteur, Hugh Laurie livre une adaptation pleine de charme de ce roman d'Agatha Christie. A l'intrigue dense et concise de l'ouvrage, la scénario esquisse des personnages attachants enquêtant avec une certaine candeur. Will Poulter et Lucy Boynton composent ainsi un duo complice.</review>
+  </programme>
+  <programme start="20240808202300 +0000" stop="20240808213200 +0000" channel="47.api-tel.programme-tv.net">
+    <title>C dans l'air</title>
+    <desc>La présentatrice Maya Lauqué donne les clés pour comprendre les sujets d'actualité et polémiques qui intéressent et inquiètent les Français. Elle est accompagnée à chaque émission de quatre experts qui apportent leurs avis et expertises sur l'actualité sociale, politique et culturelle en France et à l’international. L'émission donne également la parole aux téléspectateurs qui peuvent intervenir dans le débat pour interagir avec le plateau ou poser des questions par SMS ou Internet.</desc>
+    <credits>
+      <presenter>Maya Lauqué</presenter>
+    </credits>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine d'information</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~be39f4490a6f97cc.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r5092-c-dans-lair/27790492-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808200000 +0000" stop="20240808205200 +0000" channel="34.api-tel.programme-tv.net">
+    <title lang="fr">Pachinko</title>
+    <title>Pachinko</title>
+    <desc>Solomon affronte son passé avec Hana, atteinte du sida et mourante. Après avoir perdu son emploi, il envisage d’accepter une proposition d'affaires dans l'industrie du pachinko, soulevant des questions éthiques. Sunja partage avec lui des vérités familiales, encourageant Solomon à privilégier l'intégrité sur le succès facile. Hana confronte sa mère et sa grand-mère adoptive Sunja, révélant des tensions familiales profondes. En 1931, Sunja commence un accouchement difficile. Isak, confronté aux défis de la communauté coréenne au Japon, se met à réfléchit à son rôle.</desc>
+    <credits>
+      <director>Justin Chon</director>
+      <actor role="Baek Mozasu">Soji Arai</actor>
+      <actor role="Solomon Baek">Jin Ha</actor>
+      <actor role="Baek Yoseb">Han Joon-Woo</actor>
+      <actor role="Kyunghee jeune">Jeong Eun-Chae</actor>
+      <actor role="Sunja jeune">Minha Kim</actor>
+      <actor role="Hansu">Min-ho Lee</actor>
+      <actor role="Etsuko">Kaho Minami</actor>
+      <actor role="Isak">Steve Noh</actor>
+      <actor role="Naomi">Anna Sawai</actor>
+      <actor role="Tom Andrews">Jimmi Simpson</actor>
+      <actor role="Sunja âgée">Yeo-jeong Yoon</actor>
+      <actor role="Mamoru Yoshii">Louis Ozawa Changchien</actor>
+      <writer>Lauren Yee</writer>
+      <writer>Soo Hugh</writer>
+      <writer>E.J. Koh</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série dramatique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3120</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~98c4c936d05054c5.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1550194038-pachinko/27789305-sans-titre/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">0/2.5/8.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>3/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">L'introduction d'Hana, catalyseur inattendu, propulse la narration vers des territoires plus urgents, plus crus. Lee Min-ho insuffle à Hansu une complexité fascinante, oscillant entre la froideur calculatrice et une vulnérabilité à peine perceptible. Mais c'est Youn Yuh-jung qui vole la vedette, sa Sunja devenant le prisme à travers lequel l'identité coréenne se réfracte, multipliant les nuances d'une diaspora en quête perpétuelle de reconnaissance.</review>
+  </programme>
+  <programme start="20240808190700 +0000" stop="20240808200000 +0000" channel="34.api-tel.programme-tv.net">
+    <title lang="fr">Pachinko</title>
+    <title>Pachinko</title>
+    <desc>En 1931, Sunja et Isak s'installent à Osaka. Confrontée à un environnement inconnu, Sunja lutte pour s'adapter. Elle vend un objet précieux pour régler une dette familiale, gagnant le respect de Kyunghee. Le couple consolide son union dans l'intimité. Koh Hansu, son ancien amant, surveille discrètement sa vie. En 1989, Sunja retourne à Busan avec son fils Mozasu. Elle disperse les cendres de Kyunghee et cherche la tombe de son père, découvrant les transformations de sa ville natale. Elle retrouve Bokhee, une amie d'enfance, ravivant des souvenirs doux-amers.</desc>
+    <credits>
+      <director>Justin Chon</director>
+      <actor role="Baek Mozasu">Soji Arai</actor>
+      <actor role="Solomon Baek">Jin Ha</actor>
+      <actor role="Baek Yoseb">Han Joon-Woo</actor>
+      <actor role="Kyunghee jeune">Jeong Eun-Chae</actor>
+      <actor role="Teen Sunja">Minha Kim</actor>
+      <actor role="Hansu">Min-ho Lee</actor>
+      <actor role="Isak">Steve Noh</actor>
+      <actor role="Naomi">Anna Sawai</actor>
+      <actor role="Tom">Jimmi Simpson</actor>
+      <actor role="Sunja âgée">Yeo-jeong Yoon</actor>
+      <actor role="Byung Ho">Dan C. Kim</actor>
+      <actor role="Older Bokhee">Young-ok Kim</actor>
+      <writer>Franklin jin Rho</writer>
+      <writer>Soo Hugh</writer>
+      <writer>E.J. Koh</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série dramatique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3240</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~62aa2a16d98f165e.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1550194038-pachinko/27789306-sans-titre/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">0/2.4/8.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <premiere/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>3/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Navigant entre l’Osaka de 1931 et la Busan de 1989, la série décortique les mécanismes de l'oppression avec une puissante détermination, montrant comment l'Histoire s'introduit sans retenue jusque dans les replis les plus intimes de l'existence. Le déracinement de Sunja résonne comme un écho aux déplacements forcés de populations, tandis que sa résilience surhumaine incarne la lutte sourde d'un peuple.</review>
+  </programme>
+  <programme start="20240808184800 +0000" stop="20240808202300 +0000" channel="47.api-tel.programme-tv.net">
+    <title>L'histoire d'Annette Zelman</title>
+    <desc>En octobre 1941, les Allemands occupent Paris. Bien que les contrôles de police s’intensifient, Annette Zelman, 20 ans, décide de ne rien changer à sa vie. Faisant fi du couvre-feu, cette étudiante aux Beaux-Arts sort tous les soirs aux quatre coins de la ville. La jeune femme entame bientôt une relation avec Jean Jausion, un jeune rédacteur issu d’une famille bourgeoise. Leur amour est si fort que les deux jeunes gens décident de se marier au plus vite. Mais Hubert et Christiane Jausion s’opposent catégoriquement au mariage de leur fils avec une juive.</desc>
+    <credits>
+      <director>Philippe Le Guay</director>
+      <actor role="Annette Zelman">Ilona Bachelier</actor>
+      <actor role="Christiane Jausion">Julie Gayet</actor>
+      <actor role="Hubert Jausion">Laurent Lucas</actor>
+      <actor role="Jean Jausion">Vassili Schneider</actor>
+      <actor role="Moishe Zelman">Daniel Cohen</actor>
+      <actor role="Kaïla Zelman">Guilaine Londez</actor>
+      <actor role="Michèle Zelman">Louise Legendre</actor>
+      <actor role="Camille Zelman">Noé Genetet</actor>
+      <actor role="Santoni">Alexandre Sigrist</actor>
+      <actor role="Bella">Eugénie Derouand</actor>
+      <actor role="Sylvie">Laure Werckmann</actor>
+      <actor role="Juliette Goublet">Isabelle Mazin</actor>
+      <writer>Emmanuel Salinger</writer>
+      <composer>Bruno Coulais</composer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Téléfilm</category>
+    <category lang="fr">Téléfilm dramatique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">5580</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~f2ca659d357d8eb8.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/cinema/23990264-lhistoire-dannette-zelman/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>3/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Adapté du livre de Laurent Joly, un drame poignant retraçant l'histoire vraie d'Annette Zelman, une étudiante juive de 20 ans qui fut dénoncée à la Gestapo par le père de son fiancé, un jeune écrivain issu d’une famille bourgeoise mais non juif. Réalisé par Philippe Le Guay et écrit par Emmanuel Salinger, le récit de ce destin tragique bénéficie d’une interprétation remarquable et pleine d’intensité.</review>
+  </programme>
+  <programme start="20240808184600 +0000" stop="20240808184800 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Les athlètes de la nature</title>
+    <desc>En comparant les performances d'espèces animales ou végétales à celles d'athlètes de haut niveau, ce programme entend sensibiliser à la protection de la biodiversité.</desc>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine de services</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~0d0ad91ef61c9fa5.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550193986-les-athletes-de-la-nature/27790482-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808184500 +0000" stop="20240808184600 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Moment d'exception</title>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine de services</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~6721301d661e67d1.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550194505-moment-dexception/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808184400 +0000" stop="20240808190700 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Groland le zapoï</title>
+    <desc>Michael Kael, Francis Kuntz, Gustave de Kervern et tous leurs ami(e)s repartent à l'assaut d'une nouvelle saison Grolandaise ! Tous œuvreront dans l'espoir un peu fou que le Zapoï corresponde enfin à sa définition dans Wikipedia : "un phénomène de société russe se traduisant par une consommation d'alcool conduisant à une ivresse de plusieurs jours."</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Divertissement-humour</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~98bce900780010ca.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1549466946-groland-le-zapoi/24492343-groland-le-zapoi/</url>
     <video>
       <present>yes</present>
       <aspect>4:3</aspect>
       <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+  </programme>
+  <programme start="20240808182500 +0000" stop="20240808184400 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Groland le zapoï</title>
+    <desc>Michael Kael, Francis Kuntz, Gustave de Kervern et tous leurs ami(e)s repartent à l'assaut d'une nouvelle saison Grolandaise ! Tous œuvreront dans l'espoir un peu fou que le Zapoï corresponde enfin à sa définition dans Wikipedia : "un phénomène de société russe se traduisant par une consommation d'alcool conduisant à une ivresse de plusieurs jours."</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Divertissement-humour</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~98bce900780010ca.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1549466946-groland-le-zapoi/24442644-groland-le-zapoi/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+  </programme>
+  <programme start="20240808181900 +0000" stop="20240808182500 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Moitié.e.s</title>
+    <sub-title>En couple post-partum</sub-title>
+    <desc>Cette collection de programmes courts, de et avec Pauline Clément parodie les podcast intimistes et met en scène des couples d'aujourd'hui qui parlent de leur vision singulière du couple chez eux.</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~ca4ac4bad6b12df7.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1550113268-moitie-e-s/23364828-en-couple-post-partum/</url>
+    <episode-num system="xmltv_ns">0..0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808174200 +0000" stop="20240808181900 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Jamel Comedy Club</title>
+    <desc>Invités par Jamel, les jeunes talents de la scène comique française - les grands talents de demain - rivalisent d'humour dans le cadre chaleureux du Théâtre Comedy Club. Une nouvelle saison inédite présentée par Waly Dia.</desc>
+    <credits>
+      <presenter>Waly Dia</presenter>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Divertissement</category>
+    <length units="seconds">1680</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~2115094ec70bc2b5.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r306397-jamel-comedy-club/22785736-jamel-comedy-club/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">10.7.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808172400 +0000" stop="20240808174200 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Narvalo</title>
+    <sub-title>Dérapage</sub-title>
+    <desc>Sophie et Justine se font recaler à l'entrée d'une boîte de nuit et parviennent à s'incruster dans une soirée privée. Mais l'ambiance est mauvaise et elles décident de partir. Bien qu'ayant trop bu, Sophie veut absolument rentrer en voiture.</desc>
+    <credits>
+      <director>Matthieu Longatte</director>
+      <actor role="Luigi">Mounir Belhidaoui</actor>
+      <actor role="Justine">Léna Bokobza-Brunet</actor>
+      <actor role="Sophie">Romane Raffin-Delys</actor>
+      <actor role="Anis">Ali Damiche</actor>
+      <actor role="Rapper">Ali D</actor>
+      <actor role="Sacha">Clémentine Billy</actor>
+      <actor role="Fred">Vini Vivarelli</actor>
+      <actor role="le beau pompier">Arthur Ooms</actor>
+      <actor role="Christophe">Nans Dissoubray</actor>
+      <actor role="le mec lourd">Anis Mansour</actor>
+      <writer>Matthieu Longatte</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série humoristique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">900</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp21452821_e_s4_ab.2Ejpg/3000x3000/_/image.jpg" width="3000" height="3000"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549480142-narvalo/21403192-derapage/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1/3.7/8.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+  </programme>
+  <programme start="20240808171500 +0000" stop="20240808184500 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Jeux olympiques de Paris 2024 (France 5)</title>
+    <sub-title>Hockey sur gazon H (finale). Water-polo F (demi-finale). Volley F (demi-finale)</sub-title>
+    <desc>Cyclisme sur piste, Omnium messieurs scratch ¼ de finale, Keirin dames 1/4 finale, Omnium messieurs course tempo, Vitesse messieurs 1/4 finale, Keirin dames 1/2 finales, Omnium messieurs course à l'élimination, Keirin dames finale pour l'or ; Football, Tournoi messieurs. Match pour la médaille de bronze ; Basketball, Tournoi messieurs demi-finale ; Water-polo, Tournoi dames, demi-finales ; Lutte, Libre messieurs 57 kg, 1/2 finale, Libre messieurs 86 kg, 1/2 finale, Libre dames 57 kg, 1/2 finale, Gréco-romaine messieurs 67 kg Bronze, Gréco-romaine messieurs 67 kg, finale, Gréco-romaine messieurs 87 kg Bronze et finale, Libre dames 53 kg bronze et finale</desc>
+    <category lang="fr">Emission sportive</category>
+    <category lang="fr">Multisports</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~8fee2cd1ce2135e6.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r1550193987-multisports-session-du-soir/27790506-hockey-sur-gazon-h-finale-water-polo-f-demi-finale-volley-f-demi-finale/</url>
+    <episode-num system="xmltv_ns">2023/2024..0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
     </video>
     <audio>
       <present>yes</present>
       <stereo>stereo</stereo>
     </audio>
     <premiere/>
+    <subtitles type="deaf-signed"/>
   </programme>
-  <programme start="20240808175500 +0000" stop="20240808190000 +0000" channel="35.api-tel.programme-tv.net">
-    <title>L'oeil des pros</title>
-    <category lang="fr">Magazine sportif</category>
-    <category lang="fr">Golf</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~2abf035d673ea7c9.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1549270118-loeil-des-pros/27563278-sans-titre/</url>
+  <programme start="20240808170700 +0000" stop="20240808172400 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Narvalo</title>
+    <sub-title>Nuit blanche</sub-title>
+    <desc>Cédric était monté à Paris pour passer la nuit en boîte de nuit. Hélas, il s'est fait mettre à la porte et n'a pas d'autre choix que de rentrer chez lui, en banlieue. Un périple qui l'amène à faire des rencontres inattendues.</desc>
+    <credits>
+      <director>Matthieu Longatte</director>
+      <actor role="Freddy">Aïmen Derriachi</actor>
+      <actor role="Cédric">Sayyid El Alami</actor>
+      <actor role="Majid">Dylan Guedj</actor>
+      <actor role="Omar">Adama Bathily</actor>
+      <actor role="Ryan">Paul Deby</actor>
+      <actor role="le SDF cool">Toufik Baalache</actor>
+      <actor role="un contrôleur de train">Mickaïl Yildiz</actor>
+      <actor role="un contrôleur de train">Fabien Mariano Ortiz</actor>
+      <actor role="le SDF ivre">Fabrice Robert</actor>
+      <writer>Matthieu Longatte</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série humoristique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">1200</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp21452824_e_h2_aa.2Ejpg/2048x1024/_/image.jpg" width="2048" height="1024"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549480142-narvalo/21403188-nuit-blanche/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1/3.6/8.0/1</episode-num>
     <video>
       <present>yes</present>
+      <colour>yes</colour>
       <aspect>4:3</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-  </programme>
-  <programme start="20240808165100 +0000" stop="20240808175500 +0000" channel="35.api-tel.programme-tv.net">
-    <title>Cesta Punta : Cesta Punta Summer League</title>
-    <sub-title>Masters 3 de Saint-Jean-de-Luz</sub-title>
-    <desc>La Summer League rassemble les meilleurs joueurs mondiaux de la discipline et se déroule tout l'été à Saint-Jean-de-luz, Pau, et Biarritz. Cette compétition permet également aux jeunes talents de se montrer et d'attirer le regard des recruteurs.</desc>
-    <category lang="fr">Emission sportive</category>
-    <category lang="fr">Cesta punta</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~e7206c0805cab81f.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1550047864-cesta-punta-cesta-punta-summer-league/27764325-masters-3-de-saint-jean-de-luz/</url>
-    <episode-num system="xmltv_ns">2023/2024..0/1</episode-num>
-    <video>
-      <present>yes</present>
-      <aspect>4:3</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-  </programme>
-  <programme start="20240808151100 +0000" stop="20240808165100 +0000" channel="35.api-tel.programme-tv.net">
-    <title>We Are People</title>
-    <desc>Environ un milliard de personnes vivent aujourd'hui avec un handicap. Certains évènements sportifs à l'instar des jeux paralympiques créés en 1960, ont permis de sensibiliser le grand public et les politiques afin de mieux inclure les personnes handicapées dans tous les aspects de la vie sociale. Avec le temps, le sport s'est révélé une des meilleures solutions pour y parvenir. Le Français Michael Jérémiasz, ancien numéro un de tennis en fauteuil, multi-médaillé aux jeux paralympiques, porte-drapeau de l'équipe de France en 2016 à Rio apporte son témoignage sur ces décennies de combat.</desc>
-    <category lang="fr">Documentaire sportif</category>
-    <category lang="fr">Handisport</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~593335c4cd71ac6d.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/22545603-we-are-people/</url>
-    <video>
-      <present>yes</present>
-      <aspect>4:3</aspect>
-      <quality>HDTV</quality>
     </video>
     <audio>
       <present>yes</present>
@@ -84,194 +544,2599 @@
     </audio>
     <previously-shown/>
     <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
   </programme>
-  <programme start="20240808131000 +0000" stop="20240808151100 +0000" channel="35.api-tel.programme-tv.net">
-    <title>Rétro Rugby</title>
-    <desc>Beauden Barrett et les All Blacks ont dû batailler pour remporter leurs deux test-matchs contre l'Angleterre devant leur public. Après leur courte victoire (16-15), les Néo-Zélandais ont décroché un succès (24-17) qui prolonge leur série d'invincibilité à l'Eden Park d'Auckland. Leur dernière défaite sur leur terrain remonte au 3 juillet 1994 avec le triomphe du XV de France.</desc>
-    <category lang="fr">Magazine sportif</category>
-    <category lang="fr">Rugby</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~372cf87a8756d475.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1550194230-retro-rugby/27760020-sans-titre/</url>
-    <video>
-      <present>yes</present>
-      <aspect>4:3</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240808114200 +0000" stop="20240808131000 +0000" channel="35.api-tel.programme-tv.net">
-    <title>Rallye : WRC, Rallye de Finlande</title>
-    <sub-title>Rallye de Finlande</sub-title>
-    <desc>Le Belge Thierry Neuville défend son fauteuil de leader en Finlande. Son principal rival reste le Britannique Elfyn Evans. L'Estonien Ott Tanak s'est emparé de la troisième place reléguant le Français Adrien Fourmaux à la cinquième place. De son côté, le Finlandais Kallë Rovanperä aura à coeur de briller devant son public sur un tracé qu'il connait bien.</desc>
-    <category lang="fr">Emission sportive</category>
-    <category lang="fr">Rallye</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~93a0f64f7e30344c.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1549479406-rallye-championnat-du-monde-des-rallyes/27764309-rallye-de-finlande/</url>
-    <episode-num system="xmltv_ns">2023/2024..0/1</episode-num>
-    <video>
-      <present>yes</present>
-      <aspect>4:3</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-  </programme>
-  <programme start="20240808110300 +0000" stop="20240808114200 +0000" channel="35.api-tel.programme-tv.net">
-    <title>Formula One, le mag</title>
-    <desc>Les journalistes reviennent sur les moments forts du grand prix de Belgique sur le circuit de Spa-Francorchamps. Max Verstappen a remporté les trois dernières éditions.</desc>
-    <category lang="fr">Magazine sportif</category>
-    <category lang="fr">Formule 1</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~fda41128bb0c9c56.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1549477518-formula-one-le-mag/27723923-sans-titre/</url>
-    <video>
-      <present>yes</present>
-      <aspect>4:3</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240808103200 +0000" stop="20240808110300 +0000" channel="35.api-tel.programme-tv.net">
-    <title>Grand Prix</title>
-    <category lang="fr">Magazine sportif</category>
-    <category lang="fr">Formule 1</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~98d802097f455cdc.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1550150022-grand-prix/27751081-sans-titre/</url>
-    <video>
-      <present>yes</present>
-      <aspect>4:3</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-  </programme>
-  <programme start="20240808083300 +0000" stop="20240808103200 +0000" channel="35.api-tel.programme-tv.net">
-    <title>Rétro Rugby</title>
-    <desc>Antoine Hastoy et les Bleus ont débuté leur tournée estivale en Amérique du Sud par une victoire (28-13) contre l'Argentine. Les joueurs de Fabien Galthié devaient ensuite affronter l'Uruguay à Montevideo avant un second match contre les Pumas. retour sur les meilleurs moments de la tournée.</desc>
-    <category lang="fr">Magazine sportif</category>
-    <category lang="fr">Rugby</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~cb8c9390729cddaa.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1550194230-retro-rugby/27723929-sans-titre/</url>
-    <video>
-      <present>yes</present>
-      <aspect>4:3</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-  </programme>
-  <programme start="20240808073300 +0000" stop="20240808083300 +0000" channel="35.api-tel.programme-tv.net">
-    <title>L'oeil des pros</title>
-    <category lang="fr">Magazine sportif</category>
-    <category lang="fr">Golf</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~2abf035d673ea7c9.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1549270118-loeil-des-pros/27563278-sans-titre/</url>
-    <video>
-      <present>yes</present>
-      <aspect>4:3</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-  </programme>
-  <programme start="20240808064200 +0000" stop="20240808073300 +0000" channel="35.api-tel.programme-tv.net">
-    <title>Golf Divers</title>
-    <desc>Les journalistes reviennent sur la carrière de Lee Trevino, sextuple vainqueur dans les tournois majeurs entre 1968 et 1984. Instinctif et talentueux, le golfeur américain d'origine mexicaine a inventé le concept du "ready golf". Il s'agit de jouer le plus rapidement possible le trou le plus proche.</desc>
-    <category lang="fr">Magazine sportif</category>
-    <category lang="fr">Golf</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~bf22b70dda684f8e.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1549478411-golf-divers/27703704-sans-titre/</url>
-    <video>
-      <present>yes</present>
-      <aspect>4:3</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-  </programme>
-  <programme start="20240808054000 +0000" stop="20240808064200 +0000" channel="35.api-tel.programme-tv.net">
-    <title>L'oeil des pros</title>
-    <desc>Julien Xanthopoulos et ses consultants reçoivent un invité pour parler technique de jeu chez les golfeurs professionnels. Ce soir, ils reçoivent le Français Victor Dubuisson, vainqueur de la Ryder cup en 2014, qui évoque son parcours et ses meilleurs coups qui lui ont permis de triompher sur les greens.</desc>
-    <category lang="fr">Magazine sportif</category>
-    <category lang="fr">Golf</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~a874ca6f5ade74c7.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1549270118-loeil-des-pros/26499580-sans-titre/</url>
-    <video>
-      <present>yes</present>
-      <aspect>4:3</aspect>
-      <quality>HDTV</quality>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240807234900 +0000" stop="20240808054000 +0000" channel="35.api-tel.programme-tv.net">
-    <title>Fin des programmes</title>
-    <desc>Nos programmes se terminent pour cette journée, en attendant ceux de demain.</desc>
+  <programme start="20240808170400 +0000" stop="20240808170700 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Déjà vu</title>
+    <desc>Candice Drouet présente "Déjà vu", une série de vidéos avec leur musique originale signée Extended Void, dévoilant les influences et les références cinématographiques qui ont pu inspirer les auteurs des films disponibles sur Canal+.</desc>
     <category lang="fr">Autre</category>
-    <category lang="fr">Fin</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~de3630e2c55702f5.jpg/1280x720/_/image.jpg" width="1280" height="720"/>
-    <url>https://www.programme-tv.net/programme/autre/27852983-fin-des-programmes/</url>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~6f78abf2200de92d.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1549833961-deja-vu/27489146-soudain-seuls/</url>
     <video>
       <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+  </programme>
+  <programme start="20240808170100 +0000" stop="20240808171500 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Terre des mondes</title>
+    <sub-title>Espagne, des déserts et des hommes</sub-title>
+    <desc>Réal : Guilhem Mahieu Ecrit par Alexis Thual (c) 2018 - Commune Image Media / Native Durée : 11'20</desc>
+    <credits>
+      <director>Guilhem Mahieu</director>
+    </credits>
+    <date>2018</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Découvertes</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">540</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~e12e56140412cf58.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r48392-terre-des-mondes/17324600-espagne-des-deserts-et-des-hommes/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808154400 +0000" stop="20240808170100 +0000" channel="47.api-tel.programme-tv.net">
+    <title>C dans l'air</title>
+    <desc>La présentatrice Maya Lauqué donne les clés pour comprendre les sujets d'actualité et polémiques qui intéressent et inquiètent les Français. Elle est accompagnée à chaque émission de quatre experts qui apportent leurs avis et expertises sur l'actualité sociale, politique et culturelle en France et à l’international. L'émission donne également la parole aux téléspectateurs qui peuvent intervenir dans le débat pour interagir avec le plateau ou poser des questions par SMS ou Internet.</desc>
+    <credits>
+      <presenter>Maya Lauqué</presenter>
+    </credits>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine d'information</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~be39f4490a6f97cc.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r5092-c-dans-lair/27790492-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <premiere/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808151800 +0000" stop="20240808170400 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Soudain seuls</title>
+    <desc>Après avoir quitté Brest il y a quelques mois, Ben et Laura, seuls sur leur bateau, effectuent un tour du monde qui doit les amener prochainement à Puerto Edén, au Chili. Mais entretemps, Ben voudrait faire une escale sur une petite île pour observer baleines et aurores boréales. Le couple fait donc une halte sur une superbe île volcanique quand une tempête éclate, les forçant à rester la nuit sur l'île. Le lendemain, à leur réveil, Laura et Ben sont incapables de repérer leur bateau à l'horizon. Ils se créent alors un campement de fortune dans une ancienne base de baleiniers.</desc>
+    <credits>
+      <director>Thomas Bidegain</director>
+      <actor role="Laura">Mélanie Thierry</actor>
+      <actor role="Ben">Gilles Lellouche</actor>
+      <writer>Thomas Bidegain</writer>
+      <writer>Valentine Monteil</writer>
+      <composer>Raphaël</composer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Film d'aventures</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">6780</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~5b05656ee26c6752.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/cinema/25793121-soudain-seuls/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Huit ans après sa première réalisation, Les Cowboys, Thomas Bidegain, un des meilleurs scénaristes du cinéma français, met en scène un second métrage, adapté d'un roman d'Isabelle Autissier. Epaulé par deux comédiens pleinement investis, Bidegain livre un récit d'aventures aux images superbes et au suspense prenant. On regrettera seulement quelques facilités de scénario.</review>
+  </programme>
+  <programme start="20240808144400 +0000" stop="20240808154400 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Des trains pas comme les autres</title>
+    <sub-title>Grèce</sub-title>
+    <desc>On connaît ses petits villages perchés sur des îles sublimes, son acropole, ses terrasses joyeuses. Mais pour aller découvrir la Grèce qui se cache derrière la carte postale, loin des lieux touristiques, Philippe Gougler décide de se laisser porter par les trains. Ceux de tous les jours, là où les visiteurs sont plus rares, et hors saison. Le globe-trotter entame son voyage au pied du mont Olympe, dans la bourgade tranquille de Larissa. Dans un train béni par un prêtre orthodoxe, il se rend à Thessalonique, deuxième plus grande ville du pays derrière Athènes, pour rejoindre des paysages verdoyants.</desc>
+    <credits>
+      <director>Nicolas Boero</director>
+      <writer>Philippe Gougler</writer>
+      <writer>François Gall</writer>
+      <writer>Nicolas Boero</writer>
+      <writer>Bernard d'Abrigeon</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Voyage</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">3120</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~e9fb853b98d8dcd9.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r237-des-trains-pas-comme-les-autres/22822234-grece/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">11.4/8.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Un périple agréable, hors des sentiers battus, dans la vie quotidienne des Grecs, jusqu’à sa rencontre avec l’unique habitante au sacré caractère de l’île de Kiranos. Philippe Gougler montre un autre visage du pays, persuadé que c’est ainsi qu’on peut apprécier la Grèce des vacances, des plages et des villages tout blanc.</review>
+  </programme>
+  <programme start="20240808143400 +0000" stop="20240808144400 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Terre des mondes</title>
+    <sub-title>Corse, les trésors de l'île de beauté</sub-title>
+    <desc>Réal : Jeanne Baron Ecrit par Alexis Thual (c) 2018 Commune Image Media / Native Durée : 7'55</desc>
+    <credits>
+      <director>Jeanne Baron</director>
+      <writer>Alexis Thual</writer>
+    </credits>
+    <date>2018</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Découvertes</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">480</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~e12e56140412cf58.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r48392-terre-des-mondes/26278226-corse-les-tresors-de-lile-de-beaute/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808134000 +0000" stop="20240808143400 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Nus et culottés</title>
+    <sub-title>Objectif Maroc</sub-title>
+    <desc>Après une nuit passée dehors, au pied des montagnes de la Sierra Nevada andalouse dans le sud de l'Espagne, Nans et Mouts, entièrement nus, rejoignent les premières habitations afin de trouver de quoi se vêtir et poursuivre leur périple par la traversée du détroit de Gibraltar. Au Maroc, les deux intrépides globes-trotteurs comptent sur la générosité des personnes rencontrées pour avancer et se rapprocher de leur rêve : rejoindre une oasis. Passant d'une voiture à un camion, d'une charrette à un pick-up, ils découvrent la culture arabe puis berbère avant de s'enfoncer dans le désert.</desc>
+    <credits>
+      <director>Guillaume Mouton</director>
+      <director>Nans Thomassey</director>
+      <director>Charlène Gravel</director>
+    </credits>
+    <date>2012</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Aventures</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">3120</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~e36112a08e2c5d8a.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r43666-nus-et-culottes/3638590-objectif-maroc/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.5/6.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808133400 +0000" stop="20240808151800 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Et la fête continue !</title>
+    <desc>Alors qu'un immeuble s'est effondré rue d'Aubagne, à Marseille, Rosa, une infirmière proche de la retraite, prépare avec d'autres militants, une liste de gauche pour se lancer dans la prochaine élection municipale. Ses deux fils, Minas, médecin marié et père de famille, et Sarkis, patron d'un bar et amoureux d'Alice, une actrice impliquée dans le champ social, sont la joie de cette veuve. Dans la troupe familiale, son frère, Tonio, inlassable militant communiste, héberge Laëtitia, une jeune infirmière qui travaille avec Rosa. Tous se réunissent pour de joyeux repas familiaux.</desc>
+    <credits>
+      <director>Robert Guédiguian</director>
+      <actor role="Rosa">Ariane Ascaride</actor>
+      <actor role="Henri">Jean-Pierre Darroussin</actor>
+      <actor role="Tonio">Gérard Meylan</actor>
+      <actor role="Alice">Lola Naymark</actor>
+      <actor role="Minas">Grégoire Leprince-Ringuet</actor>
+      <actor role="Sarkis">Robinson Stévenin</actor>
+      <actor role="Jackson">Yann Trégouët</actor>
+      <actor role="Laëtitia">Alice Da Luz</actor>
+      <actor role="Paula">Pauline Caupenne</actor>
+      <actor role="monsieur Bernard">Jacques Boudet</actor>
+      <actor role="Gianni">Adrien Jolivet</actor>
+      <actor role="le père de Rosa et Tonio">Xavier Mathieu</actor>
+      <writer>Robert Guédiguian</writer>
+      <writer>Serge Valletti</writer>
+      <composer>Michel Petrossian</composer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Comédie dramatique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">6360</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~0a0712d5c0f7b1ca16031bfbfc764668.jpg/1920x1080/focus-point/559,648/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/cinema/25561670-et-la-fete-continue/</url>
+    <country lang="fr">France</country>
+    <country lang="fr">Italie</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Décidément, Robert Guédiguian continue de surprendre. Si l'on connait son engagement social et politique et la fidélité de sa troupe de formidables comédiens, le réalisateur emblématique de Marseille prouve une fois de plus qu'il navigue souvent avec aisance parmi les genres. Cette fois, il investit le film choral, certes avec quelques maladresses, mais aussi avec une élégance et une générosité salvatrices.</review>
+  </programme>
+  <programme start="20240808124500 +0000" stop="20240808134000 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Au bout c'est la mer</title>
+    <sub-title>Chao Phraya (Thaïlande)</sub-title>
+    <desc>François Pécheux se rend en Thaïlande pour un nouveau périple sur l’eau, plus précisément le long du Chao Phraya, que l'on surnomme le fleuve des Rois. Durant cette descente de près de 370 kilomètres, il emprunte différents bateaux, souvent très atypiques, et rencontre la population locale. Il est surpris par le contraste entre le mode de vie simple du dresseur de canards, de la vendeuse de poisson ou encore du moine qu’il rencontre et le fourmillement de Bangkok, la capitale du pays aux 18 millions d’habitants, où il emprunte le bateau d’une banque ambulante et une pirogue modifiée pour la course grande vitesse.</desc>
+    <credits>
+      <director>Stéphane Jobert</director>
+      <director>Lisa Delahais</director>
+      <writer>François Pécheux</writer>
+      <writer>Lisa Delahais</writer>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Nature</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">3120</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~72ba29be28b5c1a9.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1549438522-au-bout-cest-la-mer/27648193-chao-phraya-thailande/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">6.0.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Un voyage authentique en Thaïlande qui se prête parfaitement à la navigation le long de l’un de ses fleuves les plus importants. Les locaux rencontrés sont très sympathiques et la vision de leurs vies, parfois déroutantes pour nous, offre un dépaysement total. Le tout est présenté par un François Pécheux toujours enjoué.</review>
+  </programme>
+  <programme start="20240808124000 +0000" stop="20240808124500 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Consomag</title>
+    <sub-title>Comment réagir face à une absence de réponse de l'administration ?</sub-title>
+    <desc>Le magazine de l'Institut national de la consommation donne à chacun des conseils pratiques pour mieux consommer.</desc>
+    <date>2024</date>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine du consommateur</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <length units="seconds">120</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~6a5f07b7d00d9c63.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r5150-consomag/26743076-sans-titre/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808114700 +0000" stop="20240808124000 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">La vie en couleurs avec David Attenborough</title>
+    <title>Attenborough's Life in Colour</title>
+    <sub-title>Voir en couleurs</sub-title>
+    <desc>David Attenborough observe comment les animaux utilisent les couleurs pour se protéger, pour mieux chasser ou encore pour trouver des partenaires.</desc>
+    <credits>
+      <director>Adam Geiger</director>
+      <director>Sally Thomson</director>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Nature</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">3540</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~ab79366f701bf83f.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1549624911-la-vie-en-couleurs-avec-david-attenborough/19284396-seeing-in-colour/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808112900 +0000" stop="20240808133400 +0000" channel="34.api-tel.programme-tv.net">
+    <title>A Good Person</title>
+    <desc>Allison est une jeune femme avec un fiancé merveilleux, une carrière florissante et une famille et des amis qui la soutiennent. Cependant, son monde s'effondre lorsqu'elle survit à une tragédie, sortant de sa guérison avec une dépendance aux opioïdes et un terrible chagrin. Au cours des années suivantes, elle noue une amitié improbable avec son futur beau-père qui lui donne une chance de se remettre sur pied et d'aller de l'avant.</desc>
+    <credits>
+      <director>Zach Braff</director>
+      <actor role="Allison">Florence Pugh</actor>
+      <actor role="Daniel">Morgan Freeman</actor>
+      <actor role="Ryan">Celeste O'Connor</actor>
+      <actor role="Diane">Molly Shannon</actor>
+      <actor role="Nathan">Chinaza Uche</actor>
+      <actor role="Simone">Zoe Lister-Jones</actor>
+      <actor role="Molly">Nichelle Hines</actor>
+      <actor role="Jesse">Toby Onwumere</actor>
+      <actor role="Quinn">Ignacio Diaz-Silverio</actor>
+      <actor role="Thomas">Oli Green</actor>
+      <actor role="Mark">Alex Wolff</actor>
+      <actor role="Diego">Brian Rojas</actor>
+      <writer>Zach Braff</writer>
+      <composer>Bryce Dessner</composer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Drame</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">7740</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp22304165_k_h8_aa.2Ejpg/3840x2160/_/image.jpg" width="3840" height="2160"/>
+    <url>https://www.programme-tv.net/cinema/25880449-a-good-person/</url>
+    <country lang="fr">États-Unis</country>
+    <country lang="fr">Canada</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>1/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Des facilités d'écriture mais aussi de l'émotion dans ce mélodrame bien interprété.</review>
+  </programme>
+  <programme start="20240808103400 +0000" stop="20240808112900 +0000" channel="34.api-tel.programme-tv.net">
+    <title>L'enfant de la forêt</title>
+    <sub-title>Québec</sub-title>
+    <desc>Léo Urban s'est fait connaître ces dernières années dans les médias et sur les réseaux sociaux par son extraordinaire agilité à escalader sans protection des arbres dans les forêts d'Andorre, ou de hauts buildings. Dans cette série documentaire, il met ses connaissances et ses capacités physiques singulières à profit pour aider des scientifiques, ou des militants écologistes qui oeuvrent au quotidien pour protéger la nature.</desc>
+    <credits>
+      <director>Tom Dumoulin</director>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Découvertes</category>
+    <category lang="en">News / Current affairs</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~02086e982de8369b.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550153727-lenfant-de-la-foret/25628406-quebec/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.3.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808103000 +0000" stop="20240808103400 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Moitié.e.s</title>
+    <sub-title>En couple libre</sub-title>
+    <desc>"Moitié.e.s" est un programme court qui parodie les podcasts intimistes et qui met en scène des couples d'aujourd'hui qui parlent de leur vision singulière du couple chez eux. Pauline Clément utilise les codes du podcast bienveillant pour déconstruire la vie de couple. Chaque épisode se présente sous la forme d'une interview de deux (ou trois, ou neuf) personnages qui ont choisis de partager leur vie sentimentale et sexuelle.</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~dcf69a0a45d57813.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1550113268-moitie-e-s/23264286-en-couple-libre/</url>
+    <episode-num system="xmltv_ns">0..0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808100200 +0000" stop="20240808114700 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Jeux olympiques de Paris 2024 (France 5)</title>
+    <sub-title>Golf F (2e tour.). Gymnastique rythmique (qualifications)</sub-title>
+    <desc>Gymnastique rythmique, Concours multiple individuel qualifications ; Tennis de table, Par équipes hommes, demi-finale ; Golf, Dames, 2e tour ; Plongeon 10h00 / 12h00 Tremplin 3m femmes, demi-finale ; Escalade, Bloc et Difficulté dames, demi-finale, Vitesse messieurs Finale ; Athlétisme, Heptathlon 100 m haies, Lancer de poids femmes qualifications, 100 m haies femmes repêchage, Heptathlon saut en hauteur, Relais 4 x 100 m femmes, 1er tour, Relais 4 x 100 m - hommes 1er tour, 800 m - hommes repêchage</desc>
+    <category lang="fr">Emission sportive</category>
+    <category lang="fr">Multisports</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~8fee2cd1ce2135e6.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r1550194168-multisports-session-du-midi/27790505-golf-f-2e-tour-gymnastique-rythmique-qualifications/</url>
+    <episode-num system="xmltv_ns">2023/2024..0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <premiere/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808095700 +0000" stop="20240808100200 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Les athlètes de la nature</title>
+    <desc>En comparant les performances d'espèces animales ou végétales à celles d'athlètes de haut niveau, ce programme entend sensibiliser à la protection de la biodiversité.</desc>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine de services</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~0d0ad91ef61c9fa5.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550193986-les-athletes-de-la-nature/27745120-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808094900 +0000" stop="20240808095700 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Terre des mondes</title>
+    <sub-title>Irlande, au pays des géants</sub-title>
+    <desc>Réal : Virginie Schwartz Ecrit par Alexis Thual (c) 2018 Commune Image Media / Native Durée : 7'41</desc>
+    <credits>
+      <director>Virginie Schwartz</director>
+    </credits>
+    <date>2018</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Découvertes</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">660</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~e12e56140412cf58.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r48392-terre-des-mondes/26266515-irlande-au-pays-des-geants/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808085600 +0000" stop="20240808094900 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Silence, ça pousse !</title>
+    <desc>Magazine produit par C Because TV avec la participation de France Télévisions. 2024. Stéphane Marie, expert en jardinage très créatif, donne conseils et astuces pour embellir jardins, terrasses et balcons. De son côté, Carole Tolila est à l'affût de créations originales autour du végétal et d'initiatives écologiques. Rencontre : le terril et les vignes. A Haillicourt dans le Pas-de-Calais, un terril s'offre une deuxième vie. Sur sa face la plus ensoleillée, des vignes ont été plantées. Cette aventure humaine permet une véritable transformation du paysage. Découverte : comment la philosophie peut-elle apprendre des plantes et faire bouger les lignes ? Visite de jardin : à Giverny, le musée des Impressionnismes nous accueille au milieu des jardins.
+*Rencontre : le terril et les vignes*
+1
+*Découverte : la philosophie et les plantes*
+2
+*Visite de jardin : le musée des Impressionnismes de Giverny*
+3
+*Pas de panique : chez Maïté*
+4</desc>
+    <credits>
+      <presenter>Stéphane Marie</presenter>
+      <presenter>Carole Tolila</presenter>
+    </credits>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine du jardinage</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~99baed09f75bc464.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r5094-silence-ca-pousse/26421891-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808084900 +0000" stop="20240808085600 +0000" channel="47.api-tel.programme-tv.net">
+    <title>La p'tite librairie</title>
+    <desc>François Busnel propose chaque jour de découvrir ou redécouvrir une oeuvre française ou étrangère : roman, essai, grand classique ou encore bande dessinée.</desc>
+    <credits>
+      <presenter>François Busnel</presenter>
+    </credits>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine littéraire</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~612e4ee006751fdc.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1549470209-la-ptite-librairie/24354694-la-ptite-librairie/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808084400 +0000" stop="20240808103000 +0000" channel="34.api-tel.programme-tv.net">
+    <title lang="fr">Mystère à Venise</title>
+    <title>A Haunting in Venice</title>
+    <desc>En 1947, Hercule Poirot, qui veut se tenir loin des affaires criminelles, passe une paisible retraite à Venise, où il demande à son bras droit Vitale Portfoglio d'écarter impitoyablement tout solliciteur. Il fait une exception pour Ariadne Oliver, célèbre romancière dont les récits policiers connaissent un véritable succès public. Celle-ci lui demande de l'accompagner à une séance de spiritisme qui doit avoir lieu quelques heures plus tard alors que tous les enfants des environs se sont réunis et déguiser pour célébrer la fête d'Halloween, devenue récemment en vogue en Italie.</desc>
+    <credits>
+      <director>Kenneth Branagh</director>
+      <actor role="Hercule Poirot">Kenneth Branagh</actor>
+      <actor role="Maxime Gérard">Kyle Allen</actor>
+      <actor role="Olga Seminoff">Camille Cottin</actor>
+      <actor role="le docteur Leslie Ferrier">Jamie Dornan</actor>
+      <actor role="Ariadne Oliver">Tina Fey</actor>
+      <actor role="Leopold Ferrier">Jude Hill</actor>
+      <actor role="Nicholas Holland">Ali Khan</actor>
+      <actor role="Desdemona Holland">Emma Laird</actor>
+      <actor role="Rowena Drake">Kelly Reilly</actor>
+      <actor role="Vitale Portfoglio">Riccardo Scamarcio</actor>
+      <actor role="Joyce Reynolds">Michelle Yeoh</actor>
+      <actor role="Alicia Drake">Rowan Robinson</actor>
+      <writer>Michael Green</writer>
+      <composer>Hildur Guðnadóttir</composer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Film policier</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">6180</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~155a4e9174e3d067.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/cinema/25809329-mystere-a-venise/</url>
+    <country lang="fr">Etats-Unis</country>
+    <country lang="fr">Grande-Bretagne</country>
+    <country lang="fr">Italie</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>1/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Après avoir adapté avec faste Le crime de l'Orient-Express et Mort sur le Nil, Kenneth Branagh s'attaque cette fois à un roman un peu moins connu d'Agatha Christie. Il en profite pour en malmener la trame et le contexte pour placer son film sous les auspices du cinéma horrifique. Le résultat, aux décors superbes, est néanmoins desservi par une intrigue brouillonne.</review>
+  </programme>
+  <programme start="20240808082400 +0000" stop="20240808084400 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Groland le zapoï</title>
+    <desc>Michael Kael, Francis Kuntz, Gustave de Kervern et tous leurs ami(e)s repartent à l'assaut d'une nouvelle saison Grolandaise ! Tous œuvreront dans l'espoir un peu fou que le Zapoï corresponde enfin à sa définition dans Wikipedia : "un phénomène de société russe se traduisant par une consommation d'alcool conduisant à une ivresse de plusieurs jours."</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Divertissement-humour</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~087348494f7c94e3.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1549466946-groland-le-zapoi/24254828-groland-le-zapoi/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+  </programme>
+  <programme start="20240808073500 +0000" stop="20240808084900 +0000" channel="47.api-tel.programme-tv.net">
+    <title>C dans l'air</title>
+    <desc>Maya Lauqué décrypte en direct l'actualité en compagnie de quatre experts. En fin d'émission, ils répondent aux questions des téléspectateurs.</desc>
+    <credits>
+      <presenter>Maya Lauqué</presenter>
+    </credits>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine d'information</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~ce016529eb78959d.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r5092-c-dans-lair/27784413-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808073300 +0000" stop="20240808073500 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Un jour, une question</title>
+    <title>1 jour, 1 question</title>
+    <sub-title>C'est quoi l'athlétisme ?</sub-title>
+    <desc>A quoi ça sert ? Ça veut dire quoi ? C'est qui ? Pourquoi c'est comme ça ? Les questions des enfants trouvent quotidiennement une réponse.</desc>
+    <date>2022</date>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Emission jeunesse</category>
+    <length units="seconds">120</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~02ce1d85eea3f3bf.jpg/1280x720/_/image.jpg" width="1280" height="720"/>
+    <url>https://www.programme-tv.net/programme/autre/r308142-un-jour-une-question/21672976-cest-quoi-lathletisme/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">7.977.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808073000 +0000" stop="20240808073300 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Shaun le champion</title>
+    <title>Shaun the Sheep Championsheeps</title>
+    <sub-title>Le 100 M</sub-title>
+    <desc>Patience et longueur de temps font mieux que force ni que rage. Shaun et ses concurrents sont épuisés après deux faux départs mais l'inertie de Shirley lui a laissé toute l'énergie nécessaire pour gagner la course...</desc>
+    <credits>
+      <director>Lee Wilton</director>
+    </credits>
+    <date>2012</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">120</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~3ba504ba0fc173ae.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r354775-shaun-le-champion/9426320-le-100-m/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">0/5.13/21.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808072200 +0000" stop="20240808073000 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Bing</title>
+    <title>Bing</title>
+    <sub-title>L'arbre</sub-title>
+    <desc>Accompagnés de Flop, Bing et Pando vont jouer au parc. Ils observent des tractopelles en train de creuser des emplacements pour planter des arbres et décident d'imiter les machines. Bing est un excavateur tandis que Pando déverse le sable. Flop saute dans le trou et devient l'arbre...</desc>
+    <credits>
+      <director>Nicky Phelan</director>
+      <actor role="Bing (UK)">Elliot Kerley</actor>
+      <actor role="Pando (UK)">Shai Portnoy</actor>
+      <actor role="Flop">Mark Rylance</actor>
+      <writer>Philip Bergkvist</writer>
+      <writer>Ted Dewan</writer>
+      <writer>Lucy Murphy</writer>
+      <writer>Madeleine North</writer>
+    </credits>
+    <date>2014</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~e66c10ad1a39ad45.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r295440-bing/7388113-larbre/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <country lang="fr">Irlande</country>
+    <episode-num system="xmltv_ns">0/4.37/78.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808071500 +0000" stop="20240808072200 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Bing</title>
+    <title>Bing</title>
+    <sub-title>Le cornet de fruits</sub-title>
+    <desc>En entendant le camion de glace de Gilda, Bing convainc Flop d'acheter une glace. Après avoir couru à travers le parc, ils parviennent enfin jusqu'à son camion. Mais Bing fait tomber la glace à la carotte qu'il venait d'acheter. Flop lui offre alors une partie de sa brochette de fruits...</desc>
+    <credits>
+      <director>Nicky Phelan</director>
+      <actor role="Mauve Saffron">Saffron Jones</actor>
+      <actor role="Bing">Elliot Kerley</actor>
+      <actor role="Gilly">Pauline McLynn</actor>
+      <actor role="Skyblue Lorraine">Lorraine Morgan</actor>
+      <actor role="Park Keeper">Nicky Phelan</actor>
+      <actor role="Flop">Mark Rylance</actor>
+      <writer>Ted Dewan</writer>
+      <writer>Lucy Murphy</writer>
+      <writer>Mikael Shields</writer>
+      <writer>An Vrombaut</writer>
+    </credits>
+    <date>2015</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~e66c10ad1a39ad45.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r295440-bing/8279024-le-cornet-de-fruits/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <country lang="fr">Irlande</country>
+    <episode-num system="xmltv_ns">0/4.60/78.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808070800 +0000" stop="20240808071500 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Peppa Pig</title>
+    <title>Peppa Pig</title>
+    <sub-title>L'hôpital</sub-title>
+    <desc>Peppa et ses amis de la garderie accompagnent madame Gazelle à l'hôpital pour rendre une visite à Pedro, qui a une jambe cassée...</desc>
+    <credits>
+      <director>Mark Baker</director>
+      <director>Neville Astley</director>
+      <actor role="le narrateur">John Sparkes</actor>
+      <actor role="Daddy pig">Richard Ridings</actor>
+      <actor role="George Pig">Oliver May</actor>
+      <actor role="George Pig">Alice May</actor>
+      <actor role="Peppa Pig">Lily Snowden-Fine</actor>
+      <writer>Neville Astley</writer>
+      <writer>Mark Baker</writer>
+      <writer>Phil Hall</writer>
+    </credits>
+    <date>2010</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">600</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~39e4012e7fdf8dc6.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r4790-peppa-pig/2545758-lhopital/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">2/16.31/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808070400 +0000" stop="20240808070800 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Peppa Pig</title>
+    <title>Peppa Pig</title>
+    <sub-title>Le bilan de santé</sub-title>
+    <desc>Peppa est une fillette cochon un brin impertinente et quelquefois autoritaire. Elle vit avec ses parents et son petit frère George. Comme tous ses congénères, son passe-temps préféré est de sauter un peu partout dans les flaques de boue, de grogner et de rire. George et Peppa découvrent le monde avec de grands yeux émerveillés et apprennent en même temps tous les mots pour bien se faire comprendre. Ainsi, le bureau de papa Pig, ou la peinture, les fruits ou les poissons n'ont plus de secrets pour eux.</desc>
+    <credits>
+      <director>Mark Baker</director>
+      <director>Neville Astley</director>
+      <actor role="le narrateur">John Sparkes</actor>
+      <writer>Neville Astley</writer>
+      <writer>Mark Baker</writer>
+      <writer>Phil Hall</writer>
+    </credits>
+    <date>2019</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">300</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~4afdd5d6d39c443a.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r4790-peppa-pig/20789152-le-bilan-de-sante/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">6/16.20/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808065900 +0000" stop="20240808070400 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Peppa Pig</title>
+    <title>Peppa Pig</title>
+    <sub-title>Les docteurs</sub-title>
+    <desc>Après ses premières vacances à l'étranger qu'elle a beaucoup appréciées, il est temps pour Peppa de rentrer à la maison. Elle est impatiente de retrouver Suzy et Goldie...</desc>
+    <credits>
+      <director>Mark Baker</director>
+      <director>Neville Astley</director>
+      <actor role="Narrator">Jon Sparkes</actor>
+      <actor role="Mummy Pig">Morwenna Banks</actor>
+      <actor role="Daddy Pig">Richard Ridings</actor>
+      <actor role="George Pig">Oliver May</actor>
+      <actor role="Peppa Pig">Lily Snowden-Fine</actor>
+      <writer>Neville Astley</writer>
+      <writer>Mark Baker</writer>
+      <writer>Phil Hall</writer>
+    </credits>
+    <date>2018</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">300</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~8ae04f30c99b8a06.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r4790-peppa-pig/12337058-les-docteurs/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">4/16.38/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808065100 +0000" stop="20240808065900 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Pompon Ours</title>
+    <sub-title>Fais un voeu</sub-title>
+    <desc>Lors d'une nuit étoilée, Pompon, Rita et Georges admirent le ciel. Quand ils voient une étoile filante, Rita fait le voeu de rencontrer un extraterrestre.</desc>
+    <credits>
+      <writer>Thierry Gaudin</writer>
+      <writer>Christelle Rosset</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~afd673c453b4e836.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549557906-pompon-ours/26519354-fais-un-voeu/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1/2.58/72.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808064400 +0000" stop="20240808065100 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Pompon Ours</title>
+    <sub-title>La porte cachée</sub-title>
+    <desc>Pompon, petit ourson, a 6 ans. Il est espiègle, gai et joueur mais, surtout, il possède un talent qui fait la joie de sa meilleure amie Rita et de ses parents.</desc>
+    <credits>
+      <writer>Thierry Gaudin</writer>
+      <writer>Christelle Rosset</writer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~3b7fc6371991b6ec.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549557906-pompon-ours/26667027-la-porte-cachee/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1/2.72/72.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808063600 +0000" stop="20240808064400 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Masha et Michka</title>
+    <title>Маша и Медведь</title>
+    <sub-title>La fièvre de la danse</sub-title>
+    <desc>Le panda rend visite à Michka, chaleureusement accueilli par Macha, ravie de retrouver son ami. Chez Macha, le cochon se découvre un don inné pour la danse et le professeur improvisé sillonne alors la campagne, à la quête d'élèves auxquels transmettre sa passion...</desc>
+    <credits>
+      <director>Vlad Bayramgulov</director>
+      <director>Andrey Belyaev</director>
+      <actor role="Masha">Alina Kukushkina</actor>
+      <actor role="Medved">Boris Kutnevich</actor>
+      <actor role="Panda">Mark Kutnevich</actor>
+      <actor role="Masha">Angelica Keamy</actor>
+    </credits>
+    <date>2013</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">600</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~fec35dae8a014b44.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r38199-masha-et-michka/7302287-la-fievre-de-la-danse/</url>
+    <country lang="fr">Russie</country>
+    <episode-num system="xmltv_ns">1/17.19/26.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808063000 +0000" stop="20240808063600 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Masha et Michka</title>
+    <title>Маша и Медведь</title>
+    <sub-title>Pour l'amour de l'art</sub-title>
+    <desc>Masha adore faire des bêtises dont les conséquences cocasses retombent malheureusement sur son ami l'ours Michka. La patience de celui-ci est mise à rude épreuve. Il lui arrive de punir ou de s'éloigner de Masha quand elle est allée trop loin, mais la tendresse qui lie ces deux amis finit toujours par prendre le dessus.</desc>
+    <date>2020</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~25d44d5d3f8f35d7.jpg/1280x720/_/image.jpg" width="1280" height="720"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r38199-masha-et-michka/24327298-pour-lamour-de-lart/</url>
+    <country lang="fr">Russie</country>
+    <episode-num system="xmltv_ns">4/17.14.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808062300 +0000" stop="20240808063000 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Masha et Michka</title>
+    <title>Маша и Медведь</title>
+    <sub-title>Activités créatives</sub-title>
+    <desc>Masha adore faire des bêtises dont les conséquences cocasses retombent malheureusement sur son ami l'ours Michka. La patience de celui-ci est mise à rude épreuve. Il lui arrive de punir ou de s'éloigner de Masha quand elle est allée trop loin, mais la tendresse qui lie ces deux amis finit toujours par prendre le dessus.</desc>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">360</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~25d44d5d3f8f35d7.jpg/1280x720/_/image.jpg" width="1280" height="720"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r38199-masha-et-michka/26564662-activites-creatives/</url>
+    <country lang="fr">Russie</country>
+    <episode-num system="xmltv_ns">6/17.0.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808061500 +0000" stop="20240808062300 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Bluey</title>
+    <title>Bluey</title>
+    <sub-title>Le squash</sub-title>
+    <desc>L'oncle Stripe et Bandit jouent au squash avec l'aide de leurs arbitres, Bingo et Bluey.</desc>
+    <credits>
+      <director>Richard Jeffery</director>
+      <actor role="Dad">David McCormack</actor>
+      <actor role="Uncle Stripe">Dan Brumm</actor>
+      <writer>Dan Brumm</writer>
+      <writer>Joe Brumm</writer>
+    </credits>
+    <date>2020</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~3b317b3ebe934109.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549459708-bluey/19227517-le-squash/</url>
+    <country lang="fr">Australie</country>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">1/3.3/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808061500 +0000" stop="20240808082400 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Le petit blond de la casbah</title>
+    <desc>Un cinéaste se retrouve à Alger, sa ville natale. Accompagné de son jeune fils, il doit présenter son nouveau film, qui retrace son enfance dans l'Algérie d'hier. Le film ressuscite tout un univers touchant et une galerie de portraits hauts en couleurs. Le cinéaste se promène dans la ville, et à travers les souvenirs d'un petit garçon pas tout à fait comme les autres, il revit et faire revivre des moments de bonheur, de rires et de larmes.</desc>
+    <credits>
+      <director>Alexandre Arcady</director>
+      <actor role="Antoine enfant">Léo Campion</actor>
+      <actor role="Dinah">Marie Gillain</actor>
+      <actor role="Sania">Christian Berkel</actor>
+      <actor role="Jacob">Pascal Elbé</actor>
+      <actor role="Lisa">Jean Benguigui</actor>
+      <actor role="Coco">Dany Brillant</actor>
+      <actor role="monsieur Benaïm">Michel Boujenah</actor>
+      <actor role="Blanche">Judith El Zein</actor>
+      <actor role="Antoine adulte">Patrick Mille</actor>
+      <actor role="Josette adulte">Valérie Kaprisky</actor>
+      <actor role="Dinah âgée">Françoise Fabian</actor>
+      <actor role="l'employé d'EGA">Franck Dubosc</actor>
+      <writer>Alexandre Arcady</writer>
+      <composer>Armand Amar</composer>
+      <composer>Anne-Sophie Versnaeyen</composer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Comédie dramatique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">7680</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp25799245_v_h2_ab.2Ejpg/2048x1024/_/image.jpg" width="2048" height="1024"/>
+    <url>https://www.programme-tv.net/cinema/25416183-le-petit-blond-de-la-casbah/</url>
+    <country lang="fr">France</country>
+    <country lang="fr">Tunisie</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>1/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Du Coup de Sirocco à Ce que le jour doit à la nuit en passant par Là-bas, mon pays, Alexandre Arcady revient régulièrement, par le biais de fictions, souvent très personnelles, dans l'Algérie qui l'a vu grandir. Cette fois, le ton est ouvertement autobiographique et vraiment attachant. Il compense les nombreuses maladresses qui affaiblissent le film.</review>
+  </programme>
+  <programme start="20240808060900 +0000" stop="20240808061500 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Bluey</title>
+    <title>Bluey</title>
+    <sub-title>La piscine</sub-title>
+    <desc>En préparant leurs affaires pour aller à la psicine, Bluey et Papa se moquent de Maman car ils la trouvent excessive dans son organisation. Mais en arrivant à la piscine, ils réalisent qu'elle avait raison, puisqu'ils ont oublié beaucoup d'objets importants...</desc>
+    <credits>
+      <director>Richard Jeffery</director>
+      <director>Joe Brumm</director>
+      <actor role="Dad">David McCormack</actor>
+      <actor role="Mum">Melanie Zanetti</actor>
+      <writer>Joe Brumm</writer>
+    </credits>
+    <date>2018</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~5edc4ec84fa1b384.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549459708-bluey/16261221-la-piscine/</url>
+    <country lang="fr">Australie</country>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">0/3.21/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808060200 +0000" stop="20240808061500 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Comment ratatiner</title>
+    <sub-title>Les plantes carnivores</sub-title>
+    <desc>Sorcières, petits diables, ogres, fantômes et monstres cachés sous le lit n'ont qu'à bien se tenir s'ils ne veulent pas finir ratatinés. Avec quelques recettes quasi imparables, l'intrépide Chloé, ratatineuse en chef de 8 ans, n'a aucune intention de se laisser terrasser par la frousse. Accompagnée de Spouki, un monstre qu'elle pense avoir apprivoisé et qui est aussi le reflet de sa propre peur, la petite fille mène une guerre sans merci contre les monstres de tous poils.</desc>
+    <credits>
+      <actor role="Chloé">Fily Keita</actor>
+      <actor role="Spouky">Martial Le Minoux</actor>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">660</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~bc9a3e2df7bd68f5.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1550175775-comment-ratatiner/26219730-les-plantes-carnivores/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/1.11/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808060200 +0000" stop="20240808060900 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Bluey</title>
+    <title>Bluey</title>
+    <sub-title>L'école de natation</sub-title>
+    <desc>Maman, papa et Bingo doivent passer deux épreuves de natation, mais il s'avère très difficile de plaire à la sévère professeure de Gros Poissons Magaret (alias Bluey).</desc>
+    <credits>
+      <director>Richard Jeffery</director>
+      <actor role="Maman">Melanie Zanetti</actor>
+      <actor role="Papa">David McCormack</actor>
+      <writer>Joe Brumm</writer>
+    </credits>
+    <date>2020</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~3ee613721a776d89.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549459708-bluey/20561801-lecole-de-natation/</url>
+    <country lang="fr">Australie</country>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">1/3.33/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808055600 +0000" stop="20240808060200 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Bluey</title>
+    <title>Bluey</title>
+    <sub-title>L'appel vidéo</sub-title>
+    <desc>Bluey et Bingo adorent chatter par vidéo avec Muffin et Socks afin de toutes dessiner ensemble. Lorsque Muffin ne veut pas laisser son tour à Socks, les enfants découvrent ce qui se passe quand on ne veut pas partager.</desc>
+    <credits>
+      <director>Richard Jeffery</director>
+      <actor role="Táta">David McCormack</actor>
+      <actor role="Maminka">Melanie Zanetti</actor>
+      <actor role="Strýček Stripe">Dan Brumm</actor>
+      <actor role="Teta Trixie">Myf Warhurst</actor>
+      <writer>Joe Brumm</writer>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~8d0d48b1205e554a.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549459708-bluey/22892234-bluey/</url>
+    <country lang="fr">Australie</country>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">2/3.22/50.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808055100 +0000" stop="20240808060200 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Comment ratatiner</title>
+    <sub-title>Les monstres de la baignoire</sub-title>
+    <desc>Spouki n'est pas content quand il découvre que Chloé est partie à la plage, le laissant présenter l'émission tout seul. Mais en fait, c'était en fait une blague.</desc>
+    <credits>
+      <actor role="Chloé">Fily Keita</actor>
+      <actor role="Spouky">Martial Le Minoux</actor>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">660</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~bc9a3e2df7bd68f5.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1550175775-comment-ratatiner/26219729-les-monstres-de-la-baignoire/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/1.10/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808054900 +0000" stop="20240808055600 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Bluey</title>
+    <title>Bluey</title>
+    <sub-title>La réunion de famille</sub-title>
+    <desc>Bluey et Bingo adorent chatter par vidéo avec Muffin et Socks afin de toutes dessiner ensemble. Lorsque Muffin ne veut pas laisser son tour à Socks, les enfants découvrent ce qui se passe quand on ne veut pas partager.</desc>
+    <credits>
+      <director>Richard Jeffery</director>
+      <actor role="Dad">David McCormack</actor>
+      <actor role="Mum">Melanie Zanetti</actor>
+      <writer>Joe Brumm</writer>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~c8780ed37459c52e.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549459708-bluey/22892233-chat-video/</url>
+    <country lang="fr">Australie</country>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">2/3.22/50.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808054400 +0000" stop="20240808054900 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Simon Superlapin</title>
+    <sub-title>Mission anti-poux</sub-title>
+    <desc>Simon et sa petite bande de copains deviennent des super héros et se transforment en Superlapin, Super Lou, Super Ferdi et Capitaine Lapin.</desc>
+    <credits>
+      <director>Julien Cayot</director>
+      <writer>Thomas Forwood</writer>
+      <writer>Stephanie Blake</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">300</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~524886dcd231a20b.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549975461-simon-superlapin/23300918-mission-anti-poux/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/4.25/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808054000 +0000" stop="20240808055100 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Comment ratatiner</title>
+    <sub-title>Les bruits qui fichent la trouille</sub-title>
+    <desc>Chloé a un super gros rhume aujourd'hui. Alors que Spouki cherche à lui faire peur, la gamine ne calcule pas le monstre. Celui-ci se vexe, croyant qu'elle l'ignore alors que tout simplement, Chloé a les oreilles bouchées et ne l'a pas entendu.</desc>
+    <credits>
+      <actor role="Chloé">Fily Keita</actor>
+      <actor role="Spouky">Martial Le Minoux</actor>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">660</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~bc9a3e2df7bd68f5.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1550175775-comment-ratatiner/26219728-les-bruits-qui-fichent-la-trouille/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/1.9/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808053900 +0000" stop="20240808054400 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Simon Superlapin</title>
+    <sub-title>Mission : sauvons le chat !</sub-title>
+    <desc>Simon et sa petite bande de copains deviennent des super héros et se transforment en Superlapin, Super Lou, Super Ferdi et Capitaine Lapin.</desc>
+    <credits>
+      <director>Julien Cayot</director>
+      <writer>Thomas Forwood</writer>
+      <writer>Stephanie Blake</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">300</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~6e0bd33bb801ed9b.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549975461-simon-superlapin/22255297-mission-sauvons-le-chat/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/4.9/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808053400 +0000" stop="20240808053900 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Simon Superlapin</title>
+    <sub-title>Sauvons la reine des fourmis</sub-title>
+    <desc>Simon et sa petite bande de copains deviennent des super héros et se transforment en Superlapin, Super Lou, Super Ferdi et Capitaine Lapin.</desc>
+    <credits>
+      <director>Julien Cayot</director>
+      <writer>Thomas Forwood</writer>
+      <writer>Stephanie Blake</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">300</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~0988b58ba67c2159.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549975461-simon-superlapin/22617799-sauvons-la-reine-des-fourmis/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/4.14/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808052900 +0000" stop="20240808053400 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Simon Superlapin</title>
+    <sub-title>Grenouilles en danger</sub-title>
+    <desc>Simon et sa petite bande de copains deviennent des super héros et se transforment en Superlapin, Super Lou, Super Ferdi et Capitaine Lapin.</desc>
+    <credits>
+      <director>Julien Cayot</director>
+      <writer>Thomas Forwood</writer>
+      <writer>Stephanie Blake</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">300</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~feb17627beb39535.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549975461-simon-superlapin/23726192-grenouilles-en-danger/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/4.32/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808052800 +0000" stop="20240808054000 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Mush-Mush &amp; les Champotes</title>
+    <sub-title>Pofiteroles</sub-title>
+    <desc>Pof veut impressionner Sushi-Mushi en utilisant la vapeur qui sort de son chapeau pour cuisiner. Mais Sushi-Mushi croit que Pof veut lui faire concurrence.</desc>
+    <credits>
+      <director>Joeri Christiaen</director>
+      <actor role="Mush-Mush">Jules De Jongh</actor>
+      <actor role="Lilit">Kaycie Chase</actor>
+      <actor role="Sep">Teresa Gallagher</actor>
+      <writer>Elfriede de Rooster</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">660</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~4cd37c00609f1e53.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549479256-mush-mush-les-champotes/25691477-pofiteroles/</url>
+    <country lang="fr">France</country>
+    <country lang="fr">Belgique</country>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">1/3.11.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808051700 +0000" stop="20240808052900 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Le Petit Prince et ses amis</title>
+    <sub-title>Mes chers moutons</sub-title>
+    <desc>Elijah et Charlotte, deux enfants, entament un voyage fabuleux dans les étoiles avec le Petit Prince et son équipage, le Renard, un mécanicien et bricoleur de génie, et la Rose, une intelligence artificielle. Chaque étoile, chaque petite planète est l'occasion de se faire de nouveaux amis et de découvrir un nouvel univers. Ce périple extraordinaire à bord de l'astérovaisseau permet de résoudre tous les problèmes du quotidien de Charlotte et Elijah..</desc>
+    <credits>
+      <director>Fabien Brandily</director>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">660</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~ef6a9b7510ab0db3.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1550160324-le-petit-prince-et-ses-amis/26519352-mes-chers-moutons/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/1.47/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808051600 +0000" stop="20240808052800 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Mush-Mush &amp; les Champotes</title>
+    <sub-title>Le plus petit des problèmes</sub-title>
+    <desc>Musho propose à Rosée de s'occuper des Champoupons pour qu'elle puisse faire une sieste. Le Champâgé pense que ce sera un jeu d'enfant, mais les Champoupons vont repousser les limites de Musho et de Starmush qui se retrouve embarqué malgré lui dans cette tâche...</desc>
+    <credits>
+      <director>Joeri Christiaen</director>
+      <actor role="Mush-Mush">Jules De Jongh</actor>
+      <actor role="Lilit">Kaycie Chase</actor>
+      <actor role="Sep">Teresa Gallagher</actor>
+      <writer>Elfriede de Rooster</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">660</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~1dc929fcfea8615a.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549479256-mush-mush-les-champotes/25620244-le-plus-petit-des-problemes/</url>
+    <country lang="fr">France</country>
+    <country lang="fr">Belgique</country>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">1/3.10.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808050500 +0000" stop="20240808051700 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Le Petit Prince et ses amis</title>
+    <sub-title>Le voyage d'Elijah</sub-title>
+    <desc>Elijah et Charlotte, deux enfants, entament un voyage fabuleux dans les étoiles avec le Petit Prince et son équipage, le Renard, un mécanicien et bricoleur de génie, et la Rose, une intelligence artificielle. Chaque étoile, chaque petite planète est l'occasion de se faire de nouveaux amis et de découvrir un nouvel univers. Ce périple extraordinaire à bord de l'astérovaisseau permet de résoudre tous les problèmes du quotidien de Charlotte et Elijah..</desc>
+    <credits>
+      <director>Fabien Brandily</director>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">660</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~ef6a9b7510ab0db3.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1550160324-le-petit-prince-et-ses-amis/26507235-le-voyage-delijah/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/1.46/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808050400 +0000" stop="20240808051600 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Mush-Mush &amp; les Champotes</title>
+    <sub-title>Serpents vs fourmis</sub-title>
+    <desc>Mush-Mush aimerait ne plus avoir peur des serpents, et Truffe ne plus avoir peur des fourmis. Ils décident de s'entraider pour vaincre leurs peurs.</desc>
+    <credits>
+      <director>Joeri Christiaen</director>
+      <actor role="Mush-Mush">Jules De Jongh</actor>
+      <actor role="Lilit">Kaycie Chase</actor>
+      <actor role="Sep">Teresa Gallagher</actor>
+      <writer>Elfriede de Rooster</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">660</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~2dcddc25b2f6420c.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549479256-mush-mush-les-champotes/25612838-serpents-vs-fourmis/</url>
+    <country lang="fr">France</country>
+    <country lang="fr">Belgique</country>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">1/3.9.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808045800 +0000" stop="20240808050500 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Mumfie</title>
+    <sub-title>Mumfie porte bonheur</sub-title>
+    <desc>Mumfie, le jeune éléphant optimiste, vit de folles aentures avec avec ses amis, Pinky, le cochon volant, et Jelly Bean, la méduse aux couleurs changeantes.</desc>
+    <credits>
+      <writer>Mathieu Bouckenhove</writer>
+      <writer>Cyril Deydier</writer>
+      <writer>Hadrien Krasker</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~81c908cc09e5fc35.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549944761-mumfie/21845331-mumfie-porte-bonheur/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/1.33/78.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808045100 +0000" stop="20240808045800 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Mumfie</title>
+    <sub-title>Mumfie ce héros</sub-title>
+    <desc>Mumfie, le jeune éléphant optimiste, vit de folles aentures avec avec ses amis, Pinky, le cochon volant, et Jelly Bean, la méduse aux couleurs changeantes.</desc>
+    <credits>
+      <writer>Mathieu Bouckenhove</writer>
+      <writer>Cyril Deydier</writer>
+      <writer>Hadrien Krasker</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~81c908cc09e5fc35.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549944761-mumfie/21838227-mumfie-ce-heros/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/1.47/78.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808044400 +0000" stop="20240808045100 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Mumfie</title>
+    <sub-title>Les aventuriers du coffret perdu</sub-title>
+    <desc>Mumfie, le jeune éléphant optimiste, vit de folles aentures avec avec ses amis, Pinky, le cochon volant, et Jelly Bean, la méduse aux couleurs changeantes.</desc>
+    <credits>
+      <writer>Mathieu Bouckenhove</writer>
+      <writer>Cyril Deydier</writer>
+      <writer>Hadrien Krasker</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~81c908cc09e5fc35.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549944761-mumfie/21710439-les-aventuriers-du-coffret-perdu/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/1.12/78.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808043500 +0000" stop="20240808050400 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Ça va bien se passer, Dadju</title>
+    <desc>Après les longs mois de confinements, les évènements culturels sont de nouveau autorisés. Dadju et son équipe partent en Afrique pour effectuer une longue tournée de concerts en débutant par le Congo, le pays de ses parents. L'artiste apprécie tout particulièrement le lien fort qu'il a tissé avec son public qui le suit sur les réseaux sociaux.</desc>
+    <credits>
+      <director>Téo Frank</director>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Musique</category>
+    <category lang="en">News / Current affairs</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~8a8acf69cf9d23ce.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550160846-ca-va-bien-se-passer-dadju/25444871-ca-va-bien-se-passer-dadju/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.3/6.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Cet épisode épouse les formes d'un récit de voyage intéressant à travers le Congo en compagnie de l'artiste qui y puise son inspiration.</review>
+  </programme>
+  <programme start="20240808043400 +0000" stop="20240808044400 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Sam le pompier</title>
+    <title>Fireman Sam</title>
+    <sub-title>En avant l'équipe des baroudeurs</sub-title>
+    <desc>A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <credits>
+      <director>Connor Ferguson</director>
+      <actor role="Norman Price">Steven Kynman</actor>
+      <actor role="PC Malcolm Williams">Colin McFarlane</actor>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">540</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~94be9a25f63f3ff3.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r11707-sam-le-pompier/25195950-en-avant-lequipe-des-baroudeurs/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">13/15.13/26.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808042600 +0000" stop="20240808043400 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Sam le pompier</title>
+    <title>Fireman Sam</title>
+    <sub-title>Les héros de la montagne</sub-title>
+    <desc>A Pontypandy, village du Pays de Galles, Sam le pompier est un garçon courageux et généreux. Armé de sa lance à incendie, il est serviable et toujours à l'écoute des autres. A chaque occasion, il prête main forte aux habitants et donne des conseils aux plus jeunes pour éviter les accidents. Efficace, il a toujours une solution, même dans les situations les plus critiques.</desc>
+    <credits>
+      <director>Cameron Lizotte</director>
+      <actor role="Norman Price">Steven Kynman</actor>
+      <actor role="Tom Thomas">David Carling</actor>
+      <actor role="Mandy Flood (UK)">Su Douglas</actor>
+      <actor role="Sarah Jones">Tegwen Tucker</actor>
+      <actor role="Arnold McKinley">John Hasler</actor>
+      <actor role="Lizzie Sparkes">Jo Wyatt</actor>
+    </credits>
+    <date>2020</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">540</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~94be9a25f63f3ff3.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r11707-sam-le-pompier/19361840-les-heros-de-la-montagne/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">5/15.1.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808041600 +0000" stop="20240808042600 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Sam le pompier</title>
+    <title>Fireman Sam</title>
+    <sub-title>Hors piste</sub-title>
+    <desc>De nouveaux héros rejoignent Sam et ses amis, et d'incroyables véhicules - comme ce premier aéroglisseur de la caserne - viennent en aide à l'équipe de secours de Pontypandy. Le sergent de police Rose Ravani et son tout nouvel hélicoptère plongent dans l'action ; le chien policier Shadow et le cheval policier Kilodes permettent des sauvetages d'animaux ; la biologiste marine Jodie participe, elle, aux sauvetages en mer pour essayer de garder les océans propres...</desc>
+    <credits>
+      <director>Katrina Hadley</director>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">540</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~7cb3aa254dff187c.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r11707-sam-le-pompier/21949313-hors-piste/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">6/15.7.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808041300 +0000" stop="20240808043500 +0000" channel="34.api-tel.programme-tv.net">
+    <title lang="fr">Derniers jours de l'été</title>
+    <title>Last Days Of Summer</title>
+    <desc>Le voisin de Darwish a été abattu dans le hall de l'immeuble. Le jeune homme se retrouve alors coincé sur la scène du crime avec la police alors qu'il souhaite simplement réparer son ventilateur cassé.</desc>
+    <credits>
+      <director>Nayef Hammoud</director>
+      <actor>Johnny Arbid</actor>
+      <actor>Samer Bisharat</actor>
+      <actor>Ala Dakka</actor>
+      <actor>Ofer Hayoun</actor>
+      <actor>Yara Elham Jarrar</actor>
+      <actor>Amir Khoury</actor>
+      <actor>Adel Abou Raya</actor>
+      <actor>Adnan Tarabshi</actor>
+      <actor>Assem Zoabi</actor>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Court métrage</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">1200</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~f4d0074beff2eecd.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/cinema/24491020-derniers-jours-de-lete/</url>
+    <country lang="fr">Israël</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <subtitles type="onscreen"/>
+  </programme>
+  <programme start="20240808040800 +0000" stop="20240808041600 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Les contes de Lupin</title>
+    <sub-title>La jarre et la source miraculeuse</sub-title>
+    <desc>Rêvant d'être comme les héros qu'il admire, Lupin va de conte en conte pour vivre leurs aventures. Mais quand on est un louveteau fougueux et plein de défauts, il n'est pas si facile d'atteindre le " happy end " ! Heureusement, il peut compter sur l'aide du narrateur pour apprendre de ses bêtises. Un jour c'est sûr, il deviendra un Grand Gentil Loup !</desc>
+    <credits>
+      <director>Antoine Colomb</director>
+      <director>Nicolas Le Nevé</director>
+      <director>Laura Muller</director>
+      <actor role="le narrateur">Matthew Geczy</actor>
+      <actor role="Lupin">Kaycie Chase</actor>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">480</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~30e3aeaccb14b3eb.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549605939-les-contes-de-lupin/27032658-la-jarre-et-la-source-miraculeuse/</url>
+    <country lang="fr">France</country>
+    <country lang="fr">Chine</country>
+    <country lang="fr">Italie</country>
+    <episode-num system="xmltv_ns">1/2.27.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808040000 +0000" stop="20240808040800 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Les contes de Lupin</title>
+    <sub-title>L'apprenti magicien et le sorcier</sub-title>
+    <desc>Rêvant d'être comme les héros qu'il admire, Lupin va de conte en conte pour vivre leurs aventures. Mais quand on est un louveteau fougueux et plein de défauts, il n'est pas si facile d'atteindre le " happy end " ! Heureusement, il peut compter sur l'aide du narrateur pour apprendre de ses bêtises. Un jour c'est sûr, il deviendra un Grand Gentil Loup !</desc>
+    <credits>
+      <director>Antoine Colomb</director>
+      <director>Nicolas Le Nevé</director>
+      <director>Laura Muller</director>
+      <actor role="le narrateur">Matthew Geczy</actor>
+      <actor role="Lupin">Kaycie Chase</actor>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~30e3aeaccb14b3eb.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549605939-les-contes-de-lupin/26985311-lapprenti-magicien-et-le-sorcier/</url>
+    <country lang="fr">France</country>
+    <country lang="fr">Chine</country>
+    <country lang="fr">Italie</country>
+    <episode-num system="xmltv_ns">1/2.23.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808035800 +0000" stop="20240808040000 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Les comptines de Masha</title>
+    <title>Маша и Медведь. Песенки для малышей</title>
+    <sub-title>L'araignée au chapeau</sub-title>
+    <desc>Une fan de contes de fées, ça c'est Masha ! Suivez-la à travers ces aventures magnifiques.</desc>
+    <credits>
+      <director>Denis Chervyatsov</director>
+      <writer>Marina Sycheva</writer>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">120</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~ec8a6f9e3f37f331.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549467093-les-comptines-de-masha/19710252-laraignee-au-chapeau/</url>
+    <country lang="fr">Russie</country>
+    <episode-num system="xmltv_ns">0/3.9/26.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808035100 +0000" stop="20240808035800 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Hé, Oua-Oua</title>
+    <title>Hey Duggee</title>
+    <sub-title>Le badge héros</sub-title>
+    <desc>Chaque matin, les parents emmènent leurs p'tits loups chez Oua-Oua, un gros chien particulièrement affectueux à mi-chemin entre l'animateur et le professeur d'école maternelle. En sa compagnie et sous son oeil bienveillant, les enfants trouvent les conditions idéales pour s'amuser, apprendre et découvrir le monde qui les entoure.</desc>
+    <credits>
+      <director>Grant Orchard</director>
+      <actor role="le narrateur">Alexander Armstrong</actor>
+      <actor role="Betty, la pieuvre">Jasmine Bartholomew</actor>
+      <actor role="Tag, le rhinocéros">Alfie Sanderson</actor>
+      <actor role="Nini, la souris">Poppy Boyes</actor>
+      <actor role="Youpi, le crocodile">Duke Davis</actor>
+      <actor role="Oua-Oua">Sander Jones</actor>
+      <writer>Sam Morrison</writer>
+    </credits>
+    <date>2019</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~6b454bb67592417e.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r298589-he-oua-oua/21716547-le-badge-heros/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">2/4.44.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808034400 +0000" stop="20240808035100 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Hé, Oua-Oua</title>
+    <title>Hey Duggee</title>
+    <sub-title>Le badge feuilleton télé</sub-title>
+    <desc>Chaque matin, les parents emmènent leurs p'tits loups chez Oua-Oua, un gros chien particulièrement affectueux à mi-chemin entre l'animateur et le professeur d'école maternelle. En sa compagnie et sous son oeil bienveillant, les enfants trouvent les conditions idéales pour s'amuser, apprendre et découvrir le monde qui les entoure.</desc>
+    <credits>
+      <director>Grant Orchard</director>
+      <actor role="le narrateur">Alexander Armstrong</actor>
+      <actor role="Betty, la pieuvre">Jasmine Bartholomew</actor>
+      <actor role="Tag, le rhinocéros">Alfie Sanderson</actor>
+      <actor role="Nini, la souris">Poppy Boyes</actor>
+      <actor role="Youpi, le crocodile">Duke Davis</actor>
+      <actor role="Oua-Oua">Sander Jones</actor>
+      <writer>Grant Orchard</writer>
+    </credits>
+    <date>2019</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">480</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~609322bcf200d95f.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r298589-he-oua-oua/21784943-le-badge-feuilleton-tele/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">2/4.38.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808033900 +0000" stop="20240808034400 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Simon</title>
+    <sub-title>On veut pas partir</sub-title>
+    <desc>Simon et son petit frère Gaspard ont passé des vacances chez leurs grands-parents et Papa et Maman viennent les chercher. Quand Papa les appelle pour partir, les deux frères vont tout faire pour retarder le départ en cachant les sacs puis le doudou de Gaspard. En vain. Mais, au moment de partir, Papa a égaré les clés de la voiture. Les frères se prennent au jeu de la chasse aux clés, et c'est Simon qui les retrouve...</desc>
+    <credits>
+      <director>Julien Cayot</director>
+      <actor role="Simon">Salomé Keren Zeitoun</actor>
+      <actor role="Gaspard">Tony Sanial</actor>
+      <actor role="Eva">Magali Bonfils</actor>
+      <actor role="André">Mathias Casartelli</actor>
+      <actor role="Patricia">Angèle Humeau</actor>
+    </credits>
+    <date>2017</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">300</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~c1760c4eed5243f0.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r424022-simon/10018294-on-veut-pas-partir/</url>
+    <country lang="fr">France</country>
+    <country lang="fr">Monaco</country>
+    <episode-num system="xmltv_ns">0/22.40/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808033300 +0000" stop="20240808033900 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Simon</title>
+    <sub-title>Tout à l'heure</sub-title>
+    <desc>Jouant aux super héros dans le parc, Simon et Ferdinand s'amusent à vouloir sauver un oiseau poursuivi par un chat. Ce faisant, ils bousculent Lily qui lâche son cerf-volant, qui s'envole. Super Lapin et Giga Ferdinand se font fort de le retrouver. Mais les super héros vont devoir également remplir des missions comme récupérer la pelle du copain de Gaspard ou arrêter le caddie d'une vieille dame qui dévale un chemin. Simon et Ferdinand finissent par apercevoir le cerf-volant dans un arbre. Ils le décrochent et le rapportent à Lily...</desc>
+    <credits>
+      <director>Julien Cayot</director>
+      <actor role="Simon">Salomé Keren Zeitoun</actor>
+      <actor role="Gaspard">Tony Sanial</actor>
+      <actor role="Eva">Magali Bonfils</actor>
+      <actor role="André">Mathias Casartelli</actor>
+      <actor role="Patricia">Angèle Humeau</actor>
+    </credits>
+    <date>2017</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">300</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~d7e46c619ed3119c.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r424022-simon/10651241-tout-a-lheure/</url>
+    <country lang="fr">France</country>
+    <country lang="fr">Monaco</country>
+    <episode-num system="xmltv_ns">0/22.47/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808032800 +0000" stop="20240808033300 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Simon</title>
+    <sub-title>Tricheur</sub-title>
+    <desc>Simon et Gaspard jouent aux super héros, mais qui, de Super Lapin ou de Capitaine Lapin, est le plus fort du monde ? Difficile de répondre, car les deux frères se retrouvent à chaque fois à égalité. Simon propose alors de voir "qui sera cap" d'entrer dans le trou de l'arbre creux, où fait tout noir. Capitaine Lapin a peur, mais pas Super Lapin ! Finalement, Simon aide son frère à le rejoindre, mais ils aperçoivent deux petits yeux rouges et ressortent très vite de l'arbre. Lorsqu'ils constatent que ce n'est qu'un écureuil, ils rient, mais ne savent toujours pas qui est le plus fort du monde...</desc>
+    <credits>
+      <director>Julien Cayot</director>
+      <actor role="Simon">Salomé Keren Zeitoun</actor>
+      <actor role="Gaspard">Tony Sanial</actor>
+      <actor role="Eva">Magali Bonfils</actor>
+      <actor role="André">Mathias Casartelli</actor>
+      <actor role="Patricia">Angèle Humeau</actor>
+    </credits>
+    <date>2017</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">300</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~1f0e53a6cd97c713.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r424022-simon/9699836-tricheur/</url>
+    <country lang="fr">France</country>
+    <country lang="fr">Monaco</country>
+    <episode-num system="xmltv_ns">0/22.37/52.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808032100 +0000" stop="20240808032800 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Oggy Oggy</title>
+    <sub-title>Le cerf volant</sub-title>
+    <desc>Curieux, Oggy Oggy a toujours hâte de vivre de nouvelles aventures avec ses amis. Sa maladresse le conduit parfois à faire des erreurs, mais ses idées géniales et farfelues gagnent toujours.</desc>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~53913cd082353ae3.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549912052-oggy-oggy/24560937-le-cerf-volant/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1/3.21/39.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808031400 +0000" stop="20240808032100 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Oggy Oggy</title>
+    <sub-title>La peluche</sub-title>
+    <desc>Curieux, Oggy Oggy a toujours hâte de vivre de nouvelles aventures avec ses amis. Sa maladresse le conduit parfois à faire des erreurs, mais ses idées géniales et farfelues gagnent toujours.</desc>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~3e4592e8a4eb8f65.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549912052-oggy-oggy/24560930-la-peluche/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1/3.18/39.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808030700 +0000" stop="20240808031400 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Oggy Oggy</title>
+    <sub-title>La quête du glaçon / Mallow et le robot / Un fruit délicieux</sub-title>
+    <desc>Plongez dans l'univers coloré de l'adorable chat Oggy Oggy et de ses amis pour des aventures déjantées et incroyables !</desc>
+    <credits>
+      <director>Jean Cayrol</director>
+      <director>Cédric Guarneri</director>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">1320</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~aeb3da70c95c58f3.jpg/1280x720/_/image.jpg" width="1280" height="720"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549912052-oggy-oggy/23383011-la-quete-du-glacon-mallow-et-le-robot-un-fruit-delicieux/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">1/3.0/39.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808030000 +0000" stop="20240808030700 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Oggy Oggy</title>
+    <sub-title>Le papillon</sub-title>
+    <desc>Curieux, Oggy Oggy a toujours hâte de vivre de nouvelles aventures avec ses amis. Sa maladresse le conduit parfois à faire des erreurs, mais ses idées géniales et farfelues gagnent toujours.</desc>
+    <credits>
+      <director>Frédéric Martin</director>
+      <director>Sandra Derval</director>
+      <writer>Delphine Dubos</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'animation</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~db7aa8678a098be5.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549912052-oggy-oggy/24075535-le-papillon/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/3.70/48.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808024900 +0000" stop="20240808030000 +0000" channel="47.api-tel.programme-tv.net">
+    <title lang="fr">Les 100 merveilles du monde</title>
+    <title>Les 100 merveilles du monde</title>
+    <sub-title>Temple d'Edfou</sub-title>
+    <desc>Visite de 100 des plus beaux sites du monde, dont la plupart sont classés Patrimoine mondial de l'Unesco, principalement en Amérique du Sud, Asie et Moyen Orient.</desc>
+    <credits>
+      <director>Jacques Vichet</director>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Découvertes</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">420</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~2df693609607a2b6.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r308785-les-100-merveilles-du-monde/21667181-temple-dedfou/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808024100 +0000" stop="20240808024900 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Terre des mondes</title>
+    <sub-title>Cap-Vert, un pays arc-en-ciel</sub-title>
+    <desc>Réal : Adèle Salmon Ecrit par Alexis Thual (c) 2018 Commune Image Media / Plan Large Production Durée : 8'00</desc>
+    <credits>
+      <director>Adèle Salmon</director>
+      <writer>Alexis Thual</writer>
+    </credits>
+    <date>2018</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Découvertes</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">480</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~e12e56140412cf58.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r48392-terre-des-mondes/26920154-cap-vert-un-pays-arc-en-ciel/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808023900 +0000" stop="20240808041300 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Face à face : une histoire de champions</title>
+    <desc>Cinq titres olympiques, treize fois médaillé d'or aux championnats monde, sept gros globes de cristal en coupe du monde... Martin Fourcade est l'un des meilleurs biathlètes de l'histoire. Sur les pentes de la station des Saisies, le champion français initie à sa discipline un autre champion, Robert Pirès. Vainqueur notamment de la coupe du monde de football en 1998 et de l'Euro 2000, l'ancien ailier d'Arsenal part en immersion pendant une semaine dans la montagne, découvrant l'univers enneigé et rigoureux de Martin Fourcade. En sa compagnie, le footballeur s'entraîne au ski et au tir à la carabine dans un but bien précis : défier son mentor sur son terrain.</desc>
+    <credits>
+      <director>Christophe David</director>
+      <director>Julien Magne</director>
+      <director>Cédric Terrasson</director>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Sport</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">6720</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~1d81dd7fda47a9d0.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/24301067-face-a-face-une-histoire-de-champions/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808023500 +0000" stop="20240808023900 +0000" channel="34.api-tel.programme-tv.net">
+    <title>La boîte à questions</title>
+    <desc>Sacrifiant au rituel d'une émission au format maintenant bien connu, une célébrité répond aux questions qui lui sont posées en off. C'est une interview aussi décalée que décontractée qui en découle. Les invités se révèlent souvent sous un autre angle, avec spontanéité.</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~c506a2787b6f8c84.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1549434441-la-boite-a-questions/27380317-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808021500 +0000" stop="20240808024100 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Une maison, un artiste</title>
+    <sub-title>Paul Gauguin, la buvette de la plage en Bretagne</sub-title>
+    <desc>En 1882, Paul Gauguin abandonne son emploi de courtier en bourse pour se consacrer entièrement à sa passion, la peinture. Après plusieurs séjours ici et là, notamment à l‘étranger, il rentre en métropole et rejoint, début 1888, en Bretagne, un groupe de peintres expérimentaux en abandonnant femme et enfants. Il séjourne au bord de la mer, à « la Buvette de la Plage ». Le peintre est heureux dans ce nouveau cadre plus authentique où il peut librement exprimer son art, lui qui recherchait du neuf et du lumineux dans sa vie.</desc>
+    <credits>
+      <director>François Chayé</director>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Culture</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">1560</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~f32dbd6e66c598e1.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r66302-une-maison-un-artiste/27634329-paul-gauguin-la-buvette-de-la-plage-en-bretagne/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">11..0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Une découverte intéressante d'une partie importante de la vie de l'artiste peintre, qui met en lumière sa recherche d'une vie plus simple et authentique, et qui mêle d'une manière astucieuse images d'archives et actuelles, mais également des photos, tableaux et témoignages.</review>
+  </programme>
+  <programme start="20240808010100 +0000" stop="20240808023500 +0000" channel="34.api-tel.programme-tv.net">
+    <title>La Vénus d'argent</title>
+    <desc>Jeanne a 24 ans. Elle vit dans une caserne en banlieue avec son père gendarme, son petit frère et sa petite sœur. Elle a fait le pari de réussir sa vie dans le monde de la finance. Pas pour la gloire ou le luxe, mais parce que c'est le moyen qu'elle a trouvé pour gagner sa liberté.</desc>
+    <credits>
+      <director>Héléna Klotz</director>
+      <actor role="Jeanne">Pomme</actor>
+      <actor role="Augustin">Niels Schneider</actor>
+      <actor role="Farès">Sofiane Zermani</actor>
+      <actor role="Elia">Anna Mouglalis</actor>
+      <actor role="Adrien">Grégoire Colin</actor>
+      <actor role="Camille">Irina Lellouche Klotz</actor>
+      <actor role="Baptiste">Gabriel Merz Chammah</actor>
+      <actor role="le patron de World Aid">Mathieu Amalric</actor>
+      <actor role="la stagiaire">Blandine Lagorce</actor>
+      <actor role="Ethan">Paul Beaurepaire</actor>
+      <actor>Denis Ménochet</actor>
+      <actor role="Safia">Safia Nolin</actor>
+      <writer>Héléna Klotz</writer>
+      <writer>Noé Debré</writer>
+      <writer>Emily Barnett</writer>
+      <composer>Ulysse Klotz</composer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Drame</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">5880</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp25801522_v_s4_aa.2Ejpg/3000x3000/_/image.jpg" width="3000" height="3000"/>
+    <url>https://www.programme-tv.net/cinema/25743332-la-venus-dargent/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">De la naïveté et quelques maladresses de scénario dans cette oeuvre globalement séduisante.</review>
+  </programme>
+  <programme start="20240808004600 +0000" stop="20240808021500 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Les docs de La Grande Librairie</title>
+    <sub-title>Balzac</sub-title>
+    <desc>90 romans, des pièces de théâtre, des contes, 25 œuvres inachevées et la création de 2 500 personnages. Le meilleur moyen d'entrer dans l'œuvre monumentale d'Honoré de Balzac (1799-1850) c'est de raconter sa vie : une aventure littéraire, sentimentale, politique et financière, qui voit un jeune homme de province s’imposer comme l’écrivain le plus célèbre de son temps. Ce portrait s'appuie sur des rencontres avec de grands spécialistes de l'œuvre et de la vie de Balzac – Titiou Lecoq, Michelle Perrot, Marc Dugain, Dan Franck, Adrien Goetz, Sarah Chiche – à la manière d'une enquête en immersion.</desc>
+    <credits>
+      <director>Adrien Soland</director>
+      <director>François Busnel</director>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Lettres</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">5400</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~b74278efc9ab6a5a.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550155888-les-docs-de-la-grande-librairie/24894757-balzac/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0.0.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240807235500 +0000" stop="20240808004600 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Silence, ça pousse !</title>
+    <desc>Magazine produit par C Because TV avec la participation de France Télévisions. 2024. Stéphane Marie, expert en jardinage très créatif, donne conseils et astuces pour embellir jardins, terrasses et balcons. De son côté, Carole Tolila est à l'affût de créations originales autour du végétal et d'initiatives écologiques. Rencontre : François Alix n'est pas jardinier mais il aime les fleurs. Ce sculpteur ne les cultive pas mais il plante dans son jardin celles qu'il fabrique en métal. Découverte : le pouvoir de séduction des fleurs. Pour se perpétuer, les plantes à fleurs ont développé des stratégies très élaborées parfois surprenantes qui vont au-delà de la couleur et du parfum. Visite de jardin : les Jardins d'Albert Kahn.
+*Rencontre : François Alix*
+1
+*Découverte : le pouvoir de séduction des fleurs*
+2
+*Visite de jardin : les Jardins d'Albert Kahn*
+3
+*Pas de panique : retour chez Peggy*
+4</desc>
+    <credits>
+      <presenter>Stéphane Marie</presenter>
+      <presenter>Carole Tolila</presenter>
+    </credits>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine du jardinage</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~99baed09f75bc464.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r5094-silence-ca-pousse/26376368-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240807232000 +0000" stop="20240808010100 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Monsieur le Maire</title>
+    <desc>Maire d'un petit village de montagne au pied du Mont-Blanc, Paul Barral se bat pour maintenir les commerces et préserver l'école d'une fermeture annoncée. Alors qu'il cherche désespérément une solution pour attirer de nouvelles familles, l'arrivée de mères célibataires en situation difficile, dont Joe-Lynn, chanteuse au franc-parler et ses deux enfants, fait vite des étincelles dans ce village paisible.</desc>
+    <credits>
+      <director>Karine Blanc</director>
+      <director>Michel Tavarès</director>
+      <actor role="Paul Barral">Clovis Cornillac</actor>
+      <actor role="Joe-Lynn">Eye Haïdara</actor>
+      <actor role="Véronique Mas">Laurence Côte</actor>
+      <actor role="Tony">Jean-Pierre Martins</actor>
+      <actor role="Martine">Sophie Guillemin</actor>
+      <actor role="Sofia">Shirel Nataf</actor>
+      <actor role="Julie">Cassie Makoumbo Fowe</actor>
+      <actor role="le patron du Flamingo">Mehdi Senoussi</actor>
+      <actor role="Cathy">Géraldine Sales</actor>
+      <actor role="Lino">Nelson Petronaci</actor>
+      <actor role="madame la ministre">Olivia Côte</actor>
+      <actor role="Jeff">Hubert Delattre</actor>
+      <writer>Karine Blanc</writer>
+      <writer>Michel Tavarès</writer>
+      <composer>Jérôme Rebotier</composer>
+      <composer>Geoffroy Berlioz</composer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Comédie dramatique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">6180</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~6f8241cd2fec3b756b6b5a75210fd12f.jpg/1400x1400/focus-point/180,677/_/image.jpg" width="1400" height="1400"/>
+    <url>https://www.programme-tv.net/cinema/25601931-monsieur-le-maire/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
       <aspect>4:3</aspect>
     </video>
     <audio>
       <present>yes</present>
       <stereo>mono</stereo>
     </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Première réalisation d'un long métrage pour les producteurs Michel Tavares et Karine Blanc, Monsieur le maire est construit sur un canevas d'un classicisme qui ne surprendra personne. Ce qui ne surprendra pas non plus, c'est l'humanité que Clovis Cornillac et Eye Haïdara apportent à leurs personnages, tous les deux très attachants.</review>
   </programme>
-  <programme start="20240807215200 +0000" stop="20240807234900 +0000" channel="35.api-tel.programme-tv.net">
-    <title>Rétro Rugby</title>
-    <category lang="fr">Magazine sportif</category>
-    <category lang="fr">Rugby</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~1b7935ae17b204ae.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1550194230-retro-rugby/27783106-sans-titre/</url>
+  <programme start="20240807222300 +0000" stop="20240807235500 +0000" channel="47.api-tel.programme-tv.net">
+    <title>Echappées belles</title>
+    <sub-title>Les visages de l'Hérault</sub-title>
+    <desc>Du front de mer aux paysages plus secrets de l'arrière-pays, de Sète à l'étang de Thau en passant par le cirque naturel de Navacelles, Ismaël Khelifa propose une échappée belle dans l'Hérault. Le globe-trotter va découvrir ce département en allant à la rencontre d'habitants amoureux de cette terre et qui ont décidé d'en prendre soin alors qu'elle est de plus en plus visitée, notamment en été par les touristes. C'est la troisième destination préférée des Français. Au sommaire : Une journée à Sète. Le patrimoine maritime de Sète. La biodiversité de l'étang de Thau. Le jeu du tambourin. La gestion de l'eau.</desc>
+    <credits>
+      <presenter>Ismaël Khelifa</presenter>
+    </credits>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine de découvertes</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~28ca970d9ff7cc2f.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r4976-echappees-belles/21876119-les-visages-de-lherault/</url>
+    <episode-num system="xmltv_ns">15..0/1</episode-num>
     <video>
       <present>yes</present>
       <aspect>4:3</aspect>
-      <quality>HDTV</quality>
     </video>
     <audio>
       <present>yes</present>
       <stereo>stereo</stereo>
     </audio>
     <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Le sympathique Ismaël Khelifa va de découverte en découverte, et les téléspectateurs avec lui, dans un beau cadre de vie que des Héraultais passionnés font tout pour préserver. Une échappée belle agréable, très variée, avec notamment du sport, de la culture ou encore de la gastronomie, qui donne envie d'être déjà en été.</review>
+  </programme>
+  <programme start="20240807222100 +0000" stop="20240807222300 +0000" channel="47.api-tel.programme-tv.net">
+    <title>La p'tite librairie</title>
+    <desc>François Busnel propose chaque jour de découvrir ou redécouvrir une oeuvre française ou étrangère : roman, essai, grand classique ou encore bande dessinée.</desc>
+    <credits>
+      <presenter>François Busnel</presenter>
+    </credits>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine littéraire</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~612e4ee006751fdc.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1549470209-la-ptite-librairie/24337245-la-ptite-librairie/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240807214600 +0000" stop="20240807232000 +0000" channel="34.api-tel.programme-tv.net">
+    <title>Nouveau départ</title>
+    <desc>Amoureux de Diane comme au premier jour, Alain traverse la cinquantaine sans crise. Même le départ des enfants, il l'a bien vécu. Diane moins : cette période, elle l'entame avec la sensation qu'elle pourrait mourir d'ennui ou d'angoisse. Pour Alain, qui voit pour la première fois son couple vaciller, il est temps de se poser les questions essentielles, et de prendre un risque majeur après 30 ans de vie commune : quitter Diane pour réveiller la flamme et l'envie de se retrouver.</desc>
+    <credits>
+      <director>Philippe Lefebvre</director>
+      <actor role="Alain Huysmans">Franck Dubosc</actor>
+      <actor role="Diane Huysmans">Karin Viard</actor>
+      <actor role="Jeanne">Clotilde Courau</actor>
+      <actor role="Erwan">Youssef Hajdi</actor>
+      <actor role="Stéphane">Tom Leeb</actor>
+      <actor role="Agathe">Clémentine Baert</actor>
+      <actor role="Inès">Bérengère Krief</actor>
+      <actor role="le père d'Agathe">François Berléand</actor>
+      <actor role="la mère d'Agathe">Arielle Séménoff</actor>
+      <actor role="le médecin">Philippe Lefebvre</actor>
+      <actor role="Juliette Huysmans">Louise Orry-Diquéro</actor>
+      <actor role="Malo Huysmans">Joaquim Fossi</actor>
+      <writer>Philippe Lefebvre</writer>
+      <writer>Maria Pourchet</writer>
+      <composer>Philippe Kelly</composer>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Comédie romantique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">6000</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~da6b10085de2ab2e24cf40d0ef53cbe9.jpg/1920x1080/focus-point/1387,587/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/cinema/25340018-nouveau-depart/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Quatorze ans après Le siffleur et plusieurs réalisations pour la télévision, le comédie et scénariste Philippe Lefebvre reprend sa casquette de réalisateur pour le cinéma avec ce remake de Retour de flamme, comédie sentimentale argentine. Ici, Ricardo Darin est remplacé par Franck Dubosc, qui montre une autre facette de son jeu.</review>
+  </programme>
+  <programme start="20240807211000 +0000" stop="20240807222100 +0000" channel="47.api-tel.programme-tv.net">
+    <title>C dans l'air</title>
+    <desc>Maya Lauqué décrypte en direct l'actualité en compagnie de quatre experts. En fin d'émission, ils répondent aux questions des téléspectateurs.</desc>
+    <credits>
+      <presenter>Maya Lauqué</presenter>
+    </credits>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine d'information</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~ce016529eb78959d.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r5092-c-dans-lair/27784413-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
   </programme>
 </tv>
