@@ -55,6 +55,7 @@ jobs:
           #git add xmltv_teleloisirs.xml
           #git commit -m "Dernière actualisation $(date)"
           git add xmltv_teleloisirs.xml
+          git add xmltv_teleloisirs.xml.gz
           if ! git diff-index --cached --quiet HEAD --; then
               git commit -m "$(date)"
               git push
