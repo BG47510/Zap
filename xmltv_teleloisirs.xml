@@ -1,159 +1,1647 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <tv source-info-name="Télé Loisirs" source-info-url="https://www.programme-tv.net/" source-data-url="https://api-tel.programme-tv.net" generator-info-name="tv_grab_fr_teleloisirs" generator-info-url="https://github.com/melmorabity/tv_grab_fr_teleloisirs">
-  <channel id="112.api-tel.programme-tv.net">
-    <display-name>LCI - La Chaîne Info</display-name>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~channel~1314d39cfeea2a5c.png/500x500/_/image.png" width="500" height="500"/>
-    <url>https://www.programme-tv.net/programme/chaine/programme-lci-la-chaine-info-78.html</url>
+  <channel id="145.api-tel.programme-tv.net">
+    <display-name>Paris Première</display-name>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~channel~ecf598fd002ccb9a.png/500x500/_/image.png" width="500" height="500"/>
+    <url>https://www.programme-tv.net/programme/chaine/programme-paris-premiere-15.html</url>
   </channel>
-  <programme start="20240808200000 +0000" stop="20240808220000 +0000" channel="112.api-tel.programme-tv.net">
-    <title>Le 22H</title>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Magazine d'actualité</category>
-    <category lang="en">Magazines / Reports / Documentary</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~5ea8a696a2acf83c.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/culture-infos/r1550195159-le-22h/</url>
+  <channel id="119.api-tel.programme-tv.net">
+    <display-name>W9</display-name>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~channel~aa0f344b9f4ce076.png/500x500/_/image.png" width="500" height="500"/>
+    <url>https://www.programme-tv.net/programme/chaine/programme-w9-24.html</url>
+  </channel>
+  <channel id="118.api-tel.programme-tv.net">
+    <display-name>M6</display-name>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~channel~46c2dbade9ac9fed.png/500x500/_/image.png" width="500" height="500"/>
+    <url>https://www.programme-tv.net/programme/chaine/programme-m6-12.html</url>
+  </channel>
+  <programme start="20240808214000 +0000" stop="20240808223500 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Creepshow</title>
+    <title>Creepshow</title>
+    <sub-title>Hors de contrôle / Apocalypse zombie</sub-title>
+    <desc>"Hors de contrôle",  un politicien et un garde-frontière se retrouvent confrontés au chaos lorsque la condition médicale d'une jeune fille s'aggrave lors d'un contrôle à la frontière. "Apocalypse zombie". Pendant une apocalypse zombie, un chef de la police fait face à la justice populaire alors que la société s'effondre.</desc>
+    <credits>
+      <director>John Harrison</director>
+      <director>Greg Nicotero</director>
+      <actor role="Evan Miller">Reid Scott</actor>
+      <actor role="Mai">Sarah Jon</actor>
+      <actor role="la mère">Mai Delapa</actor>
+      <actor role="Beau">Michael Rooker</actor>
+      <actor role="Evan Foster">Cristian González</actor>
+      <actor role="Cliven Ridgeway">Joshua Mikel</actor>
+      <actor role="Carl Jenson">J.R. Rodriguez</actor>
+      <actor role="Joe Donovan">Bryan Brendle</actor>
+      <actor role="Jeremy">Rey Hernandez</actor>
+      <actor role="le jeune homme">Karlton Davis</actor>
+      <writer>Christopher Larsen</writer>
+      <writer>Heather Anne Campbell</writer>
+    </credits>
+    <date>2021</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série fantastique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3300</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~ff87325723d8d342.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549468721-creepshow/22529284-hors-de-controle-apocalypse-zombie/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">2.5/6.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 16 ans</value>
+    </rating>
+  </programme>
+  <programme start="20240808210500 +0000" stop="20240808230000 +0000" channel="119.api-tel.programme-tv.net">
+    <title lang="fr">Les 20 chanteurs préférés des Français</title>
+    <title>Les 20 chanteurs préférés des Français</title>
+    <desc>Le document dévoile les résultats d'un sondage Ifop révélant les vingt chanteurs préférés des Français comme Calogero, Soprano, Mika... L'occasion de revenir sur leurs tubes ainsi que sur les faits marquants de leur vie et leur carrière. Des personnalités partagent des anecdotes insolites comme Pascal Obispo sur le titre «Allumer le feu» de Johnny Hallyday. Quant à Lara Fabian, elle retrace le parcours du regretté Grégory Lemarchal. De son côté, Maître Gims évoque le talent de Stromae.</desc>
+    <credits>
+      <director>Louise Quillet</director>
+    </credits>
+    <date>2018</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Musique</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">6900</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~c2bc42216b16764e.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/14915784-les-20-chanteurs-preferes-des-francais/</url>
+    <country lang="fr">France</country>
     <video>
       <present>yes</present>
       <aspect>4:3</aspect>
+      <quality>HDTV</quality>
     </video>
     <audio>
       <present>yes</present>
       <stereo>mono</stereo>
     </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
   </programme>
-  <programme start="20240808180000 +0000" stop="20240808200000 +0000" channel="112.api-tel.programme-tv.net">
-    <title>Le 20H</title>
+  <programme start="20240808210000 +0000" stop="20240808225000 +0000" channel="118.api-tel.programme-tv.net">
+    <title lang="fr">Cauchemar en cuisine, que sont-ils devenus ?</title>
+    <title>Cauchemar en cuisine: que sont-ils devenus?</title>
+    <sub-title>Saint-Gervais / Tonnay-Charente / Somain</sub-title>
+    <desc>Philippe Etchebest retourne dans trois établissements afin de voir comment ils se portent depuis son passage. Il se rend d’abord à Saint-Gervais, en Occitanie, où l’été dernier, Georget, pourtant expérimenté en cuisine, n’arrivait pas à faire tourner son restaurant avec sa femme, Mimose. Direction ensuite Tonnay-Charente, en Nouvelle-Aquitaine. Il y a presque deux ans, Philippe Etchebest y avait aidé Jérôme, jeune chef au mauvais caractère. Enfin, à Somain, dans les Hauts-de-France, il prend des nouvelles d’Emmanuelle, incapable, il y a encore presque un an, de s’imposer aux fourneaux de sa brasserie.</desc>
+    <date>2024</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Téléréalité</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">5220</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~4a534206916480cf56340e21d1d4ed1c.jpg/1920x1080/focus-point/609,641/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r48109-cauchemar-en-cuisine-que-sont-ils-devenus/27657579-saint-gervais-tonnay-charente-somain/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">4..0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808205000 +0000" stop="20240808214000 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Creepshow</title>
+    <title>Creepshow</title>
+    <sub-title>Matière grise / La maison de poupée</sub-title>
+    <desc>Matière grise. Doc et Chief, deux anciens irréductibles d'une ville en déclin, affrontent la tempête pour rendre visite à leur ami Richie. Ce dernier, plongé dans le deuil suite à la mort de sa femme, vit seul avec son fils et s'enfonce dangereusement dans l'alcoolisme, au détriment de l'enfant. La maison de poupée : Evie a reçu une nouvelle maison de poupées. Cependant, elle y découvre un intrus pour le moins inquiétant : une tête de poupée qui semble hanter les lieux depuis longtemps.</desc>
     <credits>
-      <presenter>Adrien Gindre</presenter>
-      <guest>Stéphane Séjourné</guest>
+      <director>John Harrison</director>
+      <director>Greg Nicotero</director>
+      <actor role="Dixie">Adrienne Barbeau</actor>
+      <actor role="Doc">Giancarlo Esposito</actor>
+      <actor role="Timmy">Christopher Miller</actor>
+      <actor role="le chef">Tobin Bell</actor>
+      <actor role="la créature">Andy Rusk</actor>
+      <actor role="Evie">Cailey Fleming</actor>
+      <actor role="Marsha">Rachel Hendrix</actor>
+      <actor role="Randy">David Shae</actor>
+      <writer>Byron Willinger</writer>
+      <writer>Philip de Blasi</writer>
+      <writer>Josh Malerman</writer>
+    </credits>
+    <date>2019</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série fantastique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3120</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~3f57f0c803657255.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1549468721-creepshow/17157774-matiere-grise-la-maison-de-poupee/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">0.0/6.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 12 ans</value>
+    </rating>
+  </programme>
+  <programme start="20240808191000 +0000" stop="20240808210500 +0000" channel="119.api-tel.programme-tv.net">
+    <title>Les 20 chanteuses préférées des Français</title>
+    <desc>Un sondage IFOP nous dévoile quelles sont les 20 chanteuses préférées des Français. De Céline Dion à Angèle, en passant par Lara Fabian, Jain, Christine and The Queens ou encore Cœur de Pirate, ces artistes ont su créer une relation particulière avec leur public. Voix exceptionnelles, compositrices, auteures, interprètes engagées, elles incarnent toute la variété de la chanson féminine et ont, chacune à leur manière, marqué leur époque. Mais quelle est la chanteuse qui s’est hissée à la première place et a su conquérir le cœur des Français ?</desc>
+    <date>2021</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Musique</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">5640</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~5b43eac36a947e05.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/19448667-les-20-chanteuses-preferees-des-francais/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808191000 +0000" stop="20240808210000 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Les crevettes pailletées</title>
+    <desc>Après avoir tenu des propos homophobes, Mathias Le Goff, vice-champion du monde de natation, est condamné à entraîner Les Crevettes Pailletées, une équipe de water-polo gay, davantage motivée par la fête que par la compétition.</desc>
+    <credits>
+      <director>Maxime Govare</director>
+      <director>Cédric Le Gallo</director>
+      <actor role="Matthias Le Goff">Nicolas Gob</actor>
+      <actor role="Jean">Alban Lenoir</actor>
+      <actor role="Cédric">Michaël Abiteboul</actor>
+      <actor role="Alex">David Baiot</actor>
+      <actor role="Damien">Romain Lancry</actor>
+      <actor role="Joël">Roland Menou</actor>
+      <actor role="Xavier">Geoffrey Couet</actor>
+      <actor role="Fred">Romain Brau</actor>
+      <actor role="Vincent">Félix Martinez</actor>
+      <actor role="Victoire">Maïa Quesemand</actor>
+      <actor role="Bertrand">Pierre Samuel</actor>
+      <actor role="l'entraîneur de Matthias">Camille Thomas-Colombier</actor>
+      <writer>Cédric Le Gallo</writer>
+      <writer>Maxime Govare</writer>
+      <composer>Thomas Couzinier</composer>
+      <composer>Frédéric Kooshmanian</composer>
+    </credits>
+    <date>2019</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Comédie</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">6000</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~7a557b7c13e7356c.jpg/2000x3000/_/image.jpg" width="2000" height="3000"/>
+    <url>https://www.programme-tv.net/cinema/14476902-les-crevettes-pailletees/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <premiere/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>3/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">A la fois drôle et touchante, cette comédie aux personnages très attachants est une réussite.</review>
+  </programme>
+  <programme start="20240808190500 +0000" stop="20240808191000 +0000" channel="119.api-tel.programme-tv.net">
+    <title>Météo</title>
+    <desc>Bulletin météorologique.</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~72a7b3c5434830b5.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1549465211-w9-meteo/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808190000 +0000" stop="20240808205000 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">MI-5 : infiltration</title>
+    <title>Spooks: The Greater Good</title>
+    <desc>A Londres, Adem Qasim, un terroriste, s'échappe alors qu'il devait être transféré à la CIA. Avec un agent américain, June Keaton, du MI-5, se lance à la poursuite du criminel et de ses complices. Mais l'Américain est tué et Qasim prend la fuite. Alors que Londres est sous la menace terroriste, Harry Pearce, patron des services secrets jugé responsable, disparait. A Moscou, Will Holloway, ancien agent du MI-5, est recruté pour retrouver Harry et mettre Qasim hors d'état de nuire.</desc>
+    <credits>
+      <director>Bharat Nalluri</director>
+      <actor role="Harry Pearce">Peter Firth</actor>
+      <actor role="Will Holloway">Kit Harington</actor>
+      <actor role="Geraldine Maltby">Jennifer Ehle</actor>
+      <actor role="Adem Qasim">Elyes Gabel</actor>
+      <actor role="Robert Vass">Michael Wildman</actor>
+      <actor role="June Keaton">Tuppence Middleton</actor>
+      <actor role="Calum Reed">Geoffrey Streatfeild</actor>
+      <actor role="Philip Emerson">Elliot Levey</actor>
+      <actor role="Francis Warrender">David Harewood</actor>
+      <actor role="Oliver Mace">Tim McInnerny</actor>
+      <actor role="Ed Lansbury">Ronan Summers</actor>
+      <actor role="Hamza Ahmadi">Amra Mallassi</actor>
+      <writer>Jonathan Brackley</writer>
+      <writer>Sam Vincent</writer>
+      <composer>Dominic Lewis</composer>
+    </credits>
+    <date>2015</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Film d'action</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">6240</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~ec7776f2e68c08cf.jpg/1400x2100/_/image.jpg" width="1400" height="2100"/>
+    <url>https://www.programme-tv.net/cinema/6537598-mi-5-infiltration/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>1/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Bharat Nalluri réalise un film d'action un peu routinier, sauvé par quelques scènes originales.</review>
+  </programme>
+  <programme start="20240808183000 +0000" stop="20240808191000 +0000" channel="118.api-tel.programme-tv.net">
+    <title>En famille</title>
+    <desc>Chez les Le Kervelec, la vie est loin d’être de tout repos. À travers quatre générations, de l’arrière-grand-père aux arrière-petits-enfants, on découvre le quotidien d’une famille haute en couleur. Au sein de celle-ci, il y a tout d'abord Fernand, le doyen. Sa fille, Brigitte, est mariée avec Jacques Le Kervelec. Ensemble, le couple a eu deux filles : Marjorie et Roxane. Tandis que la première s'occupe seule de ses deux enfants, Antoine et Chloé, la seconde est en couple avec Kader Bengazawira. Toute cette petite bande est complétée par Jean-Pierre Escourrou, le nouvel amour de Marjorie, Belek, un ami d'Antoine amoureux de la sœur de ce dernier, et de Pupuce, l'adorable et imposant chien de la famille. Entre moments de complicité et de tendresse, amours impossibles, disputes mémorables, tracas du quotidien et nombreuses rigolades, les Le Kervelec nous plongeront dans les rapports, parfois compliqués, mais toujours touchants, d’une famille intergénérationnelle.
+Jacques et Brigitte Le Kervelec, les grands-parents, sont joués par Yves Pignot (Les Profs, L'Elève Ducobu, etc.) et Marie Vincent (Le Pacte du silence, Espace détente, etc.). Leurs deux filles, Marjorie et Roxanne, sont incarnées par Jeanne Savary (Jeanne Bignon dans Caméra Café et Hélène dans Nestor Burma) et Charlie Bruneau (R.I.S Police scientifique, Charlie Show, etc.). Les petits-enfants, à savoir Antoine et Chloé, sont interprétés par Axel Huet (François dans la pièce Un cœur sauvage) et Lucie Bourdeu (Tout ce qui brille, La Robe du soir, etc.).</desc>
+    <credits>
+      <actor role="Jacques">Yves Pignot</actor>
+      <actor role="Brigitte">Marie Vincent</actor>
+      <actor role="Marjorie">Jeanne Savary</actor>
+      <actor role="Roxane">Charlie Bruneau</actor>
+      <actor role="Antoine">Axel Huet</actor>
+      <actor role="Chloé">Lucie Bourdeu</actor>
+      <writer>Florence Levard</writer>
+      <writer>Alain Kappauf</writer>
+    </credits>
+    <date>2024</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série humoristique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">1620</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~9ee339f33a2dcec2.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r42887-en-famille/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">12/13.23.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808180000 +0000" stop="20240808190000 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Les Têtes Brûlées</title>
+    <title>Baa Baa Black Sheep</title>
+    <sub-title>Organisation</sub-title>
+    <desc>Le sergent Carlos Harbinger convoie dans son avion-taxi deux inspecteurs qui visitent la base aérienne. Harbinger propose à Pappy Boyington d'échanger une cargaison d'alcool contre de l'essence.</desc>
+    <credits>
+      <director>Robert Conrad</director>
+      <actor role="Greg «Pépé» Boyington">Robert Conrad</actor>
+      <actor role="le sergent">Scott Colomby</actor>
+      <actor role="le sergent Andrew «Andy» Micklin">Red West</actor>
+      <actor role="le général Moore">Simon Oakland</actor>
+      <actor role="Jerome «Jerry» Bragg">Dirk Blocker</actor>
+      <actor role="Lawrence «Larry» Casey">W.K. Stratton</actor>
+      <actor role="Donald «Don» French">Jeff MacKay</actor>
+      <writer>Peter Lefcourt</writer>
+    </credits>
+    <date>1978</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'aventures</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3600</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~d2e5f3e4562e8d18.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r256-les-tetes-brulees/236213-organisation/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">1/2.5/13.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808175000 +0000" stop="20240808190500 +0000" channel="119.api-tel.programme-tv.net">
+    <title>Un dîner presque parfait</title>
+    <desc>Ils sont cinq et habitent la même région. Ils ne se connaissent pas et pourtant, ils vont s'inviter à dîner à tour de rôle pendant toute une semaine pour tenter de remporter le titre de meilleur hôte.</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~9fae9745d0ef02e2.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r305721-un-diner-presque-parfait/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808174500 +0000" stop="20240808183000 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Le 19.45</title>
+    <desc>Le journal de M6.</desc>
+    <credits>
+      <presenter>Cyrielle Stadler</presenter>
+    </credits>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~d2e791d9b8c2c494.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r306283-le-19-45/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808174000 +0000" stop="20240808174500 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Météo</title>
+    <desc>Les prévisions météo sur M6 c'est, par tous les temps, un vrai moment de fun, car la bonne humeur ne dépend ni du soleil, ne de la pluie, ni de l'épais brouillard, ni de la froidure,...</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~4659737518603417.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1549465212-m6-meteo/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808170500 +0000" stop="20240808180000 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Les Têtes Brûlées</title>
+    <title>Baa Baa Black Sheep</title>
+    <sub-title>Ces dames s'en vont en guerre</sub-title>
+    <desc>Debbie Watkins est capitaine dans l'armée de l'air. Elle exige que des femmes pilote de son unité prennent part aux combats aériens que les Têtes brûlées n'aient pas le droit de les fréquenter. Cela déclenche une guerre des sexes au camp.</desc>
+    <credits>
+      <director>Dana Elcar</director>
+      <actor role="Greg 'Pappy' Boyington">Robert Conrad</actor>
+      <actor role="James «Jim» Gutterman">James Whitmore Jr.</actor>
+      <actor role="le pilote">Kin Shriner</actor>
+      <actor role="Thomas A. Lard">Dana Elcar</actor>
+      <actor role="Jerome 'Jerry' Bragg">Dirk Blocker</actor>
+      <actor role="Lawrence «Larry» Casey">W.K. Stratton</actor>
+      <actor role="Donald French">Jeff MacKay</actor>
+      <actor role="Thomas Moore">Simon Oakland</actor>
+      <actor role="Thomas Joseph 'T.J.' Wiley">Robert Ginty</actor>
+      <actor role="Robert 'Bob' Anderson">John Larroquette</actor>
+      <actor role="Bob Boyle">Larry Manetti</actor>
+      <actor role="Deborah Watkins">Andi Garrett</actor>
+      <writer>Philip Deguere jr.</writer>
+      <writer>Luciano Comici</writer>
+    </credits>
+    <date>1977</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'aventures</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3600</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~824a52dbda2d5ce4.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r256-les-tetes-brulees/89810-ces-dames-sen-vont-en-guerre/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">0/2.21/24.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808165000 +0000" stop="20240808175000 +0000" channel="119.api-tel.programme-tv.net">
+    <title>Un dîner presque parfait</title>
+    <desc>Ils sont cinq et habitent la même région. Ils ne se connaissent pas et pourtant, ils vont s'inviter à dîner à tour de rôle pendant toute une semaine pour tenter de remporter le titre de meilleur hôte.</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~9fae9745d0ef02e2.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r305721-un-diner-presque-parfait/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808163000 +0000" stop="20240808174000 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Le juste prix</title>
+    <desc>Chaque jour, 7 candidats sont sélectionnés pour tenter de rejoindre Éric Antoine et se frotter aux cultissimes jeux du \" Juste prix \". Une vingtaine d'épreuves culte les attend, notamment le \" fakir \", le \" coup de poing \", le \" mini-golf \" et le \" Tyrolien \". À la clé, des voitures, des appareils électroménagers, du matériel high tech ou des voyages. À l'issue de chaque émission, les quatre candidats qualifiés tournent la célèbre roue. Mais un seul d'entre eux pourra tenter de remporter la fameuse vitrine mise en jeu lors de la grande finale du vendredi !</desc>
+    <credits>
+      <presenter>Eric Antoine</presenter>
+    </credits>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~57115ebd382ee114.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r306716-le-juste-prix/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808161500 +0000" stop="20240808170500 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Les Têtes Brûlées</title>
+    <title>Baa Baa Black Sheep</title>
+    <sub-title>Le massacre de Fort Apache</sub-title>
+    <desc>Boyington et ses hommes se retrouvent au cœur d'un conflit qui les dépasse un peu, opposant les membres du conseil de guerre. Dans l'intervalle, un général leur rend une importante visite, placée sous le sceau du secret. Il a comme tâche d'examiner un nouveau bombardier qui est encore au stade expérimental.</desc>
+    <credits>
+      <director>Edward Dein</director>
+      <actor role="Greg «Pépé» Boyington">Robert Conrad</actor>
+      <actor role="le général Moore">Simon Oakland</actor>
+      <actor role="le général Richard Wright">Joel Fabiani</actor>
+      <actor role="le capitaine Gutterman">James Whitmore Jr.</actor>
+      <actor role="Hersey">Ron Kuhlman</actor>
+      <actor role="le lieutenant Jerry Bragg">Dirk Blocker</actor>
+      <actor role="le lieutenant TJ Wiley">Robert Ginty</actor>
+      <actor role="le lieutenant Bob Anderson">John Larroquette</actor>
+      <writer>Stephen J. Cannell</writer>
+    </credits>
+    <date>1977</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'aventures</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3600</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~824a52dbda2d5ce4.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r256-les-tetes-brulees/214652-le-massacre-de-fort-apache/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">0/2.19/24.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808155000 +0000" stop="20240808165000 +0000" channel="119.api-tel.programme-tv.net">
+    <title>Un dîner presque parfait</title>
+    <desc>Ils sont cinq et habitent la même région. Ils ne se connaissent pas et pourtant, ils vont s'inviter à dîner à tour de rôle pendant toute une semaine pour tenter de remporter le titre de meilleur hôte.</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~9fae9745d0ef02e2.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r305721-un-diner-presque-parfait/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808153000 +0000" stop="20240808163000 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Un jour, un doc</title>
+    <desc>Chaque après-midi, des documentaires permettent de découvrir des histoires et des personnages incroyables, reviennent sur des événements marquants et des faits divers surprenants ou explorent de grands débats de société et des nouvelles tendances.</desc>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine de reportages</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~42bdd242c82177aa.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550009208-un-jour-un-doc/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808152500 +0000" stop="20240808161500 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Les Têtes Brûlées</title>
+    <title>Baa Baa Black Sheep</title>
+    <sub-title>Dernière mission à Sengaï</sub-title>
+    <desc>Fils d'une riche famille, Ted Carter, fraîchement arrivé dans l'escadrille, a des appuis parmi la hiérarchie militaire. Rien ne va plus lorsqu'il accuse Boyington d'avoir ordonné un bombardement et d'avoir tiré accidentellement sur des avions alliés. Un conseil de guerre est tout de suite organisé pour comprendre ce qu'il s'est passé et qui est responsable des tirs des Têtes Brûlées sur les troupes alliées. Pepe est suspecté et se retrouve dans une situation particulière.</desc>
+    <credits>
+      <director>Jackie Cooper</director>
+      <actor role="Greg &quot;Pépé&quot; Boyington">Robert Conrad</actor>
+      <actor role="Ted Carter">Frederick Herrick</actor>
+      <actor role="Thomas Moore">Simon Oakland</actor>
+      <actor role="Thomas A. Lard">Dana Elcar</actor>
+      <actor role="le colonel Ellis">Mills Watson</actor>
+      <actor role="Randy Kline">Dennis Fimple</actor>
+      <actor role="James 'Jim' Gutterman">James Whitmore Jr.</actor>
+      <actor role="Jerome 'Jerry' Bragg">Dirk Blocker</actor>
+      <actor role="Lawrence 'Larry' Casey">W.K. Stratton</actor>
+      <actor role="Thomas Joseph 'T.J.' Wiley">Robert Ginty</actor>
+      <actor role="Robert 'Bob' Anderson">John Larroquette</actor>
+      <actor role="Bob Boyle">Larry Manetti</actor>
+      <writer>Philip Deguere jr.</writer>
+    </credits>
+    <date>1976</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'aventures</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3600</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~824a52dbda2d5ce4.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r256-les-tetes-brulees/213215-derniere-mission-a-sengai/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">0/2.18/24.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808145000 +0000" stop="20240808153000 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Un jour, un doc</title>
+    <desc>Chaque après-midi, des documentaires permettent de découvrir des histoires et des personnages incroyables, reviennent sur des événements marquants et des faits divers surprenants ou explorent de grands débats de société et des nouvelles tendances.</desc>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine de reportages</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~42bdd242c82177aa.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550009208-un-jour-un-doc/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808144000 +0000" stop="20240808155000 +0000" channel="119.api-tel.programme-tv.net">
+    <title>Un dîner presque parfait</title>
+    <desc>Ils sont cinq et habitent la même région. Ils ne se connaissent pas et pourtant, ils vont s'inviter à dîner à tour de rôle pendant toute une semaine pour tenter de remporter le titre de meilleur hôte.</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Jeu</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~9fae9745d0ef02e2.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r305721-un-diner-presque-parfait/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808143500 +0000" stop="20240808152500 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Les Têtes Brûlées</title>
+    <title>Baa Baa Black Sheep</title>
+    <sub-title>Le couteau dans la plaie</sub-title>
+    <desc>Après une bataille aérienne extrêmement mouvementée et périlleuse, le capitaine Gutterman a été abattu au-dessus des îles Salomon par un redoutable pilote japonais, le colonel Harachi. Il a survécu, mais souffre de nombreuses blessures et d'un profond choc psychologique. Pépé, de son côté, est amené à travailler aux côtés du sergent Micklin, aussi redoutable au sol que Harachi dans les airs, ce qui ne le réjouit pas. Pépé n'a cependant pas d'autre choix que d'accepter la présence du nouveau mécanicien du Black Sheep.</desc>
+    <credits>
+      <director>Edward Dein</director>
+      <actor role="Greg «Pépé» Boyington">Robert Conrad</actor>
+      <actor role="le capitaine Gutterman">James Whitmore Jr.</actor>
+      <actor role="Tomio Harachi">Byron Chung</actor>
+      <actor role="le général Moore">Simon Oakland</actor>
+      <actor role="Eddie">Johnny Fain</actor>
+      <actor role="l'officier japonais">Rollin Moriyama</actor>
+      <actor role="le sergent Micklin">Red West</actor>
+      <actor role="John David Hutchinson">Joey Aresco</actor>
+      <writer>Stephen J. Cannell</writer>
+    </credits>
+    <date>1977</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série d'aventures</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3600</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~824a52dbda2d5ce4.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r256-les-tetes-brulees/211234-le-couteau-dans-la-plaie/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">0/2.16/24.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808135500 +0000" stop="20240808145000 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Un jour, un doc</title>
+    <desc>Chaque après-midi, des documentaires permettent de découvrir des histoires et des personnages incroyables, reviennent sur des événements marquants et des faits divers surprenants ou explorent de grands débats de société et des nouvelles tendances.</desc>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine de reportages</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~42bdd242c82177aa.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550009208-un-jour-un-doc/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808134000 +0000" stop="20240808143500 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Les mystères de l'Ouest</title>
+    <title>The Wild Wild West</title>
+    <sub-title>La nuit du cirque de la mort</sub-title>
+    <desc>Dans la région de Denver, de la fausse monnaie circule en si grande quantité qu'elle menace l'économie. James West et Artemus Gordon tentent de retrouver les faux-monnayeurs avant qu'il ne soit trop tard...</desc>
+    <credits>
+      <director>Irving J. Moore</director>
+      <actor role="Jim West">Robert Conrad</actor>
+      <actor role="Artemus Gordon">Ross Martin</actor>
+      <actor role="Mary Lennox">Joan Huntington</actor>
+      <actor role="Abner Lennox">Philip Bruns</actor>
+      <actor role="Erika">Arlene Martel</actor>
+      <actor role="Bert Farnsworth">Paul Comi</actor>
+      <actor role="Doc Keyno">Arthur Malet</actor>
+      <actor role="Mrs. Moore">Florence Sundstrom</actor>
+      <actor role="Colonel Housley">Dort Clark</actor>
+      <actor role="Harry Holmes">Morgan Farley</actor>
+      <actor role="Priscilla Goodbody">Judi Sherven</actor>
+      <actor role="Girl">Merri Ashley</actor>
+      <writer>Arthur Weingarten</writer>
+    </credits>
+    <date>1967</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série western</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">2880</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~7f506968dc6f6e5e.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r616-les-mysteres-de-louest/183949-la-nuit-du-cirque-de-la-mort/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">2.8/24.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+  </programme>
+  <programme start="20240808134000 +0000" stop="20240808144000 +0000" channel="119.api-tel.programme-tv.net">
+    <title lang="fr">NCIS</title>
+    <title>NCIS: Naval Criminal Investigative Service</title>
+    <sub-title>Ce n'est qu'un au revoir</sub-title>
+    <desc>Après avoir été agressés en pleine rue, deux des membres du NCIS sont admis en urgence à l'hôpital. L'un d'eux succombe à ses blessures, ce qui provoque le désarroi de toute l'équipe. Tout porte à croire qu'ils ont été la cible d'un tueur à gages. Les agents redoublent d'efforts et se plongent dans d'anciens dossiers afin d'identifier la personne susceptible de vouloir se venger. Gibbs a l'intuition qu'Alejandro Rivera pourrait être le commanditaire de cette attaque. Il lui rend visite en prison.</desc>
+    <credits>
+      <director>Michael Zinberg</director>
+      <actor role="Leroy Jethro Gibbs">Mark Harmon</actor>
+      <actor role="Ducky Mallard">David McCallum</actor>
+      <actor role="Abby Sciuto">Pauley Perrette</actor>
+      <actor role="Timothy McGee">Sean Murray</actor>
+      <actor role="Jimmy Palmer">Brian Dietzen</actor>
+      <actor role="Ellie Bishop">Emily Wickersham</actor>
+      <actor role="Clayton Reeves">Duane Henry</actor>
+      <actor role="Nick Torres">Wilmer Valderrama</actor>
+      <actor role="Jack Sloane">Maria Bello</actor>
+      <actor role="Leon Vance">Rocky Carroll</actor>
+      <actor role="SGM Robert King">Peter Jason</actor>
+      <actor role="Terry Spooner">Eddie Jemison</actor>
+      <writer>Jennifer Corbett</writer>
+    </credits>
+    <date>2018</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série policière</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">2580</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~836d3b4b45982c2a.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1609-ncis/13274952-ce-nest-quun-au-revoir/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">14/21.21/24.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>3/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Un épisode très mouvementé, dominé par l'émotion et rythmé par des flash-back très touchants qui retracent le parcours de certains héros tout au long de leur riche et passionnante carrière au sein du NCIS. L'enquête pour identifier l'agresseur des agents n'en demeure pas moins digne d'intérêt et habilement menée.</review>
+  </programme>
+  <programme start="20240808125500 +0000" stop="20240808135500 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Un jour, un doc</title>
+    <desc>Chaque après-midi, des documentaires permettent de découvrir des histoires et des personnages incroyables, reviennent sur des événements marquants et des faits divers surprenants ou explorent de grands débats de société et des nouvelles tendances.</desc>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine de reportages</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~42bdd242c82177aa.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550009208-un-jour-un-doc/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808125000 +0000" stop="20240808134000 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Les mystères de l'Ouest</title>
+    <title>The Wild Wild West</title>
+    <sub-title>La nuit de la conspiration</sub-title>
+    <desc>Dans un contexte diplomatique tendu, West et Gordon parviennent à faire échouer un projet d'assassinat du président mexicain. Sur le chemùin du retour, ils sont pris en chasse par les hommes du Colonel Barbossa.</desc>
+    <credits>
+      <director>Alan Crosland Jr.</director>
+      <actor role="James T West">Robert Conrad</actor>
+      <actor role="Artemus Gordon">Ross Martin</actor>
+      <actor role="le colonel Barbossa">Robert Loggia</actor>
+      <actor role="Don Tomas">Ramon Novarro</actor>
+      <actor role="Griswold">Donald Woods</actor>
+      <actor role="Halvorsen">Conlan Carter</actor>
+      <actor role="Lupita Gonzalez">Nina Roman</actor>
+      <actor role="Perrico Mendoza">Nate Esformes</actor>
+      <actor role="le lieutenant">Carlos Romero</actor>
+      <actor role="Juarez">Frank Sorello</actor>
+      <actor role="Ramirez">Phyllis Davis</actor>
+      <actor role="le soldat">Juan Talavera</actor>
+      <writer>Robert C. Dennis</writer>
+      <writer>Earl Barret</writer>
+    </credits>
+    <date>1967</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série western</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3060</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~ad3af72b400dbf16.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r616-les-mysteres-de-louest/173705-la-nuit-de-la-conspiration/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">2.2/24.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+  </programme>
+  <programme start="20240808124000 +0000" stop="20240808134000 +0000" channel="119.api-tel.programme-tv.net">
+    <title lang="fr">NCIS</title>
+    <title>NCIS: Naval Criminal Investigative Service</title>
+    <sub-title>Une histoire à raconter</sub-title>
+    <desc>A l'issue d'une réunion d'addictes anonymes, Clayton Reeves assiste à l'enlèvement d'une de ses amies, Melissa, sans pouvoir intervenir. Il est persuadé qu'elle a été capturée par son ex-compagnon, Eddie, qui la violentait et la menaçait. Même si Melissa n'est pas membre de la Navy, Gibbs accepte que son équipe mène l'enquête. Reeves et Bishop se rendent dans l'appartement de la victime en espérant trouver des indices. De son côté, Jacqueline Sloane établit le profil psychologique du principal suspect.</desc>
+    <credits>
+      <director>Thomas J. Wright</director>
+      <actor role="Leroy Jethro Gibbs">Mark Harmon</actor>
+      <actor role="Donald Mallard">David McCallum</actor>
+      <actor role="Abby Sciuto">Pauley Perrette</actor>
+      <actor role="Timothy McGee">Sean Murray</actor>
+      <actor role="Jimmy Palmer">Brian Dietzen</actor>
+      <actor role="Ellie Bishop">Emily Wickersham</actor>
+      <actor role="Clayton Reeves">Duane Henry</actor>
+      <actor role="Nick Torres">Wilmer Valderrama</actor>
+      <actor role="Jack Sloane">Maria Bello</actor>
+      <actor role="Leon Vance">Rocky Carroll</actor>
+      <actor role="Melissa Goodman">Samaire Armstrong</actor>
+      <actor role="Nancy Douglas">Ashley Jones</actor>
+      <writer>David J. North</writer>
+    </credits>
+    <date>2017</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série policière</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">2580</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~f940299c8ab9e9eb.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1609-ncis/12007995-une-histoire-a-raconter/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">14/21.4/24.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Reeves est en première ligne et voit son image un peu écornée dans cet épisode prenant et bien construit où, par ailleurs, Sloane fait des merveilles. Incarnée avec conviction par Maria Bello, annoncée également dans la saison 8 de « The Walking Dead », l'experte fait montre d'une finesse d'analyse remarquable.</review>
+  </programme>
+  <programme start="20240808120000 +0000" stop="20240808125000 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Les mystères de l'Ouest</title>
+    <title>The Wild Wild West</title>
+    <sub-title>La nuit du loup</sub-title>
+    <desc>West et Gordon ont pour mission de protéger un Croate récemment couronné roi. Ils doivent tout d'abord empêcher un enlèvement qui forcerait ce dernier à renoncer au trône.</desc>
+    <credits>
+      <director>Charles R. Rondeau</director>
+      <actor role="Jim West">Robert Conrad</actor>
+      <actor role="Artemus Gordon">Ross Martin</actor>
+      <actor role="Talamentes">Joseph Campanella</actor>
+      <actor role="le roi Stefan IX">John Marley</actor>
+      <actor role="le shérif Twilley">Eddie Fontaine</actor>
+      <actor role="Leandra">Lorri Scott</actor>
+      <actor role="Adam Dushan">Jonathan Goldsmith</actor>
+      <actor role="Hanska">Michael Shillo</actor>
+      <actor role="le prêtre">Charles H. Radilak</actor>
+      <actor role="le pilote">Jimmie Booth</actor>
+      <writer>Robert C. Dennis</writer>
+      <writer>Earl Barret</writer>
+    </credits>
+    <date>1967</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série western</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3000</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~7f506968dc6f6e5e.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r616-les-mysteres-de-louest/164738-la-nuit-du-loup/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">1.26/28.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+  </programme>
+  <programme start="20240808120000 +0000" stop="20240808125500 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Un jour, un doc</title>
+    <desc>Débats de société, nouvelles tendances, faits divers hors normes, ou récits de vie des people et des têtes couronnées... retour sur ces sujets qui font vibrer les Français. L'occasion de voyager en France et à l'étranger, à la découverte d'histoires exceptionnelles.</desc>
+    <category lang="fr">Magazine</category>
+    <category lang="fr">Magazine de reportages</category>
+    <category lang="en">Magazines / Reports / Documentary</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~42bdd242c82177aa.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550009208-un-jour-un-doc/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808115000 +0000" stop="20240808124000 +0000" channel="119.api-tel.programme-tv.net">
+    <title lang="fr">NCIS</title>
+    <title>NCIS: Naval Criminal Investigative Service</title>
+    <sub-title>En pleine tempête</sub-title>
+    <desc>Une agente du NCIS, Jacqueline Sloane, experte en psychologie médico-légale, rejoint l'équipe au moment où une tempête se déchaîne sur Washington. La ville se retrouve plongée dans le noir. Durant la panne, le groupe enquête sur l'agression d'un lieutenant survenue au cours d'une « murder party ». L'affaire se complique quand la victime comprend que son épouse, Helen, qui participait également à l'événement, a été enlevée. Héritière d'une famille qui a fait fortune dans les produits de beauté, elle pourrait avoir été kidnappée pour son argent.</desc>
+    <credits>
+      <director>Bethany Rooney</director>
+      <director>Rocky Carroll</director>
+      <actor role="Leroy Jethro Gibbs">Mark Harmon</actor>
+      <actor role="Donald Mallard">David McCallum</actor>
+      <actor role="Abby Sciuto">Pauley Perrette</actor>
+      <actor role="Timothy McGee">Sean Murray</actor>
+      <actor role="Jimmy Palmer">Brian Dietzen</actor>
+      <actor role="Ellie Bishop">Emily Wickersham</actor>
+      <actor role="Leon Vance">Rocky Carroll</actor>
+      <actor role="Thomas Buckner">Trevor Donovan</actor>
+      <actor role="madame Belmont">Gates McFadden</actor>
+      <actor role="Guy Ross">Kent Shocknek</actor>
+      <actor role="Farrah">Alexis Stier</actor>
+      <actor role="Sarah">Megan Stier</actor>
+      <writer>Jennifer Corbett</writer>
+    </credits>
+    <date>2017</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série policière</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">2580</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~0c31bad7990849f0.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1609-ncis/11959121-en-pleine-tempete/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">14/21.3/24.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Un bon opus qui marque l'arrivée de Maria Bello au sein de l'équipe dans le rôle d'une experte en psychologie criminelle au passé trouble. Embauchée par Vance qu'elle connaît depuis des années, elle se heurte à l'hostilité de Gibbs à son égard. Leur rivalité devrait pimenter les intrigues de cette nouvelle saison.</review>
+  </programme>
+  <programme start="20240808114000 +0000" stop="20240808120000 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Scènes de ménages</title>
+    <desc>C'est partie pour une nouvelle saison dans le quotidien de nos couples hauts en couleurs. En effet, ils sont de retour et nous réserve de belles surprises. Entre Raymond qui accueille une nouvelle aide à domicile pas docile, Emma et Fabien nouveaux parents de jumeaux dont le quotidien devient sérieusement rock'n'roll. Liliane et Josée sont chamboulés par la ménopause de Lili et la seconde jeunesse de Josée, bien décidé à profiter de la vie après son pépin de santé. Jalil et Louise continuent de faire front pour leur paix conjugale même si le changement de la serrure n'empêche pas leur famille de les envahir.</desc>
+    <credits>
+      <actor role="Liliane">Valérie Karsenti</actor>
+      <actor role="José">Frédéric Bouraly</actor>
+      <actor role="Huguette">Marion Game</actor>
+      <actor role="Raymond">Gérard Hernandez</actor>
+      <actor role="Emma">Anne-Elisabeth Blateau</actor>
+      <actor role="Fabien">David Mora</actor>
+      <actor role="Camille">Amélie Etasse</actor>
+      <actor role="Philippe">Grégoire Bonnet</actor>
+      <actor role="Leslie">Claire Chust</actor>
+      <actor role="Léo">Vinnie Dargaud</actor>
+      <actor role="Louise">Claudia Mongumu</actor>
+      <actor role="Jalil">Ryad Baxx</actor>
+    </credits>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série humoristique</category>
+    <category lang="en">Movie / Drama</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~51136326658ed740.jpg/1920x1078/_/image.jpg" width="1920" height="1078"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r21250-scenes-de-menages/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Ce classique d’access prime time séduit par sa fraîcheur et les profils variés de ses personnages : sans jamais vraiment éviter l’archétype, ils permettent à chaque génération de s’identifier. Au gré des saisons, les combinaisons évoluent et de nouveaux personnages apparaissent, variant les centres d’intérêt.</review>
+  </programme>
+  <programme start="20240808111500 +0000" stop="20240808114000 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Le 1245 : le mag</title>
+    <desc>En prolongement du journal de la mi-journée, ce magazine de proximité associe des reportages en immersion, emmenés par des correspondants régionaux, et des chroniqueurs en plateau qui dévoileront des solutions du quotidien et des conseils pratiques dans la bonne humeur.</desc>
+    <credits>
+      <presenter>N'fanteh Minteh</presenter>
     </credits>
     <category lang="fr">Magazine</category>
-    <category lang="fr">Magazine d'actualité</category>
+    <category lang="fr">Magazine de reportages</category>
     <category lang="en">Magazines / Reports / Documentary</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~e9c9ca812fc29461.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/culture-infos/r1550195158-le-20h/</url>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~09914da7ea554f6c.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550181618-le-1245-le-mag/</url>
     <video>
       <present>yes</present>
       <aspect>4:3</aspect>
+      <quality>HDTV</quality>
     </video>
     <audio>
       <present>yes</present>
       <stereo>mono</stereo>
     </audio>
+    <subtitles type="deaf-signed"/>
   </programme>
-  <programme start="20240808160000 +0000" stop="20240808180000 +0000" channel="112.api-tel.programme-tv.net">
-    <title>24 Heures</title>
-    <desc>L'émission est divisée en deux parties : d'abord quatre invités récurrents selon le jour de la semaine débattent de trois sujets du jour, avec la participation tous les mardis de Caroline Fourest et de Robert Ménard, un mercredi sur deux. Au préalable sont développés les "Indispensables", un exposé fouillé des faits du jour. Ensuite place aux "Partis pris", portés par de grandes signatures telles que François Lenglet, Abnousse Shalmani et Pascal Perri, rejoints aussi par Ruth Elkrief. Chacun est invité à livrer son point de vue sur un sujet du moment.</desc>
+  <programme start="20240808110500 +0000" stop="20240808120000 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Les mystères de l'Ouest</title>
+    <title>The Wild Wild West</title>
+    <sub-title>La nuit des tireurs d'élite</sub-title>
+    <desc>Alors que West et Gordon sont chargés de la protection du musée qui présente la fameuse collection Herzberg, quelqu'un cherche à dérober les pierres précieuses. Peu après, ils sont amenés à combattre de nouveau le minuscule Dr Loveless.</desc>
     <credits>
-      <presenter>Emmanuel Ostian</presenter>
-      <presenter>François Lenglet</presenter>
-      <presenter>Pascal Perri</presenter>
-      <presenter>Vincent Hervouët</presenter>
-      <presenter>Elizabeth Martichoux</presenter>
-      <presenter>Arlette Chabot</presenter>
+      <director>Alan Crosland Jr.</director>
+      <actor role="James West">Robert Conrad</actor>
+      <actor role="Artemus Gordon">Ross Martin</actor>
+      <actor role="Miguelito Loveless">Michael Dunn</actor>
+      <actor role="Axel Morgan">John Doucette</actor>
+      <actor role="l'ambassadeur">Ivan Triesault</actor>
+      <actor role="Lightnin' McCoy">John A. Alonzo</actor>
+      <actor role="le directeur du musée">Noel Drayton</actor>
+      <actor role="le tueur">Quentin Sondergaard</actor>
+      <actor role="le barman">Jorge Moreno</actor>
+      <writer>John Kneubuhl</writer>
+    </credits>
+    <date>1967</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série western</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3000</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~ad3af72b400dbf16.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r616-les-mysteres-de-louest/152049-la-nuit-des-tireurs-delite/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">1.22/28.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+  </programme>
+  <programme start="20240808105000 +0000" stop="20240808115000 +0000" channel="119.api-tel.programme-tv.net">
+    <title lang="fr">NCIS</title>
+    <title>NCIS: Naval Criminal Investigative Service</title>
+    <sub-title>La revenante</sub-title>
+    <desc>Le NCIS enquête sur la disparition de l'inspecteur Higgins, survenue alors qu'il menait une enquête conjointe avec Torres. Grâce à une caméra de surveillance, les agents comprennent que Miles avait rendez-vous avec une femme. Le relevé de ses empreintes indique qu'il s'agit de la lieutenante de police Michelle Lane, prétendument tuée en service 10 ans plus tôt. Dans le même temps, Ducky part à Edimbourg pour donner des conférences à des étudiants. Son amie, Cadence, le rejoint sur place pour lui faire une offre professionnelle.</desc>
+    <credits>
+      <director>Terrence O'Hara</director>
+      <director>Don McGill</director>
+      <director>Donald P. Bellisario</director>
+      <actor role="Leroy Jethro Gibbs">Mark Harmon</actor>
+      <actor role="Donald «Ducky» Mallard">David McCallum</actor>
+      <actor role="Abby Sciuto">Pauley Perrette</actor>
+      <actor role="Timothy McGee">Sean Murray</actor>
+      <actor role="Jimmy Palmer">Brian Dietzen</actor>
+      <actor role="Ellie Bishop">Emily Wickersham</actor>
+      <actor role="Danny Sportelli">Jack Conley</actor>
+      <actor role="Michelle Lane">Lauren Stamile</actor>
+      <actor role="Cadence Darwin">Susan Blakely</actor>
+      <actor role="Nick Torres">Wilmer Valderrama</actor>
+      <actor role="Clayton Reeves">Duane Henry</actor>
+      <actor role="Leon Vance">Rocky Carroll</actor>
+      <writer>Christopher J. Waild</writer>
+      <writer>Christopher J. Walid</writer>
+    </credits>
+    <date>2017</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série policière</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">2580</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~6249fb5bf46ae5a7.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1609-ncis/11959120-la-revenante/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">14/21.2/24.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Un excellent épisode, doté d'une intrigue solide et bien menée qui réserve des surprises prometteuses pour la suite. Il marque en effet le départ pour quelques mois de Ducky, appelé à New York pour transmettre son savoir à des étudiants et écrire un ouvrage de référence sur la médecine légale dont il est l'un des grands spécialistes.</review>
+  </programme>
+  <programme start="20240808104500 +0000" stop="20240808105000 +0000" channel="119.api-tel.programme-tv.net">
+    <title>Météo</title>
+    <desc>Bulletin météorologique.</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~72a7b3c5434830b5.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1549465211-w9-meteo/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808104500 +0000" stop="20240808111500 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Le 12.45</title>
+    <desc>La chaîne M6 propose à la mi-journée son rendez-vous quotidien de l’actualité nationale et internationale. Ce journal est animé par des journalistes tels que Nathalie Renoux en semaine et Dominique Tenza le week-end. Le programme propose une demi-heure à 45 minutes de reportages, d’informations, d’interviews et d’analyses approfondies sur divers sujets : politique, société, économie, culture ou encore sport. Des chroniques viennent alimenter ce contenu. La présentation se fait sur un plateau avec le journaliste se tenant debout, tablette tactile à la main.</desc>
+    <credits>
+      <presenter>N'fanteh Minteh</presenter>
+    </credits>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Journal</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~48778d55caf31593.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r306351-le-12-45/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+    <review type="text" source="Télé Loisirs" lang="fr">Les principales actualités du jour sont présentées de manière concise et dynamique, offrant aux téléspectateurs une vue d'ensemble des événements marquants. Le 12.45 vise à informer rapidement. Il s'agit d'un format adapté aux personnes actives qui cherchent à rester au courant de l’actualité dans un laps de temps limité.</review>
+  </programme>
+  <programme start="20240808104000 +0000" stop="20240808104500 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Météo</title>
+    <desc>Les prévisions météo sur M6 c'est, par tous les temps, un vrai moment de fun, car la bonne humeur ne dépend ni du soleil, ne de la pluie, ni de l'épais brouillard, ni de la froidure,...</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Météo</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~8e7710f0fabd3649.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1549465212-m6-meteo/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808101000 +0000" stop="20240808110500 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Cosmos 1999</title>
+    <title>Space: 1999</title>
+    <sub-title>La planète du diable</sub-title>
+    <desc>Une énorme planète se dirige vers la Lune. Koenig et Maya embarquent sur un Aigle, afin d'étudier l'astre inconnu de plus près...</desc>
+    <credits>
+      <director>Tom Clegg</director>
+      <actor role="John Koenig">Martin Landau</actor>
+      <actor role="Helena Russell">Barbara Bain</actor>
+      <actor role="Maya">Catherine Schell</actor>
+      <actor role="Tony Verdeschi">Tony Anholt</actor>
+      <actor role="Elizia">Hildegard Neil</actor>
+      <actor role="Crael">Roy Marsden</actor>
+      <actor role="l'enquêtrice">Dora Reisser</actor>
+      <actor role="la contrôleuse">Cassandra Harris</actor>
+      <actor role="Jelto">Angus MacInnes</actor>
+      <actor role="Kinano">Arthur White</actor>
+      <actor role="Blake Maine">Michael Dickinson</actor>
+      <actor role="Bill Fraser">John Hug</actor>
+      <actor role="Alibe">Alibe Parsons</actor>
+      <actor role="Dr. Ed Spencer">Sam Dastor</actor>
+      <writer>Michael Winder</writer>
+    </credits>
+    <date>1977</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série fantastique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">2940</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~d97624206c4d6cec.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r8083-cosmos-1999/6581444-la-planete-du-diable/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">1.21/24.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808093500 +0000" stop="20240808104000 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Ça peut vous arriver chez vous</title>
+    <desc>Dans cette émission, Julien Courbet et son équipe viennent en aide à des personnes confrontées à des litiges. Travaux inachevés, malfaçons, vices cachés, ou encore arnaques, les situations traitées dans le programme sont diverses et relèvent du droit des consommateurs. Les spectateurs dans le besoin contactent l’émission et sont aiguillés par des experts en tout genre pour régler leur contentieux, une médiation est alors engagée. Les cas qui ne trouvent pas de résolution sont réétudiés le lendemain. L’émission quotidienne est diffusée à la fois à la télévision et à la radio.</desc>
+    <credits>
+      <presenter>Julien Courbet</presenter>
     </credits>
     <category lang="fr">Magazine</category>
-    <category lang="fr">Magazine d'actualité</category>
+    <category lang="fr">Magazine du consommateur</category>
     <category lang="en">Magazines / Reports / Documentary</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~27b84a2c45d1df6c.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/culture-infos/r1549462468-24-heures/</url>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~bddd63169cdc1551.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1549517975-ca-peut-vous-arriver-chez-vous/</url>
     <video>
       <present>yes</present>
       <aspect>4:3</aspect>
+      <quality>HDTV</quality>
     </video>
     <audio>
       <present>yes</present>
       <stereo>mono</stereo>
     </audio>
+    <subtitles type="deaf-signed"/>
+    <review type="text" source="Télé Loisirs" lang="fr">Au-delà d’être un divertissement pour les téléspectateurs et les auditeurs, “Ça peut vous arriver” est aussi utile. Parce qu’elle vient en aide aux victimes, cela lui confère un rôle bienveillant. Bien que le montage manque cruellement de dynamisme, Julien Courbet excelle dans son rôle de médiateur.</review>
   </programme>
-  <programme start="20240808130000 +0000" stop="20240808160000 +0000" channel="112.api-tel.programme-tv.net">
-    <title>Le Club info</title>
-    <desc>Trois heures pour prendre le temps de l'analyse et du débat avec une équipe composée d'experts sur des questions clés de l'actualité. Les éditorialistes de LCI apportent leur expertise dans leurs domaines de prédilection comme la politique, l'économie, les relations internationales, l'environnement ou encore les affaires judiciaires, autour de Marie-Aline Meliyi.</desc>
+  <programme start="20240808093000 +0000" stop="20240808104500 +0000" channel="119.api-tel.programme-tv.net">
+    <title>W9 Hits</title>
+    <desc>Retrouvez le meilleur de la musique et des hits avec les plus grands tubes du moment.</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Clips</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~3d9946a042ba295f.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r34277-w9-hits/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808091000 +0000" stop="20240808101000 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Cosmos 1999</title>
+    <title>Space: 1999</title>
+    <sub-title>L'élément lambda</sub-title>
+    <desc>La Lune pénètre dans un nuage de gaz inconnu. Sur Alpha, les ordinateurs se dérèglent et une jeune technicienne meurt subitement. Le commandant est, lui, victime de cauchemars récurrents...</desc>
     <credits>
-      <presenter>Marie-Aline Méliyi</presenter>
+      <director>Charles Crichton</director>
+      <actor role="John Koenig">Martin Landau</actor>
+      <actor role="Helena Russel">Barbara Bain</actor>
+      <actor role="Maya">Catherine Schell</actor>
+      <actor role="Tony Verdeschi">Tony Anholt</actor>
+      <actor role="Alan Carter">Nick Tate</actor>
+      <actor role="Sandra Benes">Zienia Merton</actor>
+      <actor role="Carolyn Powell">Deborah Fallender</actor>
+      <actor role="Mark Sanders">Jess Conrad</actor>
+      <actor role="George Crato">Anthony Stamboulieh</actor>
+      <actor role="Carl Renton">Michael Walker</actor>
+      <actor role="Peter Garforth">Gregory de Polnay</actor>
+      <actor role="Sally Martin">Lydia Lisle</actor>
+      <actor role="Tessa">Lucinda Curtis</actor>
+      <actor role="Sam">Dallas Adams</actor>
+      <actor role="Operative">Glenda Allen</actor>
+      <actor role="Alphan">Jenny Cresswell</actor>
+      <actor role="Peter Reeves">Robert Reeves</actor>
+      <actor role="Operative">Pam Rose</actor>
+      <actor role="Command Center Technician">Harry Fielder</actor>
+      <actor role="Maintenance Section Voice">Shane Rimmer</actor>
+      <actor role="Security Guard">Quentin Pierre</actor>
+      <writer>Terrance Dicks</writer>
+    </credits>
+    <date>1976</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série fantastique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3000</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~c3024f16e2d0f9e0.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r8083-cosmos-1999/1183651-lelement-lambda/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">1.16/24.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808083000 +0000" stop="20240808093000 +0000" channel="119.api-tel.programme-tv.net">
+    <title>W9 Hits Gold</title>
+    <desc>Retrouvez le meilleur des hits des années 80, 90 et 2000.</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Clips</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~9312f2725744f021.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1549435889-w9-hits-gold/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808081500 +0000" stop="20240808091000 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Cosmos 1999</title>
+    <title>Space: 1999</title>
+    <sub-title>Dorzak</sub-title>
+    <desc>Un vaisseau étranger demande l'autorisation de se poser sur Alpha. A peine s'est-il posé qu'une superbe extraterrestre dénommée Sahala fait feu sur Maya...</desc>
+    <credits>
+      <director>Val Guest</director>
+      <actor role="John Koenig">Martin Landau</actor>
+      <actor role="Helena Russel">Barbara Bain</actor>
+      <actor role="Maya">Catherine Schell</actor>
+      <actor role="Tony Verdeschi">Tony Anholt</actor>
+      <actor role="Alan Carter">Nick Tate</actor>
+      <actor role="Dorzak">Lee Montague</actor>
+      <actor role="Sahala">Jill Townsend</actor>
+      <actor role="Yesta">Kathryn Leigh Scott</actor>
+      <actor role="Ed Spencer">Sam Dastor</actor>
+      <actor role="Clea">Seretta Wilson</actor>
+      <actor role="Ed Malcolm">Richard LeParmentier</actor>
+      <actor role="Yasko">Yasuko Nagazumi</actor>
+      <actor role="1st Security Guard">Paul Jerricho</actor>
+      <actor role="2nd Security Guard">John Judd</actor>
+      <actor role="Alphan">Jenny Cresswell</actor>
+      <actor role="Voice of Alien Computer">Marc Smith</actor>
+      <actor role="Security Guard">Quentin Pierre</actor>
+      <writer>Christopher Penfold</writer>
+    </credits>
+    <date>1977</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série fantastique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3000</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~a86b58d9362ab6de.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r8083-cosmos-1999/1195697-dorzak/</url>
+    <country lang="fr">Grande-Bretagne</country>
+    <episode-num system="xmltv_ns">1.20/24.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808074500 +0000" stop="20240808093500 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Ça peut vous arriver</title>
+    <desc>Julien Courbet va tout tenter pour résoudre vos problèmes mais aussi apporter des infos juridiques et conseils spécifiques. La parole est donnée à toutes les parties pour que toutes les situations litigieuses trouvent un dénouement positif !</desc>
+    <credits>
+      <presenter>Julien Courbet</presenter>
     </credits>
     <category lang="fr">Magazine</category>
-    <category lang="fr">Magazine d'actualité</category>
+    <category lang="fr">Magazine du consommateur</category>
     <category lang="en">Magazines / Reports / Documentary</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~296e86b00a5dafab.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/culture-infos/r1549840911-le-club-info/</url>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~8595a5eb71ca75eb.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1549502949-ca-peut-vous-arriver/</url>
     <video>
       <present>yes</present>
       <aspect>4:3</aspect>
+      <quality>HDTV</quality>
     </video>
     <audio>
       <present>yes</present>
       <stereo>mono</stereo>
     </audio>
+    <subtitles type="deaf-signed"/>
   </programme>
-  <programme start="20240808100000 +0000" stop="20240808130000 +0000" channel="112.api-tel.programme-tv.net">
-    <title>LCI midi</title>
-    <desc>Deux heures d'info et de débats pour tout savoir à la mi-journée.</desc>
+  <programme start="20240808070000 +0000" stop="20240808083000 +0000" channel="119.api-tel.programme-tv.net">
+    <title>W9 Hits</title>
+    <desc>Retrouvez le meilleur de la musique et des hits avec les plus grands tubes du moment.</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Clips</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~3d9946a042ba295f.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r34277-w9-hits/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808063500 +0000" stop="20240808074500 +0000" channel="118.api-tel.programme-tv.net">
+    <title>M6 Boutique</title>
+    <desc>Retrouvez les dernières innovations et des offres exclusives en matière de bijoux, beauté, cuisine, maison.</desc>
     <credits>
-      <presenter>Anne Seften</presenter>
-      <presenter>Christophe Moulin</presenter>
+      <presenter>Charlotte Rosier</presenter>
+      <presenter>Laurent Artufel</presenter>
     </credits>
     <category lang="fr">Magazine</category>
-    <category lang="fr">Magazine d'actualité</category>
+    <category lang="fr">Magazine de télé-achat</category>
     <category lang="en">Magazines / Reports / Documentary</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~f1e6d16342125d85.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/culture-infos/r365787-lci-midi/</url>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~b901f4f9af4985d1.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r5005-m6-boutique/</url>
     <video>
       <present>yes</present>
       <aspect>4:3</aspect>
+      <quality>HDTV</quality>
     </video>
     <audio>
       <present>yes</present>
       <stereo>mono</stereo>
     </audio>
+    <subtitles type="deaf-signed"/>
   </programme>
-  <programme start="20240808070000 +0000" stop="20240808100000 +0000" channel="112.api-tel.programme-tv.net">
-    <title>Le temps de l'info</title>
-    <desc>Elizabeth Martichoux propose un rendez-vous pointu sur les questions nationales et internationales, ponctué par les encadrés pédagogiques de Jade Partouche. L'économie n'est pas en reste avec Claire Fournier, la politique avec Julien Arnaud, les sujets internationaux avec Xavier de Giacomini, sans oublier l'info du jour décortiquée par Benjamin Cruard. Paola Puerari coprésente la dernière heure de l'émission avec son ton original et son regard singulier.</desc>
+  <programme start="20240808053500 +0000" stop="20240808063500 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Incroyables transformations</title>
+    <desc>Trois experts de la mode – la journaliste américaine Charla Carter, le coiffeur Nicolas Waldorf et la maquilleuse Léa Djadja – ont créé une agence pour venir en aide à des clients qui se plaignent du look d’un de leurs proches.</desc>
     <credits>
-      <presenter>Elizabeth Martichoux</presenter>
+      <presenter>Charla Carter</presenter>
+      <presenter>Nicolas Waldorf</presenter>
+      <presenter>Léa Djadja</presenter>
     </credits>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Magazine d'actualité</category>
-    <category lang="en">Magazines / Reports / Documentary</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~78f8a3dcaa0ba40f.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/culture-infos/r1550094613-le-temps-de-linfo/</url>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~ff4c0778ede0d05b.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1549450794-incroyables-transformations/</url>
     <video>
       <present>yes</present>
       <aspect>4:3</aspect>
+      <quality>HDTV</quality>
     </video>
     <audio>
       <present>yes</present>
       <stereo>mono</stereo>
     </audio>
+    <subtitles type="deaf-signed"/>
   </programme>
-  <programme start="20240808040000 +0000" stop="20240808070000 +0000" channel="112.api-tel.programme-tv.net">
-    <title>Le 6-9</title>
-    <desc>Une matinale qui veut marquer sa différence en prenant le temps du décryptage et de l'approfondissement. Chaque jour, quatre grands sujets d'actualité sont explorés et mis en perspective par toute l'équipe.</desc>
+  <programme start="20240808050000 +0000" stop="20240808081500 +0000" channel="145.api-tel.programme-tv.net">
+    <title>Caméra café</title>
+    <desc>La GES est une petite entreprise de province, dont la vie est rythmée par les coups d’éclats des uns et les coups de gueule des autres. Situé entre l'ascenseur, les toilettes et la photocopieuse, l’espace détente de la société permet à tous les employés de relâcher la tension, de livrer ses meilleures anecdotes ou de déverser sa haine. De Jean-Claude, commercial sans gêne, à Hervé, syndicaliste grincheux, en passant par Sylvain, comptable candide, ou Nancy, cruelle et sensuelle directrice commerciale, le personnel se retrouve devant cette machine à café et se dévoile sans fard.</desc>
     <credits>
-      <presenter>Jean-Baptiste Boursier</presenter>
+      <actor role="Hervé Dumont">Bruno Solo</actor>
+      <actor role="Jean-Claude Convenant">Yvan Le Bolloc'h</actor>
     </credits>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Magazine d'actualité</category>
-    <category lang="en">Magazines / Reports / Documentary</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~45e4231e9237b4c4.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/culture-infos/r1550160713-le-6-9/</url>
+    <date>2004</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série humoristique</category>
+    <category lang="en">Movie / Drama</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~7d32e971825952b6.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r4906-camera-cafe/</url>
+    <country lang="fr">France</country>
     <video>
       <present>yes</present>
-      <aspect>4:3</aspect>
+      <aspect>16:9</aspect>
     </video>
     <audio>
       <present>yes</present>
       <stereo>mono</stereo>
     </audio>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>3/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Tel un confessionnal sans filtre, cette machine à café indiscrète donne à voir les travers les plus grossiers d’une galerie de collègues caricaturaux et outranciers. Derrière Bruno Solo et Yvan Le Bolloc'h, toute la bande de comédiens s’en donnent à coeur joie pour donner vie aux tracas communs du quotidien.</review>
   </programme>
-  <programme start="20240807220000 +0000" stop="20240808040000 +0000" channel="112.api-tel.programme-tv.net">
+  <programme start="20240808050000 +0000" stop="20240808070000 +0000" channel="119.api-tel.programme-tv.net">
+    <title>Wake Up W9</title>
+    <desc>Réveillez-vous de bon pied avec W9 ! Retrouvez une sélection des meilleurs tubes du moment pour un réveil vitaminé...</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Clips</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~78401315ba8292cd.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1550192729-wake-up-w9/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808043000 +0000" stop="20240808053500 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Incroyables transformations</title>
+    <desc>Trois experts de la mode – la journaliste américaine Charla Carter, le coiffeur Nicolas Waldorf et la maquilleuse Léa Djadja – ont créé une agence pour venir en aide à des clients qui se plaignent du look d’un de leurs proches.</desc>
+    <credits>
+      <presenter>Charla Carter</presenter>
+      <presenter>Nicolas Waldorf</presenter>
+      <presenter>Léa Djadja</presenter>
+    </credits>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~ff4c0778ede0d05b.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1549450794-incroyables-transformations/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808040000 +0000" stop="20240808050000 +0000" channel="119.api-tel.programme-tv.net">
+    <title>Wake Up W9</title>
+    <desc>Réveillez-vous de bon pied avec W9 ! Retrouvez une sélection des meilleurs tubes du moment pour un réveil vitaminé...</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Clips</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~78401315ba8292cd.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1550192729-wake-up-w9/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808034000 +0000" stop="20240808043000 +0000" channel="118.api-tel.programme-tv.net">
+    <title>Incroyables transformations</title>
+    <desc>Trois experts de la mode – la journaliste américaine Charla Carter, le coiffeur Nicolas Waldorf et la maquilleuse Léa Djadja – ont créé une agence pour venir en aide à des clients qui se plaignent du look d’un de leurs proches.</desc>
+    <credits>
+      <presenter>Charla Carter</presenter>
+      <presenter>Nicolas Waldorf</presenter>
+      <presenter>Léa Djadja</presenter>
+    </credits>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Divertissement</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~ff4c0778ede0d05b.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/autre/r1549450794-incroyables-transformations/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808005500 +0000" stop="20240808034000 +0000" channel="118.api-tel.programme-tv.net">
     <title>Programmes de la nuit</title>
     <desc>A suivre, des rediffusions de vos émissions préférées, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt !</desc>
     <category lang="fr">Autre</category>
     <category lang="fr">Programme indéterminé</category>
     <icon src="https://tel.img.pmdstatic.net/fit/~2~placeholder.jpg/1999x1125/_/image.jpg" width="1999" height="1125"/>
-    <url>https://www.programme-tv.net/programme/autre/27784721-programmes-de-la-nuit/</url>
+    <url>https://www.programme-tv.net/programme/autre/27785191-programmes-de-la-nuit/</url>
     <video>
       <present>yes</present>
       <aspect>4:3</aspect>
@@ -163,13 +1651,13 @@
       <stereo>mono</stereo>
     </audio>
   </programme>
-  <programme start="20240807200000 +0000" stop="20240807220000 +0000" channel="112.api-tel.programme-tv.net">
-    <title>Le 22H</title>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Magazine d'actualité</category>
-    <category lang="en">Magazines / Reports / Documentary</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~5ea8a696a2acf83c.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/culture-infos/r1550195159-le-22h/</url>
+  <programme start="20240808004000 +0000" stop="20240808040000 +0000" channel="119.api-tel.programme-tv.net">
+    <title>Programmes de la nuit</title>
+    <desc>A suivre, des rediffusions de vos émissions préférées, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt !</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~placeholder.jpg/1999x1125/_/image.jpg" width="1999" height="1125"/>
+    <url>https://www.programme-tv.net/programme/autre/27787888-programmes-de-la-nuit/</url>
     <video>
       <present>yes</present>
       <aspect>4:3</aspect>
@@ -178,5 +1666,398 @@
       <present>yes</present>
       <stereo>mono</stereo>
     </audio>
+  </programme>
+  <programme start="20240808001500 +0000" stop="20240808050000 +0000" channel="145.api-tel.programme-tv.net">
+    <title>Programmes de la nuit</title>
+    <desc>A suivre, des rediffusions de vos émissions préférées, ainsi que des documentaires et autres reportages destinés à divertir les couche-tard comme les lève-tôt !</desc>
+    <category lang="fr">Autre</category>
+    <category lang="fr">Programme indéterminé</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~placeholder.jpg/1999x1125/_/image.jpg" width="1999" height="1125"/>
+    <url>https://www.programme-tv.net/programme/autre/27785752-programmes-de-la-nuit/</url>
+    <video>
+      <present>yes</present>
+      <aspect>16:9</aspect>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+  </programme>
+  <programme start="20240808000500 +0000" stop="20240808005500 +0000" channel="118.api-tel.programme-tv.net">
+    <title lang="fr">NCIS</title>
+    <title>NCIS: Naval Criminal Investigative Service</title>
+    <sub-title>Arnaque à l'irlandaise</sub-title>
+    <desc>Entouré de trois escrocs amateurs, Max, un homme violent et manipulateur, planifie le braquage d’une bijouterie. La veille du casse, il tue un de ses complices, jugé peu fiable. Le lendemain, alors que certains enquêteurs se préparent pour la Saint-Patrick, Jimmy et Kasie prennent leur petit-déjeuner dans un restaurant... où se retranchent bientôt les braqueurs. Le hold-up s’est mal passé, ils prennent donc la clientèle du restaurant en otage. Le légiste et la scientifique du NCIS tentent de les raisonner. Pendant ce temps-là, Gibbs et l’équipe se rassemblent devant l’établissement.</desc>
+    <credits>
+      <director>Rocky Carroll</director>
+      <actor role="Leroy Jethro Gibbs">Mark Harmon</actor>
+      <actor role="Timothy McGee">Sean Murray</actor>
+      <actor role="Nick Torres">Wilmer Valderrama</actor>
+      <actor role="Ellie Bishop">Emily Wickersham</actor>
+      <actor role="Jimmy Palmer">Brian Dietzen</actor>
+      <actor role="Jack Sloane">Maria Bello</actor>
+      <actor role="Donald Mallard">David McCallum</actor>
+      <actor role="Leon Vance">Rocky Carroll</actor>
+      <actor role="Edmund Kerrigan">Scott Christopher</actor>
+      <actor role="Bobby">Scott Deckert</actor>
+      <actor role="Lenny">Shahine Ezell</actor>
+      <actor role="Max Devendorf">Leif Gantvoort</actor>
+      <writer>Scott Williams</writer>
+      <writer>Kate Torgovnick</writer>
+    </credits>
+    <date>2020</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série policière</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">2520</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~8fe5748ce63ff7be.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1609-ncis/17879770-arnaque-a-lirlandaise/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">16/21.18/20.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>1/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Le point de départ est amusant. Pour une fois, l’équipe du NCIS ne mène pas à proprement parler une enquête. Jimmy et Kasie, plutôt au second plan habituellement, sont ici au centre de l’action et de l’intrigue. C’est donc d’autant plus dommage que le scénario soit si peu crédible. Heureusement, l’épisode se regarde malgré tout sans déplaisir.</review>
+  </programme>
+  <programme start="20240807233000 +0000" stop="20240808004000 +0000" channel="119.api-tel.programme-tv.net">
+    <title>Florent Pagny, le combattant</title>
+    <desc>Lorsque, le 25 janvier 2022, Florent Pagny publie une vidéo dans laquelle il indique être atteint d'un cancer du poumon, de nombreux Français saluent son courage. Ce que beaucoup n'osent pas dire, Florent, lui, le clame souvent haut et fort, à l'instar de ses démêlés avec le fisc et de son tube où il parle des impôts. Connu également pour ses chansons coup de poing et histoires d'amour sans normes, sa carrière est celle d'un artiste anticonformiste qui n'a pas sa langue dans sa poche. Le public attend pour voir la suite et les prochains défis de cet artiste.</desc>
+    <credits>
+      <director>Vincent Guillot</director>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Musique</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">2820</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~b6744f940b5bf268.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550155457-florent-pagny-le-combattant/24842617-florent-pagny-le-combattant/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240807231500 +0000" stop="20240808000500 +0000" channel="118.api-tel.programme-tv.net">
+    <title lang="fr">NCIS</title>
+    <title>NCIS: Naval Criminal Investigative Service</title>
+    <sub-title>Le Saint</sub-title>
+    <desc>Deux enfants s’apprêtant à tricher à une course de canards en plastique trouvent un cadavre dans l’eau. Militaire apprécié par ses supérieurs, la victime ne semblait pas avoir d’ennemis. Sur son téléphone, une interlocutrice inconnue lui a pourtant laissé un message de menace très violent. De son côté, Sloane reçoit une visite inattendue de Faith, la fille qu’elle avait donnée pour adoption à sa naissance. Comme Faith suit un programme de fertilité, elle aimerait avoir des informations sur son père biologique et ses antécédents biologiques.</desc>
+    <credits>
+      <director>Alrick Riley</director>
+      <actor role="Leroy Jethro Gibbs">Mark Harmon</actor>
+      <actor role="Timothy McGee">Sean Murray</actor>
+      <actor role="Nick Torres">Wilmer Valderrama</actor>
+      <actor role="Ellie Bishop">Emily Wickersham</actor>
+      <actor role="Jimmy Palmer">Brian Dietzen</actor>
+      <actor role="Dean Neil Patterson">Jeremiah Birkett</actor>
+      <actor role="Jack Sloane">Maria Bello</actor>
+      <actor role="Taye Tanner">Patrick Cage</actor>
+      <actor role="Portland Douglas">Joshua Dov</actor>
+      <actor role="Faith Tolliver">Kate Hamilton</actor>
+      <actor role="Allen">Armen Nahapetian</actor>
+      <actor role="Kasie Hines">Diona Reasonover</actor>
+      <writer>Kate Torgovnick</writer>
+      <writer>Steven D. Binder</writer>
+    </credits>
+    <date>2020</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série policière</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">2520</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~526469056e97d4b5.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1609-ncis/17259848-le-saint/</url>
+    <country lang="fr">Etats-Unis</country>
+    <episode-num system="xmltv_ns">16/21.17/20.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">L'enquête principale est classique. Sans doute trop pour tenir vraiment en haleine. Heureusement, l’épisode propose également de suivre l’évolution des relations entre Sloane et sa fille abandonnée à la naissance. Dans la rôle de la psychologue hantée par ses souvenirs, Maria Bello trouve le ton juste, à mi-chemin entre l’émotion et la force.</review>
+  </programme>
+  <programme start="20240807224000 +0000" stop="20240807233000 +0000" channel="119.api-tel.programme-tv.net">
+    <title>Florent Pagny, le combattant</title>
+    <desc>Retour sur la carrière hors du commun et des sentiers battus de Florent Pagny. Le chanteur à la voix d'opéra a fait preuve d'un grand courage lors d'une vidéo dans laquelle il annonce l'arrêt de sa tournée anniversaire en raison d'un cancer des poumons. Intégrité et transparence lui ont parfois valu certaines inimitiés. Le chanteur passe outre et reste fidèle à lui-même. Début 2023, il annonce encore une fois sans filtre sa rechute. Il doit retourner en traitement. Loin de s'avouer vaincu, il continue de chanter, de se battre et de profiter des siens.</desc>
+    <credits>
+      <director>Vincent Guillot</director>
+    </credits>
+    <date>2023</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Musique</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">2760</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~0455f373838f1e7abfe6dde67340ffef.jpg/1920x1080/focus-point/1297,220/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/r1550155457-florent-pagny-le-combattant/24842616-florent-pagny-le-combattant/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240807224000 +0000" stop="20240808001500 +0000" channel="145.api-tel.programme-tv.net">
+    <title lang="fr">Matriarch</title>
+    <title>Matriarch</title>
+    <desc>Une femme enceinte, Rachel, et son mari, Matt, sont embêtés lorsque leur voiture tombe en panne à la campagne. Ils sont soulagés lorsqu'ils se voient proposer un abri par un fermier. Cependant, Rachel se rend vite compte que les enfants de cet homme sont en fait volés. Alors qu'ils tentent de s'enfuir, Rachel est soudainement sur le point d'accoucher. Elle craint que son bébé sera enlevé de la même manière que les autres enfants.</desc>
+    <credits>
+      <director>Scott Vickers</director>
+      <actor role="Rachel Hopkins">Charlie Blackwood</actor>
+      <actor role="Agnes Fairbairn">Julie Hannan</actor>
+      <actor role="Matt Hopkins">Scott Vickers</actor>
+      <actor role="Bob Fairbairn">Alan Cuthbert</actor>
+      <actor role="Ellie Adams">Briony Monroe</actor>
+      <actor role="David Fairbairn">Thoren Ferguson</actor>
+      <actor role="Luke Fairbairn">Martin Murphy</actor>
+      <actor role="Jason">Kris McDowall</actor>
+      <actor role="Stu">Cameron Fulton</actor>
+      <actor role="un policier armé">David Friel</actor>
+      <actor role="une secouriste">Anne Kane Howie</actor>
+      <actor role="un secouriste">Andrew Kelly</actor>
+      <writer>Scott Vickers</writer>
+      <composer>Philip Curran</composer>
+    </credits>
+    <date>2018</date>
+    <category lang="fr">Film</category>
+    <category lang="fr">Film d'horreur</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">5460</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp16458817_i_s4_aa.2Ejpg/3000x3000/_/image.jpg" width="3000" height="3000"/>
+    <url>https://www.programme-tv.net/cinema/16981783-matriarch/</url>
+    <country lang="fr">Royaume-Uni</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>bilingual</stereo>
+    </audio>
+    <previously-shown/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 12 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>2/4</value>
+    </star-rating>
+  </programme>
+  <programme start="20240807221000 +0000" stop="20240807231500 +0000" channel="118.api-tel.programme-tv.net">
+    <title>L'homme de nos vies</title>
+    <desc>Après avoir retrouvé son passeport, Mathilde est de retour vers la métropole. Dans l’avion, elle apprend que sa fille Agathe a été agressée. Peu après, Iris annonce à Ghislain une nouvelle inattendue qui le bouleverse. L’escroc semble alors vouloir changer de comportement pour prendre un nouveau départ. Pendant ce temps, ses anciennes victimes continuent de s’organiser pour le faire tomber. Elles consultent ensemble une avocate spécialisée. Mais Guillaume a continué de tisser sa toile, et Oriane est sur le point de flancher. Les filles l’accompagnent dans le sud au chevet de son père.</desc>
+    <credits>
+      <director>Frédéric Berthe</director>
+      <actor role="Roman">Jonathan Zaccaï</actor>
+      <actor role="Camille Neva">Odile Vuillemin</actor>
+      <actor role="Mathilde">Helena Noguerra</actor>
+      <actor role="Oriane Mancini-Belliard">Flore Bonaventura</actor>
+      <actor role="Iris">Elodie Frégé</actor>
+      <actor role="Agathe">Aaricia Lemaire</actor>
+      <actor role="Aurélie Neva">Anne Le Forestier</actor>
+      <actor role="le juge">Jacques Bondoux</actor>
+      <actor role="Daphné Diola">Armelle Abibou</actor>
+      <actor role="Solenn">Rani Bheemuck</actor>
+      <actor role="Dominique Mancini">Michel Bompoil</actor>
+      <actor role="Anna Vauthier">Bérénice Baoo</actor>
+      <writer>Alice van den Broek</writer>
+      <writer>Eliane Vigneron</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série dramatique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">2940</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~f558d906b278fd1c.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1550141372-lhomme-de-nos-vies/23599781-lhomme-de-nos-vies/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/1.3/4.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>3/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">C’est l’épilogue de cette série réussie en tous points, qui sait mêler avec habileté la comédie romantique au thriller social. D’Héléna Noguerra à Elodie Frégé en passant par la troublante Odile Vuillemin, la distribution fait mouche, chaque actrice incarnant à sa manière une femme de tête.</review>
+  </programme>
+  <programme start="20240807210500 +0000" stop="20240807221000 +0000" channel="118.api-tel.programme-tv.net">
+    <title>L'homme de nos vies</title>
+    <desc>Roman emmène Mathilde pour un séjour romantique sur l’île de La Réunion. Pendant ce temps, sa fille Agathe est promue influenceuse et décroche un partenariat avec une marque. Oriane, de son côté, a été internée : Camille réussit à s’introduire dans l’hôpital pour prévenir la jeune femme de ses récentes découvertes à propos de l’identité de son époux. Oriane découvre que ses comptes ont été vidés… Camille et Oriane décident alors de s’unir pour faire tomber l’escroc qui a ruiné leur vie. Pendant ce temps, Mathilde commence à douter de la réalité des sentiments de son amant…</desc>
+    <credits>
+      <director>Frédéric Berthe</director>
+      <actor role="Roman">Jonathan Zaccaï</actor>
+      <actor role="Camille Neva">Odile Vuillemin</actor>
+      <actor role="Mathilde">Helena Noguerra</actor>
+      <actor role="Oriane Mancini-Belliard">Flore Bonaventura</actor>
+      <actor role="Iris">Elodie Frégé</actor>
+      <actor role="Solenn">Rani Bheemuck</actor>
+      <actor role="Agathe">Aaricia Lemaire</actor>
+      <actor role="Léna">Alexia Chicot</actor>
+      <actor role="Alain">Luc Antoni</actor>
+      <actor role="Dominique Mancini">Michel Bompoil</actor>
+      <actor role="Anna Vauthier">Bérénice Baoo</actor>
+      <actor role="Aurélie Neva">Anne Le Forestier</actor>
+      <writer>Alice van den Broek</writer>
+      <writer>Eliane Vigneron</writer>
+    </credits>
+    <date>2022</date>
+    <category lang="fr">Série</category>
+    <category lang="fr">Série dramatique</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">3120</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~5434d254f2a7aab3.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/series-tv/r1550141372-lhomme-de-nos-vies/23599780-lhomme-de-nos-vies/</url>
+    <country lang="fr">France</country>
+    <episode-num system="xmltv_ns">0/1.2/4.0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>3/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Le suspense est bien maintenu, tandis que l’étau continue de se resserrer autour de chaque victime, comme autour de leur bourreau. Il est salutaire de voir les femmes s’organiser pour tenir en joue leur tortionnaire : la scénariste Alice Van den Broek déclare s’être inspirée du mouvement #metoo.</review>
+  </programme>
+  <programme start="20240807205500 +0000" stop="20240807224000 +0000" channel="145.api-tel.programme-tv.net">
+    <title>Borderline</title>
+    <desc>Après 25 ans de carrière irréprochable, Blain, chef de la B.R.B., est arrêté et placé en garde à vue par la police des polices pour association de malfaiteurs, trafic de stupéfiants, vol en réunion et détournement de scellés. Comment Blain vivra-t-il cette épreuve ?</desc>
+    <credits>
+      <director>Olivier Marchal</director>
+      <actor role="Willy Blain">Bruno Wolkowitch</actor>
+      <actor role="Catherine Van Roy">Catherine Marchal</actor>
+      <actor role="Philippe Jansen">Patrick Catalifo</actor>
+      <actor role="Camille Blain">Laure Marsac</actor>
+      <actor role="Richard Moreau">Vincent Jouan</actor>
+      <actor role="Noella">Maud Jurez</actor>
+      <actor role="Samir">Nassim Boutelis</actor>
+      <actor role="Henri Van Roy">Jacques Perrin</actor>
+      <actor role="Joseph Dahan">Pascal Elso</actor>
+      <actor role="Samuel Bergson">Jean Dell</actor>
+      <actor role="Karim Beloufa">Alain Figlarz</actor>
+      <actor role="Charles Vojak">Hervé Dubourjal</actor>
+      <actor role="Lucas Blain">Louis Duneton</actor>
+      <actor role="Lilou Blain">Ninon Marchal</actor>
+      <actor role="Driou">Muratt Atik</actor>
+      <actor role="Bruno Agostini">Christophe Gavat</actor>
+      <actor role="Léo Van Roy">Jules Balekdjian</actor>
+      <actor role="Marion">Célia Catalifo</actor>
+      <actor role="l'officier intervenant">Gonzo</actor>
+      <actor role="le motard">Djessi Camara</actor>
+      <writer>Christophe Gavat</writer>
+      <writer>Laurent Guillaume</writer>
+      <writer>Olivier Marchal</writer>
+      <guest>Erwann Kermorvant</guest>
+    </credits>
+    <date>2014</date>
+    <category lang="fr">Téléfilm</category>
+    <category lang="fr">Téléfilm policier</category>
+    <category lang="en">Movie / Drama</category>
+    <length units="seconds">5820</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp12140403_i_h8_aa.2Ejpg/3840x2160/_/image.jpg" width="3840" height="2160"/>
+    <url>https://www.programme-tv.net/programme/telefilm/6754813-borderline/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <colour>yes</colour>
+      <aspect>16:9</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <rating system="CSA">
+      <value>Interdit aux moins de 10 ans</value>
+    </rating>
+    <star-rating system="Télé Loisirs">
+      <value>3/4</value>
+    </star-rating>
+    <review type="text" source="Télé Loisirs" lang="fr">Olivier Marchal livre ici un polar noir et coup-de-poing, librement inspiré de l'histoire vraie de Christophe Gavat et servi par une partition en miroir impeccable de Bruno Wolkowitch et Patrick Catalifo. A noter : cette réalisation a été primée à trois reprises au Festival de la fiction TV de La Rochelle 2015 : meilleur téléfilm, meilleure interprétation masculine pour Patrick Catalifo et meilleure musique.</review>
+  </programme>
+  <programme start="20240807205000 +0000" stop="20240807224000 +0000" channel="119.api-tel.programme-tv.net">
+    <title>Renaud, au nom du père</title>
+    <desc>A l'occasion de la sortie du dix-huitième album de Renaud, «Les mômes et les enfants d'abord», les équipes de la chaîne sont allées à la rencontre des proches du chanteur pour comprendre les maux qui le rongent. Ainsi, son frère jumeau, ses amis intimes et son entourage racontent l'homme qu'il est, et mettent en lumière son histoire secrète et son histoire. Les journalistes ont également suivi les coulisses de l'écriture et de l'enregistrement du disque, dont la pochette est signée par le dessinateur Zep, créateur de Titeuf, et où le chanteur aborde, en douze titres, la question de l'enfance.</desc>
+    <credits>
+      <director>Sophie Lesage</director>
+      <director>Timothée Vienne</director>
+    </credits>
+    <date>2019</date>
+    <category lang="fr">Documentaire</category>
+    <category lang="fr">Musique</category>
+    <category lang="en">News / Current affairs</category>
+    <length units="seconds">6000</length>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~f1854cfab576f7c5.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/culture-infos/16452182-renaud-au-nom-du-pere/</url>
+    <country lang="fr">France</country>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+    <star-rating system="Télé Loisirs">
+      <value>3/4</value>
+    </star-rating>
   </programme>
 </tv>
