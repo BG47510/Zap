@@ -27,7 +27,7 @@ jobs:
               echo "channel=$id.api-tel.programme-tv.net" >>tv_grab_fr_teleloisirs.conf
           done
         env:
-          XMLTV_IDS: 3 34
+          XMLTV_IDS: 3 34 47
       - name: Run grabber
         run: python tv_grab_fr_teleloisirs.py --config-file tv_grab_fr_teleloisirs.conf --days 1 --output xmltv_teleloisirs.xml
         env:
