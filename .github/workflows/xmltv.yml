@@ -39,7 +39,7 @@ jobs:
         with:
           name: xmltv
           path: xmltv_teleloisirs.xml
-           echo xmltv_teleloisirs.xml | gzip > xmltv_teleloisirs.gz.xml
+           echo Zap/xmltv_teleloisirs.xml | gzip > Zap/xmltv_teleloisirs.gz.xml
           
 
       - name: Add XMLTV file to repository
