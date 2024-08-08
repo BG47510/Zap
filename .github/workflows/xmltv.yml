@@ -39,18 +39,9 @@ jobs:
         with:
           name: xmltv
           path: xmltv_teleloisirs.xml
-  #export_xmltv:
-    #needs:
-      #- generate_xmltv
-    #runs-on: ubuntu-latest
-    #steps:
-      #- name: Clone repository
-        #uses: actions/checkout@v4
-      #- name: Download XMLTV file
-        #uses: actions/download-artifact@v4
-        #with:
-          #name: xmltv
-          #path: .
+           cat xmltv_teleloisirs.xml | gzip > xmltv_teleloisirs.gz.xml
+          
+
       - name: Add XMLTV file to repository
         run: |
           git config --global user.email "action@github.com"
