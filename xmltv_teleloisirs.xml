@@ -1,1040 +1,277 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <tv source-info-name="Télé Loisirs" source-info-url="https://www.programme-tv.net/" source-data-url="https://api-tel.programme-tv.net" generator-info-name="tv_grab_fr_teleloisirs" generator-info-url="https://github.com/melmorabity/tv_grab_fr_teleloisirs">
-  <channel id="4.api-tel.programme-tv.net">
-    <display-name>France 2</display-name>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~channel~c867fb8732bff5e1.png/500x500/_/image.png" width="500" height="500"/>
-    <url>https://www.programme-tv.net/programme/chaine/programme-france-2-6.html</url>
+  <channel id="35.api-tel.programme-tv.net">
+    <display-name>Canal+ Sport</display-name>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~channel~2b97b0fb1264c28d.png/500x500/_/image.png" width="500" height="500"/>
+    <url>https://www.programme-tv.net/programme/chaine/programme-canalplus-sport-37.html</url>
   </channel>
-  <channel id="33.api-tel.programme-tv.net">
-    <display-name>Canal+ Cinéma</display-name>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~channel~0b078790aeb2d121.png/500x500/_/image.png" width="500" height="500"/>
-    <url>https://www.programme-tv.net/programme/chaine/programme-canalplus-cinema-35.html</url>
-  </channel>
-  <programme start="20240807212000 +0000" stop="20240807231000 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Quels jeux !</title>
-    <desc>Léa Salamé et Laurent Luyat reçoivent les femmes et les hommes qui ont marqué la journée, ainsi que celles et ceux qui font l’actualité pendant les Jeux Olympiques. Lors de ce grand rendez-vous quotidien, des athlètes médaillés ou révélés, des consultants exceptionnels, des observateurs français et internationaux, mais également des comédiens, des chanteurs, des intellectuels ou encore des politiques sont invités. Aux côtés des deux présentateurs, l’humoriste Paul de Saint-Sernin partage son point de vue sur l’actualité de cet événement sportif majeur.</desc>
-    <credits>
-      <presenter>Léa Salamé</presenter>
-      <presenter>Laurent Luyat</presenter>
-    </credits>
-    <category lang="fr">Autre</category>
-    <category lang="fr">Talk-show</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~f31e82821a4a63bb.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/autre/r1550194160-quels-jeux/27784139-sans-titre/</url>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <premiere/>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240807204000 +0000" stop="20240807221200 +0000" channel="33.api-tel.programme-tv.net">
-    <title>Un coup de maître</title>
-    <desc>Arthur Forestier, galeriste, a bien du mal avec son artiste fétiche et ami de longue date Renzo Nervi. Celui-ci, peintre de grand talent, est de plus en plus tourmenté. Pris de rage, il se rend dans la galerie d'Arthur et tire au pistolet sur trois de ses toiles alors même qu'une riche cliente était sur le point de les acheter. Pourtant, par fidélité pour Renzo, qui l'a toujours suivi, et par admiration pour son talent, Arthur le défend face à des critiques injustes et lui propose une commande qui lui permettra de mettre fin à ses nombreux problèmes financiers.</desc>
-    <credits>
-      <director>Rémi Bezançon</director>
-      <actor role="Arthur Forestier">Vincent Macaigne</actor>
-      <actor role="Renzo Nervi">Bouli Lanners</actor>
-      <actor role="Alex">Bastien Ughetto</actor>
-      <actor role="Eugénie">Anaïde Rozam</actor>
-      <actor role="Dudu">Aure Atika</actor>
-      <actor role="Laveran">Michel Nabokoff</actor>
-      <actor role="Dupont-Laval">Philippe Résimont</actor>
-      <actor role="l'huissière de justice">Ophélie Koering</actor>
-      <actor role="l'assistante de Dupont-Laval">Madeleine Baudot</actor>
-      <actor role="Laura">Fanny Roisin</actor>
-      <actor role="Zakaryan">Jean-Franck Perez</actor>
-      <actor role="le chef de rang">Karim Mendil</actor>
-      <actor role="la cliente bourgeoise">Aude Perrier</actor>
-      <actor role="la serveuse">Mélusine Loveniers</actor>
-      <actor role="Journaliste TV">David Courier</actor>
-      <actor role="Homme masqué vidéo">Vincent Santamaria</actor>
-      <actor role="Graffeur">Anas El Marcouchi</actor>
-      <actor role="Graffeur">Pirly Kayaert</actor>
-      <actor role="Graffeur">Jef Cuppens</actor>
-      <writer>Rémi Bezançon</writer>
-      <writer>Vanessa Portal</writer>
-      <writer>Andrés Duprat</writer>
-      <writer>Gastón Duprat</writer>
-      <guest>Laurent Perez Del Mar</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Film</category>
-    <category lang="fr">Comédie</category>
-    <category lang="en">Movie / Drama</category>
-    <length units="seconds">5700</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~368172e0673c8929.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/cinema/25092485-un-coup-de-maitre/</url>
-    <country lang="fr">France</country>
-    <country lang="fr">Belgique</country>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-    <star-rating system="Télé Loisirs">
-      <value>1/4</value>
-    </star-rating>
-    <review type="text" source="Télé Loisirs" lang="fr">Un remake peu inspiré, sauvé la faconde de Vincent Macaigne et Bouli Lanners, une fois de plus brillants.</review>
-  </programme>
-  <programme start="20240807190000 +0000" stop="20240807204000 +0000" channel="33.api-tel.programme-tv.net">
-    <title>La fiancée du poète</title>
-    <desc>Amoureuse de peinture et de poésie, Mireille s'accommode de son travail de serveuse à la cafétéria des Beaux-Arts de Charleville-Mézières tout en vivant de petits larcins et de trafic de cartouches de cigarettes. N'ayant pas les moyens d'entretenir la grande maison familiale des bords de Meuse dont elle hérite, Mireille décide de prendre trois locataires. Trois hommes qui vont bouleverser sa routine et la préparer, sans le savoir, au retour du quatrième : son grand amour de jeunesse, le poète.</desc>
-    <credits>
-      <director>Yolande Moreau</director>
-      <actor role="Mireille Stockaert">Yolande Moreau</actor>
-      <actor role="Fernando">Sergi Lopez</actor>
-      <actor role="Bernard">Grégory Gadebois</actor>
-      <actor role="Elvis">Esteban</actor>
-      <actor role="Cyril">Thomas Guy</actor>
-      <actor role="Annie">Anne Benoît</actor>
-      <actor role="le père Benoît">William Sheller</actor>
-      <actor role="Pierre">François Morel</actor>
-      <actor role="Aminata">Aïssatou Diallo Sagna</actor>
-      <actor role="le collectionneur">Philippe Duquesne</actor>
-      <actor role="la mairesse">Jana Bittnerova</actor>
-      <actor role="un étudiant">Tibo Buat</actor>
-      <writer>Yolande Moreau</writer>
-      <writer>Frédérique Moreau</writer>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Film</category>
-    <category lang="fr">Comédie dramatique</category>
-    <category lang="en">Movie / Drama</category>
-    <length units="seconds">6180</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp25749154_v_h2_aa.2Ejpg/2048x1024/_/image.jpg" width="2048" height="1024"/>
-    <url>https://www.programme-tv.net/cinema/25416207-la-fiancee-du-poete/</url>
-    <country lang="fr">France</country>
-    <country lang="fr">Belgique</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-    <star-rating system="Télé Loisirs">
-      <value>2/4</value>
-    </star-rating>
-    <review type="text" source="Télé Loisirs" lang="fr">Depuis le début des années 2000, tous les dix ans ou presque, Yolande Moreau passe derrière la caméra. Après Quand la mer monte et Henri, elle s'attache à nouveau avec La Fiancée du poète à des personnages légèrement en marge. La folie douce du récit et le capitale sympathie des comédiens font beaucoup pour le charme du film.</review>
-  </programme>
-  <programme start="20240807184000 +0000" stop="20240807212000 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Jeux olympiques de Paris 2024 (France 2)</title>
-    <sub-title>Athlétisme. 400 m H finale, 3000 m steeple H finale. Boxe H. Finales 63,5 kg et 80 kg. Taekwondo. Finales -49 kg F et -58 kg H</sub-title>
-    <desc>En athlétisme, quatre finales sont au menu ce soir en saut à la perche dames, le 400m messieurs, le lancer du disque messieurs ainsi que le 3 000m steeple messieurs. En finale du 400m messieurs, le Jamaïcain Antonio Watson aura la faveur des pronostics après son titre mondial obtenu à Budapest. Les demi-finales du 200m attireront également les regards. Triple champion du monde du 200m, Noah Lyles devrait se qualifier aisément pour la finale. Le sprinteur américain court après un premier sacre olympique sur la distance. Il y a trois ans, à Tokyo, il avait terminé à la troisième place derrière le Canadien André De Grasse et l’Américain Kenneth Bednarek. Parmi les autres moments forts à suivre : Taekwondo, Finales moins de 58 kg messieurs et moins de 49 kg dames ; Boxe, 57 kg dames demi-finales, plus de 92 kg messieurs demi-finales, finales 63,5 kg et 80 kg messieurs.</desc>
+  <programme start="20240808190000 +0000" stop="20240808220000 +0000" channel="35.api-tel.programme-tv.net">
+    <title>Golf : Open de Greensboro</title>
+    <sub-title>Open de Greensboro</sub-title>
+    <desc>L'an dernier, l'Américain Lucas Glover a remporté le Wyndham Championship à Greensboro. Il décrochait ainsi sa cinquième victoire sur le circuit PGA. Il a devancé au classement son compatriote Russell Henley qui hissé trois fois dans le top 10 en 2020, 2021 et 2022 en Caroline du Nord.</desc>
     <category lang="fr">Emission sportive</category>
-    <category lang="fr">Multisports</category>
+    <category lang="fr">Golf</category>
     <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~baa516aa0a8996d8.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1550193987-multisports-session-du-soir/27784138-athletisme-400-m-h-finale-3000-m-steeple-h-finale-boxe-h-finales-63-5-kg-et-80-kg-taekwondo-finales-49-kg-f-et-58-kg-h/</url>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~568ecafdcb056b31.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r309314-golf-circuit-americain/27789297-open-de-greensboro/</url>
     <episode-num system="xmltv_ns">2023/2024..0/1</episode-num>
     <video>
       <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <premiere/>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240807183600 +0000" stop="20240807184000 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Moment d'exception</title>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Magazine de services</category>
-    <category lang="en">Magazines / Reports / Documentary</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~6721301d661e67d1.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/culture-infos/r1550194505-moment-dexception/</url>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240807183300 +0000" stop="20240807183600 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Journal Météo Climat</title>
-    <desc>Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts.</desc>
-    <category lang="fr">Autre</category>
-    <category lang="fr">Météo</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~8275a74f460eb05e.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/autre/r1550150939-france-2-journal-meteo-climat/</url>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240807175800 +0000" stop="20240807183300 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Journal 20h00</title>
-    <desc>Les principales informations nationales et internationales sont passées à la loupe et mises en perspective, illustrées par des reportages sur le terrain.</desc>
-    <credits>
-      <presenter>Anne-Sophie Lapix</presenter>
-    </credits>
-    <category lang="fr">Autre</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~b6b9d009384d8bcb.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/autre/r1549235792-journal-20h00/</url>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240807172600 +0000" stop="20240807190000 +0000" channel="33.api-tel.programme-tv.net">
-    <title>Second tour</title>
-    <desc>Journaliste politique en disgrâce placée à la rubrique football, Mademoiselle Pove est sollicitée pour suivre l'entre-deux tours de la campagne présidentielle. Le favori est Pierre-Henry Mercier, héritier d'une puissante famille française et novice en politique. Troublée par ce candidat qu'elle a connu beaucoup moins lisse, Mademoiselle Pove se lance dans une enquête aussi étonnante que jubilatoire.</desc>
-    <credits>
-      <director>Albert Dupontel</director>
-      <actor role="Nathalie Pove">Cécile de France</actor>
-      <actor role="Pierre-Henry Mercier">Albert Dupontel</actor>
-      <actor role="Gus Clément">Nicolas Marié</actor>
-      <actor role="l'adversaire">Scali Delpeyrat</actor>
-      <actor role="le professeur Curiepe">Jackie Berroyer</actor>
-      <actor role="le professeur Jacob">Christiane Millet</actor>
-      <actor role="monsieur Robard">Philippe Uchan</actor>
-      <actor role="l'animateur à la salle de meeting">Gilles Gaston-Dreyfus</actor>
-      <actor role="l'entraîneur">Bouli Lanners</actor>
-      <actor role="le député">David Marsais</actor>
-      <actor role="Lior">Uri Gavriel</actor>
-      <actor role="le hacker">Philippe Duquesne</actor>
-      <actor role="la mère">Catherine Schaub-Abkarian</actor>
-      <actor role="l'institutrice">Florence Monge</actor>
-      <actor role="l'assistante">Magali Bonat</actor>
-      <actor role="un chroniqueur France+">Bertrand Usclat</actor>
-      <actor role="un chroniqueur France+">Johann Dionnet</actor>
-      <actor role="un chroniqueur France+">Sharif Andoura</actor>
-      <actor role="une chroniqueuse France+">Julia Molkhou</actor>
-      <actor role="Tal">Guillemette Buffet</actor>
-      <actor role="CMM news anchor">Eric Geynes</actor>
-      <writer>Albert Dupontel</writer>
-      <guest>Christophe Julien</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Film</category>
-    <category lang="fr">Comédie dramatique</category>
-    <category lang="en">Movie / Drama</category>
-    <length units="seconds">5820</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp25750819_v_s3_ab.2Ejpg/2000x2000/_/image.jpg" width="2000" height="2000"/>
-    <url>https://www.programme-tv.net/cinema/24925007-second-tour/</url>
-    <country lang="fr">France</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-    <rating system="CSA">
-      <value>Interdit aux moins de 10 ans</value>
-    </rating>
-    <star-rating system="Télé Loisirs">
-      <value>3/4</value>
-    </star-rating>
-    <review type="text" source="Télé Loisirs" lang="fr">Avec 9 mois ferme et Adieu les cons, Second tour pourrait former une trilogie informelle, burlesque et sociale, dans la filmographie d'Albert Dupontel. Après avoir filmé Sandrine Kiberlain et Virginie Efira, l'acteur et réalisateur met désormais en vedette Cécile de France dans sa nouvelle farce tragi-comique. Elle s'y montre une fois de plus épa</review>
-  </programme>
-  <programme start="20240807172000 +0000" stop="20240807172600 +0000" channel="33.api-tel.programme-tv.net">
-    <title>Mini Canalissime</title>
-    <category lang="fr">Autre</category>
-    <category lang="fr">Divertissement</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~89dc9dd887b55ed8.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/autre/r1550163872-mini-canalissime/27692066-sans-titre/</url>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <rating system="CSA">
-      <value>Interdit aux moins de 10 ans</value>
-    </rating>
-  </programme>
-  <programme start="20240807160200 +0000" stop="20240807172000 +0000" channel="33.api-tel.programme-tv.net">
-    <title lang="fr">Les feuilles mortes</title>
-    <title>Kuolleet lehdet</title>
-    <desc>Deux célibataires solitaires se rencontrent dans un bar karaoké d'Helsinki. Il y a Ansa qui cumule les emplois après s'être fait congédier d'un supermarché pour avoir récupéré un sandwich périmé. Holappa, quand à lui est un travailleur taciturne qui a de plus en plus de difficulté à maîtriser son alcoolisme.</desc>
-    <credits>
-      <director>Aki Kaurismäki</director>
-      <actor role="Ansa">Alma Pöysti</actor>
-      <actor role="Holappa">Jussi Vatanen</actor>
-      <actor role="Huotari">Janne Hyytiäinen</actor>
-      <actor role="Liisa">Nuppu Koivu</actor>
-      <actor role="Tonja">Alina Tomnikov</actor>
-      <actor role="Raunio">Martti Suosalo</actor>
-      <actor role="l'homme dans le mobil-home">Sakari Kuosmanen</actor>
-      <actor role="Ylihoitaja">Maria Heiskanen</actor>
-      <actor role="un habitant de Paraki">Sherwan Haji</actor>
-      <actor role="l'ambulancier">Eero Ritala</actor>
-      <actor role="Koira">Alma</actor>
-      <actor role="Poliisi">Lauri Untamo</actor>
-      <actor role="Myymälävartija">Mikko Mykkänen</actor>
-      <actor role="Rakennusmestari">Misha Jaari</actor>
-      <actor role="Ohikulkija">Timo Malmi</actor>
-      <actor role="Karaoke-emäntä">Evi Salmelin</actor>
-      <actor role="Elokuvakriitikko">Jukka Salmi</actor>
-      <actor role="Huligaani raitiovaunupysäkillä">Heikki Rautiainen</actor>
-      <writer>Aki Kaurismäki</writer>
-      <guest>Pietu Korhonen</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Film</category>
-    <category lang="fr">Comédie dramatique</category>
-    <category lang="en">Movie / Drama</category>
-    <length units="seconds">4860</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp24477361_k_s4_ad.2Ejpg/3000x3000/_/image.jpg" width="3000" height="3000"/>
-    <url>https://www.programme-tv.net/cinema/24829211-les-feuilles-mortes/</url>
-    <country lang="fr">Finlande</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>bilingual</stereo>
-    </audio>
-    <previously-shown/>
-    <rating system="CSA">
-      <value>Interdit aux moins de 10 ans</value>
-    </rating>
-    <star-rating system="Télé Loisirs">
-      <value>2/4</value>
-    </star-rating>
-    <review type="text" source="Télé Loisirs" lang="fr">Caractéristique du style de son auteur, une romance minimaliste touchante, primée au Festival de Cannes.</review>
-  </programme>
-  <programme start="20240807135300 +0000" stop="20240807160200 +0000" channel="33.api-tel.programme-tv.net">
-    <title lang="fr">L'enlèvement</title>
-    <title>Rapito</title>
-    <desc>En 1858, Edgardo Mortara, jeune garçon juif de Bologne, est enlevé de sa maison familiale par des soldats du pape. Ayant été baptisé en secret par sa nourrice, il doit recevoir une éducation catholique.</desc>
-    <credits>
-      <director>Marco Bellocchio</director>
-      <actor role="le pape Pie IX">Paolo Pierobon</actor>
-      <actor role="Momolo Mortara">Fausto Russo Alesi</actor>
-      <actor role="Marianna Mortara">Barbara Ronchi</actor>
-      <actor role="Edgardo Mortara enfant">Enea Sala</actor>
-      <actor role="Edgardo Mortara jeune homme">Leonardo Maltese</actor>
-      <actor role="le cardinal Antonelli">Filippo Timi</actor>
-      <actor role="Pier Gaetano Feletti">Fabrizio Gifuni</actor>
-      <actor role="Riccardo Mortara">Samuele Teneggi</actor>
-      <actor role="Anna Morisi">Aurora Camatti</actor>
-      <actor role="Sabatino Scazzocchio">Paolo Calabresi</actor>
-      <actor role="le maréchal Lucidi">Bruno Cariello</actor>
-      <actor role="Angelo Padovani">Andrea Gherpelli</actor>
-      <actor role="Angelo Moscati">Walter Lippa</actor>
-      <actor role="Giudice Carboni">Corrado Invernizzi</actor>
-      <actor role="le secrétaire de monseigneur Feletti">Michele De Paola</actor>
-      <actor role="le prêtre dominicain">Fiorucci Alessandro</actor>
-      <actor role="Soldado Austriaco">Marco Golinucci</actor>
-      <actor role="Garibaldino">Alessandro Scafati</actor>
-      <actor role="Rettore Casa del Catecumeni">Renato Sarti</actor>
-      <actor role="Lepori (Il droghiere)">Duilio Pizzocchi</actor>
-      <actor role="Padre Mariano">Alessandro Bandini</actor>
-      <actor role="Simone">James Basham</actor>
-      <actor role="Brigadiere Agostini">Leonardo Bianconi</actor>
-      <actor role="Gendarme">Filippo Marchi</actor>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Film</category>
-    <category lang="fr">Drame</category>
-    <category lang="en">Movie / Drama</category>
-    <length units="seconds">8040</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp24640250_k_s4_ac.2Ejpg/3000x3000/_/image.jpg" width="3000" height="3000"/>
-    <url>https://www.programme-tv.net/cinema/24829214-lenlevement/</url>
-    <country lang="fr">Italie</country>
-    <country lang="fr">France</country>
-    <country lang="fr">Allemagne</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>bilingual</stereo>
-    </audio>
-    <previously-shown/>
-    <rating system="CSA">
-      <value>Interdit aux moins de 10 ans</value>
-    </rating>
-    <star-rating system="Télé Loisirs">
-      <value>3/4</value>
-    </star-rating>
-    <review type="text" source="Télé Loisirs" lang="fr">Une réalisation aussi forte qu'originale, empruntant à de surprenants registres, pour évoquer une histoire vraie.</review>
-  </programme>
-  <programme start="20240807115600 +0000" stop="20240807135300 +0000" channel="33.api-tel.programme-tv.net">
-    <title>La tresse</title>
-    <desc>Inde. Smita est une Intouchable. Elle rêve de voir sa fille échapper à sa condition misérable et entrer à l'école. Italie. Giulia travaille dans l'atelier de son père. Lorsqu'il est victime d'un accident, elle découvre que l'entreprise familiale est ruinée. Canada. Sarah, avocate réputée, va être promue à la tête de son cabinet quand elle apprend qu'elle est malade. Si elles ne se connaissent pas, Smita, Giulia et Sarah sont liées sans le savoir par ce qu'elles ont de plus singulier.</desc>
-    <credits>
-      <director>Laetitia Colombani</director>
-      <actor role="Smita">Mia Maelzer</actor>
-      <actor role="Giulia">Fotinì Peluso</actor>
-      <actor role="Sarah">Kim Raver</actor>
-      <actor role="Lalita">Sajda Pathan</actor>
-      <actor role="Kamal">Avi Nash</actor>
-      <actor role="la mère de Giulia">Manuela Ventura</actor>
-      <actor role="Hannah">Sarah Abbott</actor>
-      <actor role="Pamela">Sarah Camacho</actor>
-      <actor role="Gino">Francesco Marinelli</actor>
-      <actor role="Ethan">Adrian Doroslovac</actor>
-      <actor role="Simon">Dorian Doroslovac</actor>
-      <actor role="Maeva">Lydia Zadel</actor>
-      <actor role="Inès">Katharine King So</actor>
-      <actor role="Anton Bilgouvar">Matthew Alan Taylor</actor>
-      <actor role="Francesca">Celeste Savino</actor>
-      <actor role="Padre Giulia">Mimmo Mancini</actor>
-      <actor role="Gary">Marcel Jeannin</actor>
-      <actor role="Adela">Guendalina Losito</actor>
-      <actor role="Inès' Mother">Bonnie Mak</actor>
-      <actor role="Josh">Damon Runyan</actor>
-      <actor role="Jeffrey">Kenny Wong</actor>
-      <actor role="Nonna">Lucia Zotti</actor>
-      <actor role="Judge">Katherine Adams</actor>
-      <actor role="Federica">Ilaria Cangialosi</actor>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Film</category>
-    <category lang="fr">Drame</category>
-    <category lang="en">Movie / Drama</category>
-    <length units="seconds">7200</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp25186828_k_h2_ab.2Ejpg/2048x1024/_/image.jpg" width="2048" height="1024"/>
-    <url>https://www.programme-tv.net/cinema/25379924-la-tresse/</url>
-    <country lang="fr">France</country>
-    <country lang="fr">Canada</country>
-    <country lang="fr">Italie</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>bilingual</stereo>
-    </audio>
-    <previously-shown/>
-    <star-rating system="Télé Loisirs">
-      <value>1/4</value>
-    </star-rating>
-    <review type="text" source="Télé Loisirs" lang="fr">Déjà réalisatrice de deux longs métrages, mais aussi comédienne et parfois tournée vers la scène, Laetitia Colombani a connu un grand succès avec son premier roman, La tresse. Celle qu'on aurait pu croire la mieux placée pour adapter le livre signe paradoxalement une oeuvre empesée, qui vaut surtout pour l'engagement de ses comédiennes.</review>
-  </programme>
-  <programme start="20240807114300 +0000" stop="20240807175800 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Jeux olympiques de Paris 2024 (France 2)</title>
-    <sub-title>Cyclisme sur piste. Finale poursuite par équipes. Tennis de table par équipes. Quarts de finale. Athlétisme. Perche F. Finale</sub-title>
-    <desc>Voile, Course aux médailles Nacra 17 mixte et 470, régates Formula Kite messieurs et dames courses 13 à 16 ; Cyclisme sur piste, Vitesse individuelle messieurs qualification, 32e de finale et repêchage, Keirin dames premier tour et repêchage, poursuite dames par équipes premier tour. Champion olympique et champion du monde en titre, le Néerlandais Harrie Lavreysen reste le grand favori en vitesse individuelle. Il devra notamment se méfier du Britannique Jack Carlin qui après deux médailles de bronze aux JO de 2021 et aux Mondiaux de 2023 se montre le plus régulier parmi les autres prétendants ; Taekwondo, -49 kg dames combat pour la médaille de bronze et finale, -58 kg messieurs combat pour la médaille de bronze et finale ; Plongeon, Tremplin 3 m dames éliminatoires ; Tennis de table, Tournoi par équipes messieurs et dames quart de finale, tournoi par équipes messieurs demi-finales ; Haltérophilie, Moins de 61 kg finales messieurs, moins de 49 kg dames finales</desc>
-    <category lang="fr">Emission sportive</category>
-    <category lang="fr">Multisports</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~c9d834f9d537acbb.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1550193984-multisports-session-dapres-midi/27784137-cyclisme-sur-piste-finale-poursuite-par-equipes-tennis-de-table-par-equipes-quarts-de-finale-athletisme-perche-f-finale/</url>
-    <episode-num system="xmltv_ns">2023/2024..0/1</episode-num>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <premiere/>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240807113300 +0000" stop="20240807114300 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Journal Météo Climat</title>
-    <desc>Un point quotidien sur l'actualité météo et climatique, avec des reportages et des interviews d'experts.</desc>
-    <category lang="fr">Autre</category>
-    <category lang="fr">Météo</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~8275a74f460eb05e.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/autre/r1550150939-france-2-journal-meteo-climat/</url>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240807105800 +0000" stop="20240807113300 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Journal 13h00</title>
-    <desc>Tous les jours, à 13h, la rédaction de France 2 propose un point sur l'actualité. Les informations nationales et internationales sont passées à la loupe et mises en perspective, illustrées par des reportages sur le terrain.</desc>
-    <credits>
-      <presenter>Julian Bugier</presenter>
-    </credits>
-    <category lang="fr">Autre</category>
-    <category lang="fr">Journal</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~8e3dc5a2ee95f5cb.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/autre/r1549235791-journal-13h00/</url>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240807102100 +0000" stop="20240807115600 +0000" channel="33.api-tel.programme-tv.net">
-    <title>La marginale</title>
-    <desc>Michèle, qui a décidé de vivre dans l'enceinte de l'aéroport d'Orly, rencontre Théo, un jeune homme chargé du nettoyage. Ce dernier présente des troubles mentaux et vit chez sa Tatie, après avoir été abandonné par sa mère. Un jour, Michèle fait une découverte inattendue.</desc>
-    <credits>
-      <director>Frank Cimière</director>
-      <actor role="Michèle">Corinne Masiero</actor>
-      <actor role="Théo">Vincent Chalambert</actor>
-      <actor role="Tatie">Karina Marimon</actor>
-      <actor role="Alain">Mickaël Launay</actor>
-      <actor role="Mercedes">Sarah Perles</actor>
-      <actor role="Fernando Pereira">Pierre Azéma</actor>
-      <actor role="Gino">Eric da Costa</actor>
-      <actor role="Patrick">Arnaud Maillard</actor>
-      <actor role="l'avocate">Delphine Baril</actor>
-      <actor role="l'hôtesse d'accueil à l'hôtel">Manesca De Ternay</actor>
-      <actor role="l'agricultrice">Carmen Santos</actor>
-      <actor role="Rafael Pereira">Axel Cimière</actor>
-      <actor role="un campeur">Pierre-Henri Toubas</actor>
-      <actor role="un campeur">Oscar Casellas</actor>
-      <actor role="une campeuse">Alice Duin</actor>
-      <actor role="Guichetière aéroport">Antonia de Rendinger</actor>
-      <actor role="Collègue guichetière aéroport">Fatehi Fraioui</actor>
-      <actor role="Commandant de bord">Taha Ben Mrad</actor>
-      <actor role="Co-pilote">Olivier Drapron</actor>
-      <actor role="Transporteur de fonds">Franck Migeon</actor>
-      <actor role="Transporteur de fonds">Mohamed Bounouara</actor>
-      <actor role="Policier 1">Mouss Zouheyri</actor>
-      <actor role="Policier 2">Tom Dingler</actor>
-      <actor role="Hôtesse hôtel">Anna Fournier</actor>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Film</category>
-    <category lang="fr">Comédie</category>
-    <category lang="en">Movie / Drama</category>
-    <length units="seconds">5880</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp25374326_k_s3_ab.2Ejpg/2000x2000/_/image.jpg" width="2000" height="2000"/>
-    <url>https://www.programme-tv.net/cinema/24520422-la-marginale/</url>
-    <country lang="fr">France</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-    <rating system="CSA">
-      <value>Interdit aux moins de 10 ans</value>
-    </rating>
-    <star-rating system="Télé Loisirs">
-      <value>1/4</value>
-    </star-rating>
-    <review type="text" source="Télé Loisirs" lang="fr">Des acteurs attachants mais un scénario qui fonctionne sur des ressorts vraiment trop prévisibles.</review>
-  </programme>
-  <programme start="20240807080700 +0000" stop="20240807102100 +0000" channel="33.api-tel.programme-tv.net">
-    <title>Stars at Noon</title>
-    <desc>Une jeune journaliste américaine en détresse bloquée sans passeport dans le Nicaragua d'aujourd'hui en pleine période électorale rencontre dans un bar d'hôtel un voyageur anglais. Il lui semble être l'homme rêvé pour l'aider à fuir le pays. Elle réalise trop tard qu'au contraire, elle entre à ses côtés dans un monde plus trouble, plus dangereux.</desc>
-    <credits>
-      <director>Claire Denis</director>
-      <actor role="Trish">Margaret Qualley</actor>
-      <actor role="Daniel DeHaven">Joe Alwyn</actor>
-      <actor role="l'agent de la CIA">Benny Safdie</actor>
-      <actor role="le sous-lieutenant Veraguas">Nick Romano</actor>
-      <actor role="le policier costaricain">Danny Ramirez</actor>
-      <actor role="le vice-ministre">Stephan Proaño</actor>
-      <actor role="Coyote">Alexis Quintero</actor>
-      <actor role="le directeur du magazine">John C. Reilly</actor>
-      <actor role="la femme">Monica Bartholomew</actor>
-      <actor role="le chauffeur de taxi">Sebastian Donoso</actor>
-      <actor role="l'agent de voyage">Hector Moreno</actor>
-      <actor role="le veilleur de nuit">Jose Leonel Hernandez</actor>
-      <actor role="Daniel, le chauffeur de taxi">Cristian Pulido</actor>
-      <actor role="le capitaine à la frontière du Costa Rica">Robin Duran</actor>
-      <actor role="Mercado">Carlos Bennett</actor>
-      <actor role="Waiter in Chartreuse Vest">Luis Franco</actor>
-      <actor role="Telcor Teen Guard">Steven Garcia</actor>
-      <actor role="Telcor Man at Counter">Rogelio Chung</actor>
-      <actor role="Tire Boy">Dayan Rodriguez</actor>
-      <actor role="Tire Boy">Benito Tuñon</actor>
-      <actor role="Tire Boy">Moises Caballero</actor>
-      <actor role="Tire Boy">Bayardo Peralta</actor>
-      <actor role="Tire Boy">Emmanuel Barahona</actor>
-      <actor role="Border Bar Tender">Carlos Serrano</actor>
-    </credits>
-    <date>2022</date>
-    <category lang="fr">Film</category>
-    <category lang="fr">Drame</category>
-    <category lang="en">Movie / Drama</category>
-    <length units="seconds">8220</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~cafc3e0351956376d53151145ba42524.jpg/1920x1080/focus-point/1172,634/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/cinema/24448717-stars-at-noon/</url>
-    <country lang="fr">France</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>bilingual</stereo>
-    </audio>
-    <previously-shown/>
-    <rating system="CSA">
-      <value>Interdit aux moins de 10 ans</value>
-    </rating>
-    <star-rating system="Télé Loisirs">
-      <value>1/4</value>
-    </star-rating>
-    <review type="text" source="Télé Loisirs" lang="fr">Porté par un casting séduisant, un film au scénario aussi languissant que sa réalisation est élégante.</review>
-  </programme>
-  <programme start="20240807073500 +0000" stop="20240807105800 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Jeux olympiques de Paris 2024 (France 2)</title>
-    <sub-title>Tennis de table H et F par équipes. Quarts de finale. Athlétisme. 800 m H. Qualifications</sub-title>
-    <desc>Taekwondo, Dames -49 kg huitième de finale, quart de finale et demi-finale, messieurs -58 kg huitième de finale, quart de finale et demi-finale, -49 kg dames repêchage, -58 kg messieurs repêchage ; Golf, Tournoi dames, deuxième tour ; Handball, Tournoi messieurs quarts de finale ; Canoë course en ligne, K1 dames 500m éliminatoires et quart de finale, K1 messieurs 1000m éliminatoires et quart de finale, C1 messieurs 1 000m éliminatoires et quart de finale ;  Plongeon, Tremplin 3 m messieurs demi-finales. Les plongeurs chinois dominent la discipline ; Tennis de table, Tournoi par équipes messieurs et dames, quart de finale, et tournoi messieurs demi-finales ; Escalade, Compétition messieurs et dames bloc et difficulté demi-finale, vitesse dames finale.</desc>
-    <category lang="fr">Emission sportive</category>
-    <category lang="fr">Multisports</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~c9d834f9d537acbb.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/r1550194158-multisports-session-du-matin/27784135-tennis-de-table-h-et-f-par-equipes-quarts-de-finale-athletisme-800-m-h-qualifications/</url>
-    <episode-num system="xmltv_ns">2023/2024..0/1</episode-num>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <premiere/>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240807073000 +0000" stop="20240807073500 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Consomag</title>
-    <desc>Le magazine de l'Institut national de la consommation donne à chacun des conseils pratiques pour mieux consommer.</desc>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Magazine du consommateur</category>
-    <category lang="en">Magazines / Reports / Documentary</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~6a5f07b7d00d9c63.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/culture-infos/r5150-consomag/26700454-sans-titre/</url>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240807062000 +0000" stop="20240807080700 +0000" channel="33.api-tel.programme-tv.net">
-    <title lang="fr">Master Gardener</title>
-    <title>Master Gardener</title>
-    <desc>Un horticulteur méticuleux se consacre à l'entretien des terres d'un magnifique domaine appartenant à une riche douairière. Lorsqu'on lui dit de prendre sa petite-nièce troublée comme apprentie, sa vie est plongée dans le chaos et de sombres secrets de son passé émergent.</desc>
-    <credits>
-      <director>Paul Schrader</director>
-      <actor role="Narvel Roth">Joel Edgerton</actor>
-      <actor role="Norma Haverhill">Sigourney Weaver</actor>
-      <actor role="Maya">Quintessa Swindell</actor>
-      <actor role="Oscar Neruda">Esai Morales</actor>
-      <actor role="Stephen Collins">Rick Cosnett</actor>
-      <actor role="Isobel">Victoria Hill</actor>
-      <actor role="Xavier">Eduardo Losan</actor>
-      <actor role="Maggie">Erika Ashley</actor>
-      <actor role="RG">Jared Bankens</actor>
-      <actor role="Janine">Amy Le</actor>
-      <actor role="Johnny Boy">Cade Burk</actor>
-      <actor role="le révérend Charles">DJames Jones</actor>
-      <actor role="Ronnie">Timothy McKinney</actor>
-      <actor role="Gardener">Samuel Ali</actor>
-      <actor role="Recovering Addict">Kenneth Kynt Bryan</actor>
-      <actor role="US Marshall #2">Jef Figallo</actor>
-      <actor role="John">Christian Freeman</actor>
-      <actor role="Gardner">Scott Green</actor>
-      <actor role="Female Host">Monica R. Harris</actor>
-      <actor role="Sissy">Matt Mercurio</actor>
-      <actor role="The Old Man">Bruce Mohat</actor>
-      <actor role="US Marshall #1">Sean Richmond</actor>
-      <actor role="Waitress">Emily Russell</actor>
-      <actor role="Militia Leader">Connor Turley</actor>
-    </credits>
-    <date>2022</date>
-    <category lang="fr">Film</category>
-    <category lang="fr">Thriller</category>
-    <category lang="en">Movie / Drama</category>
-    <length units="seconds">6420</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~ed8c5efb3f8dd8e16b688ba994a57505.jpg/1920x1080/focus-point/386,727/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/cinema/24851225-master-gardener/</url>
-    <country lang="fr">États-Unis</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>bilingual</stereo>
-    </audio>
-    <previously-shown/>
-    <rating system="CSA">
-      <value>Interdit aux moins de 10 ans</value>
-    </rating>
-    <star-rating system="Télé Loisirs">
-      <value>3/4</value>
-    </star-rating>
-    <review type="text" source="Télé Loisirs" lang="fr">Depuis Sur les chemins de la rédemption, Paul Schrader poursuit à nouveau sur une voie très inspirée par le cinéma de Robert Bresson. Dans Master Gardener, son scénario très balisé, ne surprendra pas ses aficionados, mais l'élégance de sa réalisation épurée et la force d'incarnation de Joel Edgerton emportent l'adhésion.</review>
-  </programme>
-  <programme start="20240807061000 +0000" stop="20240807073000 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Télématin</title>
-    <desc>Dès 6h30, une équipe de chroniqueurs accompagne les matinées des téléspectateurs : une série de rubriques régulières se succèdent, entrecoupées toutes les 30 minutes de journaux d’actualité. Au fil des jours, la matinée est ainsi rythmée par des conseils mode, santé, emploi, bricolage, cuisine, mais aussi des sujets sur le sport ou l’environnement, des chroniques et agendas culturels, sans oublier des informations économiques et entretiens politiques (“Les 4 vérités”), des revues de presse, flash de circulation routière, points météo ou encore des nouvelles européennes, présentées par des correspondants (“Sans frontières”).</desc>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Magazine de services</category>
-    <category lang="en">Magazines / Reports / Documentary</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~9a37fa3d2954ee5a.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/culture-infos/r5480-telematin/</url>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <subtitles type="deaf-signed"/>
-    <review type="text" source="Télé Loisirs" lang="fr">Cet atemporel, qui a fait son apparition sur Antenne 2 en 1985, est l’un des incontournables du paysage télévisuel français. La formule, mêlant des sujets légers à des informations politiques ou économiques, le tout dans la bonne humeur d’un plateau, fait mouche. Après avoir régné sur ses troupes pendant plus de 20 ans, l'indéboulonnable William Leymergie a laissé place en 2017 à Thomas Sotto.</review>
-  </programme>
-  <programme start="20240807060000 +0000" stop="20240807061000 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Journal 08h00</title>
-    <desc>Pour bien démarrer la journée, la rédaction de France 2 propose un point sur l'actualité. Les principales informations nationales et internationales sont passées en revue.</desc>
-    <date>2024</date>
-    <category lang="fr">Autre</category>
-    <category lang="fr">Journal</category>
-    <length units="seconds">900</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~2b83e0056a68bd6e.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/autre/r1549235798-journal-08h00/</url>
-    <country lang="fr">France</country>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240807052500 +0000" stop="20240807062000 +0000" channel="33.api-tel.programme-tv.net">
-    <title>+ de courts</title>
-    <desc>Une émission de 52 minutes qui aime le court métrage et qui en veut toujours + ! Magazine bimensuel proposé les deuxième et quatrième dimanches de chaque mois, + DE COURTS accompagne la diffusion de deux à trois courts-métrages par la parole de ceux qui font l'actualité court-métrage.</desc>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Magazine du cinéma</category>
-    <category lang="en">Magazines / Reports / Documentary</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~60fb9355c70b68b7.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/culture-infos/r1550092989-de-courts/25935310-sans-titre/</url>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>stereo</stereo>
-    </audio>
-    <previously-shown/>
-  </programme>
-  <programme start="20240807042900 +0000" stop="20240807060000 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Télématin</title>
-    <desc>Entourés de chroniqueurs et de nombreux invités, Maya Lauqué et Damien Thévenot orchestrent une édition spéciale en direct depuis le musée de l’Homme, place du Trocadéro, durant les Jeux Olympiques de Paris 2024.</desc>
-    <credits>
-      <presenter>Thomas Sotto</presenter>
-      <presenter>Louise Ekland</presenter>
-    </credits>
-    <date>2024</date>
-    <category lang="fr">Magazine</category>
-    <category lang="fr">Magazine de services</category>
-    <category lang="en">Magazines / Reports / Documentary</category>
-    <length units="seconds">5460</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~9a37fa3d2954ee5a.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/culture-infos/r5480-telematin/</url>
-    <country lang="fr">France</country>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
+      <aspect>4:3</aspect>
       <quality>HDTV</quality>
     </video>
     <audio>
       <present>yes</present>
-      <stereo>mono</stereo>
+      <stereo>stereo</stereo>
     </audio>
-    <subtitles type="deaf-signed"/>
+    <premiere/>
   </programme>
-  <programme start="20240807035800 +0000" stop="20240807042900 +0000" channel="4.api-tel.programme-tv.net">
-    <title lang="fr">Le 6h info</title>
-    <title>Le 6h00 info</title>
-    <desc>Un rendez-vous réveil-matin, avec un point sur l'actualité assorti de différentes rubriques qui permettent d'en explorer certains aspects plus en profondeur.</desc>
-    <date>2024</date>
-    <category lang="fr">Autre</category>
-    <category lang="fr">Journal</category>
-    <length units="seconds">1800</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~collection~c983de4d02d7c505.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/autre/r1549250321-le-6h-info/</url>
-    <country lang="fr">France</country>
+  <programme start="20240808175500 +0000" stop="20240808190000 +0000" channel="35.api-tel.programme-tv.net">
+    <title>L'oeil des pros</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Golf</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~2abf035d673ea7c9.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r1549270118-loeil-des-pros/27563278-sans-titre/</url>
     <video>
       <present>yes</present>
-      <aspect>16:9</aspect>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
     </video>
     <audio>
       <present>yes</present>
-      <stereo>mono</stereo>
+      <stereo>stereo</stereo>
     </audio>
+    <previously-shown/>
+  </programme>
+  <programme start="20240808165100 +0000" stop="20240808175500 +0000" channel="35.api-tel.programme-tv.net">
+    <title>Cesta Punta : Cesta Punta Summer League</title>
+    <sub-title>Masters 3 de Saint-Jean-de-Luz</sub-title>
+    <desc>La Summer League rassemble les meilleurs joueurs mondiaux de la discipline et se déroule tout l'été à Saint-Jean-de-luz, Pau, et Biarritz. Cette compétition permet également aux jeunes talents de se montrer et d'attirer le regard des recruteurs.</desc>
+    <category lang="fr">Emission sportive</category>
+    <category lang="fr">Cesta punta</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~e7206c0805cab81f.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r1550047864-cesta-punta-cesta-punta-summer-league/27764325-masters-3-de-saint-jean-de-luz/</url>
+    <episode-num system="xmltv_ns">2023/2024..0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+  </programme>
+  <programme start="20240808151100 +0000" stop="20240808165100 +0000" channel="35.api-tel.programme-tv.net">
+    <title>We Are People</title>
+    <desc>Environ un milliard de personnes vivent aujourd'hui avec un handicap. Certains évènements sportifs à l'instar des jeux paralympiques créés en 1960, ont permis de sensibiliser le grand public et les politiques afin de mieux inclure les personnes handicapées dans tous les aspects de la vie sociale. Avec le temps, le sport s'est révélé une des meilleures solutions pour y parvenir. Le Français Michael Jérémiasz, ancien numéro un de tennis en fauteuil, multi-médaillé aux jeux paralympiques, porte-drapeau de l'équipe de France en 2016 à Rio apporte son témoignage sur ces décennies de combat.</desc>
+    <category lang="fr">Documentaire sportif</category>
+    <category lang="fr">Handisport</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~593335c4cd71ac6d.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/22545603-we-are-people/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
     <subtitles type="deaf-signed"/>
   </programme>
-  <programme start="20240807012700 +0000" stop="20240807052500 +0000" channel="33.api-tel.programme-tv.net">
+  <programme start="20240808131000 +0000" stop="20240808151100 +0000" channel="35.api-tel.programme-tv.net">
+    <title>Rétro Rugby</title>
+    <desc>Beauden Barrett et les All Blacks ont dû batailler pour remporter leurs deux test-matchs contre l'Angleterre devant leur public. Après leur courte victoire (16-15), les Néo-Zélandais ont décroché un succès (24-17) qui prolonge leur série d'invincibilité à l'Eden Park d'Auckland. Leur dernière défaite sur leur terrain remonte au 3 juillet 1994 avec le triomphe du XV de France.</desc>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Rugby</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~372cf87a8756d475.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r1550194230-retro-rugby/27760020-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808114200 +0000" stop="20240808131000 +0000" channel="35.api-tel.programme-tv.net">
+    <title>Rallye : WRC, Rallye de Finlande</title>
+    <sub-title>Rallye de Finlande</sub-title>
+    <desc>Le Belge Thierry Neuville défend son fauteuil de leader en Finlande. Son principal rival reste le Britannique Elfyn Evans. L'Estonien Ott Tanak s'est emparé de la troisième place reléguant le Français Adrien Fourmaux à la cinquième place. De son côté, le Finlandais Kallë Rovanperä aura à coeur de briller devant son public sur un tracé qu'il connait bien.</desc>
+    <category lang="fr">Emission sportive</category>
+    <category lang="fr">Rallye</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~93a0f64f7e30344c.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r1549479406-rallye-championnat-du-monde-des-rallyes/27764309-rallye-de-finlande/</url>
+    <episode-num system="xmltv_ns">2023/2024..0/1</episode-num>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+  </programme>
+  <programme start="20240808110300 +0000" stop="20240808114200 +0000" channel="35.api-tel.programme-tv.net">
+    <title>Formula One, le mag</title>
+    <desc>Les journalistes reviennent sur les moments forts du grand prix de Belgique sur le circuit de Spa-Francorchamps. Max Verstappen a remporté les trois dernières éditions.</desc>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Formule 1</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~fda41128bb0c9c56.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r1549477518-formula-one-le-mag/27723923-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240808103200 +0000" stop="20240808110300 +0000" channel="35.api-tel.programme-tv.net">
+    <title>Grand Prix</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Formule 1</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~98d802097f455cdc.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r1550150022-grand-prix/27751081-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+  </programme>
+  <programme start="20240808083300 +0000" stop="20240808103200 +0000" channel="35.api-tel.programme-tv.net">
+    <title>Rétro Rugby</title>
+    <desc>Antoine Hastoy et les Bleus ont débuté leur tournée estivale en Amérique du Sud par une victoire (28-13) contre l'Argentine. Les joueurs de Fabien Galthié devaient ensuite affronter l'Uruguay à Montevideo avant un second match contre les Pumas. retour sur les meilleurs moments de la tournée.</desc>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Rugby</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~cb8c9390729cddaa.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r1550194230-retro-rugby/27723929-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+  </programme>
+  <programme start="20240808073300 +0000" stop="20240808083300 +0000" channel="35.api-tel.programme-tv.net">
+    <title>L'oeil des pros</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Golf</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~2abf035d673ea7c9.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r1549270118-loeil-des-pros/27563278-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+  </programme>
+  <programme start="20240808064200 +0000" stop="20240808073300 +0000" channel="35.api-tel.programme-tv.net">
+    <title>Golf Divers</title>
+    <desc>Les journalistes reviennent sur la carrière de Lee Trevino, sextuple vainqueur dans les tournois majeurs entre 1968 et 1984. Instinctif et talentueux, le golfeur américain d'origine mexicaine a inventé le concept du "ready golf". Il s'agit de jouer le plus rapidement possible le trou le plus proche.</desc>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Golf</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~bf22b70dda684f8e.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r1549478411-golf-divers/27703704-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+  </programme>
+  <programme start="20240808054000 +0000" stop="20240808064200 +0000" channel="35.api-tel.programme-tv.net">
+    <title>L'oeil des pros</title>
+    <desc>Julien Xanthopoulos et ses consultants reçoivent un invité pour parler technique de jeu chez les golfeurs professionnels. Ce soir, ils reçoivent le Français Victor Dubuisson, vainqueur de la Ryder cup en 2014, qui évoque son parcours et ses meilleurs coups qui lui ont permis de triompher sur les greens.</desc>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Golf</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~a874ca6f5ade74c7.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r1549270118-loeil-des-pros/26499580-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
+      <stereo>stereo</stereo>
+    </audio>
+    <previously-shown/>
+    <subtitles type="deaf-signed"/>
+  </programme>
+  <programme start="20240807234900 +0000" stop="20240808054000 +0000" channel="35.api-tel.programme-tv.net">
     <title>Fin des programmes</title>
     <desc>Nos programmes se terminent pour cette journée, en attendant ceux de demain.</desc>
     <category lang="fr">Autre</category>
     <category lang="fr">Fin</category>
     <icon src="https://tel.img.pmdstatic.net/fit/~2~program~de3630e2c55702f5.jpg/1280x720/_/image.jpg" width="1280" height="720"/>
-    <url>https://www.programme-tv.net/programme/autre/27776415-fin-des-programmes/</url>
+    <url>https://www.programme-tv.net/programme/autre/27852983-fin-des-programmes/</url>
     <video>
       <present>yes</present>
       <aspect>4:3</aspect>
     </video>
     <audio>
       <present>yes</present>
+      <stereo>mono</stereo>
+    </audio>
+  </programme>
+  <programme start="20240807215200 +0000" stop="20240807234900 +0000" channel="35.api-tel.programme-tv.net">
+    <title>Rétro Rugby</title>
+    <category lang="fr">Magazine sportif</category>
+    <category lang="fr">Rugby</category>
+    <category lang="en">Sports</category>
+    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~1b7935ae17b204ae.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
+    <url>https://www.programme-tv.net/programme/sport/r1550194230-retro-rugby/27783106-sans-titre/</url>
+    <video>
+      <present>yes</present>
+      <aspect>4:3</aspect>
+      <quality>HDTV</quality>
+    </video>
+    <audio>
+      <present>yes</present>
       <stereo>stereo</stereo>
     </audio>
-  </programme>
-  <programme start="20240806234600 +0000" stop="20240807012700 +0000" channel="33.api-tel.programme-tv.net">
-    <title lang="fr">13 exorcismes</title>
-    <title>13 Exorcismos</title>
-    <desc>Laura, une adolescente de 17 ans, vit dans une famille marquée par la mort de son frère Adrian. Son frère, Jésus, soutient la jeune fille, oppressée par Carmen, leur mère, une fervente catholique, tandis que leur père, Tomas, un homme effacé, ne sait pas comment réagir. Le soir d'Halloween, Laura quitte en cachette l'appartement familial pour se rendre avec sa meilleure amie Mireia dans un lieu connu pour avoir été le théâtre d'atroces exactions. Là, avec d'autres camarades, elle participe à une séance de spiritisme. Quelques jours plus tard, l'adolescente en ressent les effets.</desc>
-    <credits>
-      <director>Jacobo Martínez</director>
-      <actor role="Laura">María Romanillos</actor>
-      <actor role="Carmen">Ruth Díaz</actor>
-      <actor role="Tomás">Urko Olazabal</actor>
-      <actor role="Jesús">Pablo Revuelta</actor>
-      <actor role="le père Olmedo">José Sacristán</actor>
-      <actor role="Asunción">Cristina Castaño</actor>
-      <actor role="Lola">Silma López</actor>
-      <actor role="Enrique">Daniel Arias</actor>
-      <actor role="Mireia">Alícia Falcó</actor>
-      <actor role="Arturo">Uri Guitart</actor>
-      <actor role="Jueza">Adela Leiro</actor>
-      <actor role="le docteur Oliva">Lupe Roda</actor>
-      <actor role="la fillette démoniaque">Daniela Bini</actor>
-      <actor role="le démon">José Torija</actor>
-      <actor role="le professeur Arte">Alfonso Delgado</actor>
-      <actor role="Profesor Luis">Fernando Oyagüez</actor>
-      <actor role="Técnica de Resonancia">Paula Cereixo</actor>
-      <actor role="Enfermera Pool">Nerea Brey</actor>
-      <writer>Ramón Campos</writer>
-      <writer>Salvador S. Molina</writer>
-      <writer>Gema R. Neira</writer>
-      <writer>David Orea</writer>
-      <writer>Carlos Ruano</writer>
-      <guest>Federico Jusid</guest>
-    </credits>
-    <date>2022</date>
-    <category lang="fr">Film</category>
-    <category lang="fr">Film d'horreur</category>
-    <category lang="en">Movie / Drama</category>
-    <length units="seconds">6000</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~de73152da6c9ba16.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/cinema/27257033-13-exorcismes/</url>
-    <country lang="fr">Espagne</country>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>bilingual</stereo>
-    </audio>
     <previously-shown/>
-    <rating system="CSA">
-      <value>Interdit aux moins de 12 ans</value>
-    </rating>
-    <star-rating system="Télé Loisirs">
-      <value>1/4</value>
-    </star-rating>
-    <review type="text" source="Télé Loisirs" lang="fr">Influencé par le classique de William Friedkin, un film au scénario sans surprise majeure, mais ponctué de scènes plutôt efficaces.</review>
-  </programme>
-  <programme start="20240806230200 +0000" stop="20240807035800 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Jeux olympiques de Paris 2024 (France 2)</title>
-    <desc>session de nuit.</desc>
-    <category lang="fr">Emission sportive</category>
-    <category lang="fr">Multisports</category>
-    <category lang="en">Sports</category>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~c9d834f9d537acbb.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/sport/27777509-jeux-olympiques-de-paris-2024-france-2/</url>
-    <country lang="fr">France</country>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240806221100 +0000" stop="20240806234600 +0000" channel="33.api-tel.programme-tv.net">
-    <title lang="fr">Course contre la mort</title>
-    <title>Bohoja</title>
-    <desc>Soo-hyeok, un tueur à gages, vient de purger une peine de prison de dix ans après avoir rempli un contrat pour Woo-jin, un redoutable gangster. Alors qu'il sort de l'établissement pénitentiaire, Soo-hyeok découvre qu'une voiture a été laissée à son attention. Sur le pare-brise, une carte de la société Kaiser, dont le dirigeant n'est autre que Woo-jin. Celui-ci veut s'assurer en effet que son ancien homme de main restera silencieux sur les liens qu'ils ont entretenus dans le passé. Un peu plus tard, Soo-hyeok rend visite à son ancienne compagne, Min-seo. Celle-ci lui apprend qu'ils ont eu une enfant ensemble, la petite In-bi.</desc>
-    <credits>
-      <director>Jung Woo-sung</director>
-      <actor role="Soo-hyeok">Jung Woo-sung</actor>
-      <actor role="Woo-jin">Kim Nam-gil</actor>
-      <actor role="Eung-gook">Park Sung-woong</actor>
-      <actor role="Seong-joon">Kim Jun-han</actor>
-      <actor role="Jin-ah">Park Yoo-na</actor>
-      <actor role="Min-seo">Elliya Lee</actor>
-      <actor role="Jun-ho">Kim Joo-heon</actor>
-      <actor role="l'ami de In-bi">Song Ji-Woo</actor>
-      <actor role="In-bi">Ryu Jian</actor>
-      <actor role="l'enfant au scooter">Kwon Eun-Sung</actor>
-      <actor role="la fille de Joon-ho">Lee Hyo-Bi</actor>
-      <actor role="Joon-ho">Kim Joo-hun</actor>
-      <actor role="la professeure de danse classique">Choi Soo-im</actor>
-      <actor role="Big Brother">Park Sung-Geun</actor>
-      <actor role="Minister Shin">Yong Park</actor>
-      <writer>Jung Hae-sin</writer>
-      <writer>Jung Woo-sung</writer>
-      <guest>Kim Tae-seong</guest>
-    </credits>
-    <date>2022</date>
-    <category lang="fr">Film</category>
-    <category lang="fr">Film d'action</category>
-    <category lang="en">Movie / Drama</category>
-    <length units="seconds">6180</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~backoffice~program~fc343c3f29d2d8dd8ad7c654efdc26b0.jpg/1920x1080/focus-point/1369,554/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/cinema/27570343-course-contre-la-mort/</url>
-    <country lang="fr">Corée du Sud</country>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>bilingual</stereo>
-    </audio>
-    <previously-shown/>
-    <rating system="CSA">
-      <value>Interdit aux moins de 12 ans</value>
-    </rating>
-    <star-rating system="Télé Loisirs">
-      <value>2/4</value>
-    </star-rating>
-    <review type="text" source="Télé Loisirs" lang="fr">Peu de surprises mais une réalisation très efficace dans ce thriller rythmé, le premier film du comédien Jung Woo-sung, collaborateur régulier de Kim Jee-woon.</review>
-  </programme>
-  <programme start="20240806211500 +0000" stop="20240806230200 +0000" channel="4.api-tel.programme-tv.net">
-    <title>Quels jeux !</title>
-    <desc>Ce rendez-vous quotidien des Jeux Olympiques accueille un éventail de personnalités. Des médaillés aux espoirs déçus, en passant par des experts et des figures publiques, le programme offre une perspective globale sur l'événement. L'humoriste Paul de Saint-Sernin apporte une touche de légèreté, tandis qu'une équipe dévouée sillonne les sites pour capturer l'essence des Jeux. De l'émotion pure aux anecdotes insolites, en passant par les exploits sportifs, l’émission promet une immersion totale dans cette célébration mondiale du sport.</desc>
-    <credits>
-      <presenter>Léa Salamé</presenter>
-      <presenter>Laurent Luyat</presenter>
-    </credits>
-    <date>2024</date>
-    <category lang="fr">Autre</category>
-    <category lang="fr">Talk-show</category>
-    <length units="seconds">6060</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/~2~program~f31e82821a4a63bb.jpg/1920x1080/_/image.jpg" width="1920" height="1080"/>
-    <url>https://www.programme-tv.net/programme/autre/r1550194160-quels-jeux/27777508-sans-titre/</url>
-    <country lang="fr">France</country>
-    <video>
-      <present>yes</present>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>mono</stereo>
-    </audio>
-    <premiere/>
-    <subtitles type="deaf-signed"/>
-  </programme>
-  <programme start="20240806204100 +0000" stop="20240806221100 +0000" channel="33.api-tel.programme-tv.net">
-    <title lang="fr">Dead Shot</title>
-    <title>Dead Shot</title>
-    <desc>Lorsqu'une embuscade à la frontière tourne mal, Michael, un paramilitaire irlandais à la retraite, est témoin de l'assassinat de sa femme enceinte par un officier du Special Air Service (SAS), Tempest. Après avoir déjoué les plans du SAS, présumé mort, il s'échappe et se venge dans les rues sombres du Londres des années 1970. Il va également rencontrer la petite amie de Tempest.</desc>
-    <credits>
-      <director>Charles Guard</director>
-      <director>Thomas Guard</director>
-      <actor role="Michael O'Hara">Colin Morgan</actor>
-      <actor role="Tempest">Aml Ameen</actor>
-      <actor role="Holland">Mark Strong</actor>
-      <actor role="Catherine">Felicity Jones</actor>
-      <actor role="Keenan">Tom Vaughan-Lawlor</actor>
-      <actor role="Ruth">Sophia Brown</actor>
-      <actor role="Carol">Máiréad Tyers</actor>
-      <actor role="Woodville">Will Keen</actor>
-      <actor role="Twomey">Dara Devaney</actor>
-      <actor role="Cole">Jack McMullen</actor>
-      <actor role="Fiadh">Andrea Irvine</actor>
-      <actor role="un soldat">Brian McCann</actor>
-      <actor role="Uniformed Officer 1">William Oxborrow</actor>
-      <actor role="Uniformed Officer 2">Hywel Morgan</actor>
-      <actor role="Desk Soldier">Rory Grant</actor>
-      <actor role="Vet's Wife">Lucianne McEvoy</actor>
-      <actor role="Vet">Martin McCardie</actor>
-      <actor role="Special Branch Detective">Desmond Edwards</actor>
-      <actor role="Quinn">Steve Wall</actor>
-      <actor role="Hogan">Caolan Byrne</actor>
-      <actor role="Lynch">Stephen McMillan</actor>
-      <writer>Thomas Guard</writer>
-      <guest>Max de Wardener</guest>
-    </credits>
-    <date>2023</date>
-    <category lang="fr">Film</category>
-    <category lang="fr">Thriller</category>
-    <category lang="en">Movie / Drama</category>
-    <length units="seconds">5520</length>
-    <icon src="https://tel.img.pmdstatic.net/fit/http.3A.2F.2Fprmd.2Etmsimg.2Ecom.2Fassets.2Fp24615154_v_s4_ab.2Ejpg/3000x3000/_/image.jpg" width="3000" height="3000"/>
-    <url>https://www.programme-tv.net/cinema/26518130-dead-shot/</url>
-    <country lang="fr">Royaume-Uni</country>
-    <video>
-      <present>yes</present>
-      <colour>yes</colour>
-      <aspect>16:9</aspect>
-    </video>
-    <audio>
-      <present>yes</present>
-      <stereo>bilingual</stereo>
-    </audio>
-    <previously-shown/>
-    <rating system="CSA">
-      <value>Interdit aux moins de 12 ans</value>
-    </rating>
-    <star-rating system="Télé Loisirs">
-      <value>2/4</value>
-    </star-rating>
-    <review type="text" source="Télé Loisirs" lang="fr">Avec Les intrus, remake assez conventionnel du 2 soeurs, de Kim Jee-woon, les frères Thomas et Charles Guard n'avaient pas particulièrement convaincu. Leur second film, thriller solidement campé dans un contexte historico-politique prenant, se révèle bien plus prenant. Rythmé et bien interprété, il tient en haleine de bout en bout.</review>
   </programme>
 </tv>
