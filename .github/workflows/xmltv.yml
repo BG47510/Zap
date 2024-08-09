@@ -40,14 +40,7 @@ jobs:
           name: xmltv
           path: xmltv_teleloisirs.xml
 
-            
-      - name: Comprime le fichier xml
-        uses: actions/upload-artifact@v4
-        with:
-          name: xml.gz
-          path: xmltv_teleloisirs.xml
-          compression-level: 6 # compression normale
-
+          
       - name: Add XMLTV file to repository
         run: |
           git config --global user.email "action@github.com"
