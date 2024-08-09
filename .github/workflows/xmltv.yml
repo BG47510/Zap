@@ -29,7 +29,7 @@ jobs:
               echo "channel=$id.api-tel.programme-tv.net" >>tv_grab_fr_teleloisirs.conf
           done
         env:
-          XMLTV_IDS: 400 401 402 439
+          XMLTV_IDS: 444 445 446 458 481
       - name: Run grabber
         run: python tv_grab_fr_teleloisirs.py --config-file tv_grab_fr_teleloisirs.conf --days 1 --output xmltv_teleloisirs.xml
         env:
@@ -48,20 +48,3 @@ jobs:
           ls -la 
           git commit -m "Dernière actualisation"
           git push          
-          
-     # - name: Add XMLTV file to repository
-        #run: |
-       #   git config --global user.email "action@github.com"
-          #git config --global user.name "GitHub Action"
-          #git add xmltv_teleloisirs.xml
-          #git commit -m "Dernière actualisation $(date)"
-          #git add xmltv_teleloisirs.xml
-          #git add xmltv_teleloisirs.xml.gz
-         # if ! git diff-index --cached --quiet HEAD --; then
-              #git commit -m "$(date)"
-             # git push
-          #fi
-          
-      #- name: Supprime tous les fichiers laissés dans l’espace de travail
-        
-
