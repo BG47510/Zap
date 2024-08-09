@@ -40,13 +40,21 @@ jobs:
           name: xmltv
           path: xmltv_teleloisirs.xml
 
-          
-      - name: Add XMLTV file to repository
+      - name: Valider et envoyer les modifications
         run: |
           git config --global user.email "action@github.com"
           git config --global user.name "GitHub Action"
-          git add xmltv_teleloisirs.xml
-          git commit -m "Dernière actualisation $(date)"
+          git add -A
+          ls -la 
+          git commit -m "Dernière actualisation"
+          git push          
+          
+     # - name: Add XMLTV file to repository
+        #run: |
+       #   git config --global user.email "action@github.com"
+          #git config --global user.name "GitHub Action"
+          #git add xmltv_teleloisirs.xml
+          #git commit -m "Dernière actualisation $(date)"
           #git add xmltv_teleloisirs.xml
           #git add xmltv_teleloisirs.xml.gz
          # if ! git diff-index --cached --quiet HEAD --; then
