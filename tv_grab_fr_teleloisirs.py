@@ -337,7 +337,7 @@ class TeleLoisirs:
             if total_episodes:
                 result += f"/{total_episodes}"
 
-        result += ".
+        result += "."
 
         if not part:
             part = 1
